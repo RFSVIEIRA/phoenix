@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<!-- Layout ScreenSize -->
+<layout>
+	<variables>
+		<isGrid>false</isGrid>
+		<isCommon>true</isCommon>
+	</variables>
+
+	<menu menuIndex="0" type="custom" mode="layout" imageType="manufacturer" alpha="0" scrollTime=".16" scrollAcceleration=".05" orientation="horizontal">
+		<itemDefaults alpha="0" x="1460" y="1065" xOrigin="left" yOrigin="center" width="385" height="65" fontSize="30" loadFontSize="30" fontColor="ffffff" layer="17"/>
+		<item alpha="0"/>
+		<item alpha=".75" selected="true">
+			<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+			<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+			<onEnter menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onEnter>
+			<onExit menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="0"/></set></onExit>
+		</item>
+		<item alpha="0"/>
+	</menu>
+		<menu menuIndex="0" type="custom" mode="layout" imageType="icon" alpha="0" scrollTime=".16" scrollAcceleration=".05" orientation="horizontal">
+		<itemDefaults alpha="0" x="1420" y="1065" xOrigin="left" yOrigin="center" width="385" height="35 " scaleMode="fit" fontSize="30" loadFontSize="30" fontColor="ffffff" layer="17"/>
+		<item alpha="0"/>
+		<item alpha=".75" selected="true">
+			<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+			<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+			<onEnter menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onEnter>
+			<onExit menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="0"/></set></onExit>
+		</item>
+		<item alpha="0"/>
+	</menu>
+</layout>

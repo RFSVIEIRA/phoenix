@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+	<!-- Fanart -->	
+<!-- SYSTEM Fanart -->	
+	<reloadableImage menuIndex="1" type="fanart" random="false" slideShow="true" slideNumber="5" slideShowTimer="100" alpha="0" x="center" y="center" width="1920" height="1080" xOrigin="center" yOrigin="center" layer="2" scaleMode="fit" name="Static" group="Fanart" subgroup="System Fanart" active="true" shared="Static">
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</reloadableImage>
+	<reloadableImage menuIndex="1" type="fanart" random="true" slideShow="false" slideNumber="5" slideShowTimer="100" alpha="0" x="center" y="center" width="1920" height="1080" xOrigin="center" yOrigin="center" layer="2" scaleMode="fit" name="Random" group="Fanart" subgroup="System Fanart" active="false" shared="Random">
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</reloadableImage>
+	<reloadableImage menuIndex="1" type="fanart" random="true" slideShow="true" slideNumber="5" slideShowTimer="5000" alpha="0" x="center" y="center" width="1920" height="1080" xOrigin="center" yOrigin="center" layer="2" scaleMode="fit" name="SlideShow" group="Fanart" subgroup="System Fanart" active="false" shared="SlideShow">
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</reloadableImage>
+</layout>

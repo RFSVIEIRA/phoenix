@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+
+	<variables>
+		<isGrid>true</isGrid>
+		<isCommon>false</isCommon>
+	</variables>
+	
+	<reloadableText mode="layout" type="manufacturer" x="1460" y="1065" xOrigin="left" yOrigin="center" width="385" height="65" fontSize="30" loadFontSize="30" fontColor="ffffff" layer="7">
+			<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+			<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+			<onEnter menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onEnter>
+			<onExit menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="0"/></set></onExit>
+	</reloadableText>
+	
+	
+	
+<!-- GRID -->
+	<menu menuIndex="0" alpha="0" type="custom" imageType="icon2" mode="layout" orientation="Grid" rows="3" columns="3" cellWidth="80" cellHeight="80" spacingX="70" spacingY="70" wrap="true" selectedItem="1x1" selectedZoom="1.4" alphaUnselected="0.8" scaleMode="fit">
+		<itemDefaults x="800" y="400" yOrigin="center" xOrigin="center" fontSize="24" maxHeight="150" width="160" height="130" layer="7"/>
+		 <item>
+		  <onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		   <item>
+		  <onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		  <item>
+		  <onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		   <item>
+		  <onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		   <item>
+		  <onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		   <item>
+		  <onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>  
+		<item>
+		  <onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item>
+		  <onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item>
+		  <onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+	</menu>
+	
+</layout>

@@ -1,0 +1,64 @@
+	<!-- LAYOUT #CORE - Theme Menu by STAiNLESS -->
+
+	<!-- (Settings & Sound) -->
+	<layout width="1920" height="1080" font="fonts/Geforce Bold.ttf" loadFontSize="130" fontColor="ffffff">
+	<sound type="load" src="sounds/load.wav" />
+	<sound type="unload" src="sounds/unload.wav" />
+	<sound type="highlight" src="sounds/highlight.wav" />
+	<sound type="select" src="sounds/select.wav" />
+		
+	<reloadableImage type="artwork_front" textFallBack="true" alpha="1" x="50" y="900" xOrigin="left" xOffset="0" yOrigin="center" height="100" layer="18">
+	</reloadableImage>
+
+	<!-- THE VIDEO -->
+	<video src="images/video.mp4" numLoops="0" x="0" y="0" height="stretch" width="stretch" alpha="1" layer="0"> </video>
+
+	<!-- Menu -->
+	<menu type="custom" imageType="logo" scrollTime=".35" scrollAcceleration=".04" orientation="horizontal" x="0" width="center" y="1050" algorithm="easeincircular">	
+		<itemDefaults alpha=".2" x="center" xOrigin="center" y="1055" height="55" yOrigin="center" textFallBack="true" font="fonts/Geforce Bold.ttf" textFormat="uppercase" fontSize="42" loadFontSize="42" fontColor="ffffff" layer="12"/>
+		<item xOffset="-1440" alpha="0"/>
+		<item xOffset="-1440">	 
+			<onMenuExit menuIndex="0"><set duration=".01"><animate type="alpha" to="0" algorithm="easeinquadratic"/></set></onMenuExit>
+		</item>	 
+		<item xOffset="-960">
+			<onEnter><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".30"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onEnter>
+			<onMenuEnter menuIndex="0"><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".30"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onMenuEnter>	
+			<onIdle menuIndex="0"><set duration="2"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration="1.4"><animate type="y" to="1300" algorithm="easeinquadratic" /></set><set duration="2"><animate type="alpha" to="0" algorithm="easeinquadratic" /></set></onIdle> 
+			<onMenuExit menuIndex="0"><set duration=".01"><animate type="alpha" to="0" algorithm="easeinquadratic"/></set></onMenuExit>
+		</item>	 
+		<item xOffset="-480">
+			<onEnter><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".30"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onEnter>
+			<onMenuEnter menuIndex="0"><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".30"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onMenuEnter>	
+			<onIdle menuIndex="0"><set duration="2"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration="1.4"><animate type="y" to="1300" algorithm="easeinquadratic" /></set><set duration="2"><animate type="alpha" to="0" algorithm="easeinquadratic" /></set></onIdle> 
+			<onMenuExit menuIndex="0"><set duration=".01"><animate type="alpha" to="0" algorithm="easeinquadratic"/></set></onMenuExit>
+		</item>	 
+		<item xOffset="0" layer="12" alpha="1" selected="true" textFallBack="true" textFormat="uppercase" fontSize="42" loadFontSize="42" fontColor="ffffff">
+			<onEnter><set duration=".01"><animate type="alpha" to="1" algorithm="easeinquadratic"/></set><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".30"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onEnter>
+			<onMenuEnter menuIndex="0"><set duration=".01"><animate type="alpha" to="1" algorithm="easeinquadratic"/></set><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".30"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onMenuEnter>
+			<onIdle menuIndex="0"><set duration="2"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration="1.4"><animate type="y" to="1300" algorithm="easeinquadratic" /></set><set duration="2"><animate type="alpha" to="0" algorithm="easeinquadratic" /></set></onIdle> 
+			<onMenuExit menuIndex="0"><set duration=".01"><animate type="alpha" to="0" algorithm="easeinquadratic"/></set></onMenuExit>
+		</item>	
+		<item xOffset="480">
+			<onEnter><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".30"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onEnter>
+			<onMenuEnter menuIndex="0"><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".26"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onMenuEnter>	
+			<onIdle menuIndex="0"><set duration="2"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration="1.4"><animate type="y" to="1300" algorithm="easeinquadratic" /></set><set duration="2"><animate type="alpha" to="0" algorithm="easeinquadratic" /></set></onIdle> 
+			<onMenuExit menuIndex="0"><set duration=".2"><animate type="alpha" to="0" algorithm="easeinquadratic"/></set></onMenuExit></item>	
+		<item xOffset="960">
+			<onEnter><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".30"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onEnter>
+			<onMenuEnter menuIndex="0"><set duration=".01"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration=".26"><animate type="y" to="1055" algorithm="easeinquadratic" /></set></onMenuEnter>	
+			<onIdle menuIndex="0"><set duration="2"><animate type="y" to="1055" algorithm="easeinquadratic" /></set><set duration="1.4"><animate type="y" to="1300" algorithm="easeinquadratic" /></set><set duration="2"><animate type="alpha" to="0" algorithm="easeinquadratic" /></set></onIdle> 
+			<onMenuExit menuIndex="0"><set duration=".01"><animate type="alpha" to="0" algorithm="easeinquadratic"/></set></onMenuExit>
+		</item>	
+		<item xOffset="1440">	
+			<onMenuExit menuIndex="0"><set duration=".01"><animate type="alpha" to="0" algorithm="easeinquadratic"/></set></onMenuExit>
+		</item>
+		<item xOffset="1440" alpha="0"/>
+	</menu>
+
+	<!-- video zooms onto and off screen -->
+	<reloadableVideo imageType="screenshot" x="1500" xOrigin="center" y="540" yOrigin="center" fontSize="20" layer="0" height="600" maxWidth="800" maxHeight="600">
+		<onHighlightEnter><set duration=".2"><animate type="height" from="0" to="100" algorithm="easeinoutquadratic"/><animate type="alpha" from="0" to="0.5" algorithm="easeinquadratic"/></set><set duration=".2"><animate type="height" from="100" to="600" algorithm="easeinoutquadratic"/><animate type="alpha" from=".5" to=".9" algorithm="easeinquadratic"/></set></onHighlightEnter>
+		<onHighlightExit><set duration=".2"><animate type="height" to="50" from="600" algorithm="easeinoutquadratic"/><animate type="alpha" from=".9" to="0.5" algorithm="easeinquadratic"/></set><set duration=".2"><animate type="height" to="0" from="50" algorithm="easeinoutquadratic"/><animate type="alpha" to="0.5" from="0" algorithm="easeinquadratic"/></set></onHighlightExit>
+	</reloadableVideo>
+
+</layout>

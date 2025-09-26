@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+<!-- Game Menu 3D (Aura) -->
+
+	<variables>
+		<gameFanartX>1200</gameFanartX>
+		<gameFanartY>685</gameFanartY>
+		<gameFanartWidth>1440</gameFanartWidth>
+		<gameFanartHeight>810</gameFanartHeight>
+		<fanartLayer>2</fanartLayer>
+		<bezelLayer>6</bezelLayer>
+		<showBezel>true</showBezel>
+		<videoLayer>5</videoLayer>
+		<showVideo>true</showVideo>
+		<gameVideoX>1200</gameVideoX>
+		<gameVideoY>685</gameVideoY>
+		<gameVideowidth>1440</gameVideowidth>
+		<gameVideoMheight>810</gameVideoMheight>
+		<logoShow>true</logoShow>
+		<logoLayer>10</logoLayer>
+		<logoX>240</logoX>
+		<logoY>640</logoY>
+		<logoWidth>400</logoWidth>
+		<logomaxHeight>150</logomaxHeight>
+		<yearX>45</yearX>
+		<YearScrNumPyrGenreY>770</YearScrNumPyrGenreY>
+		<scoreX>134</scoreX>
+		<numbpyrsX>244</numbpyrsX>
+		<genreX>298</genreX>
+		<showStory>true</showStory>
+		<storyX>45</storyX>
+		<storyY>810</storyY>
+		<storyWidth>430</storyWidth>
+		<storyHeight>225</storyHeight>
+		<playListLayer>10</playListLayer>
+		<playListX>45</playListX>
+		<playListY>750</playListY>
+		<playListxOrigin>left</playListxOrigin>
+		<playListyOrigin>bottom</playListyOrigin>
+		<playListHeight>25</playListHeight>
+		<playListAnimxOrigin>left</playListAnimxOrigin>
+		<playListAnimyOrigin>bottom</playListAnimyOrigin>
+		<playListAnimX>45</playListAnimX>
+		<playListAnimY>750</playListAnimY>
+		<playListAnimHeight>25</playListAnimHeight>
+	</variables>
+	
+	
+	<include src="menus/default/GameMenu/common.xml"/>
+	
+	<image src="images/icons/playcount.png" alpha="0" x="30" y="5" width="25" layer="8" scaleMode="fit">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+	</image>
+	<image src="images/icons/time.png" alpha="0" x="320" y="5" width="25" layer="8" scaleMode="fit">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+	</image>
+	<image src="images/icons/date.png" alpha="0" x="780" y="5" width="25" layer="8" scaleMode="fit">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+	</image>
+	<image src="images/icons/clock.png" alpha="0" x="1245" y="5" width="25" layer="8" scaleMode="fit">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+	</image>
+	
+		
+	<reloadableText type="playCount" alpha="0" fontSize="30" x="65" y="5" singlePrefix="Played: " singlePostfix=" time" pluralPrefix="Played " pluralPostfix=" times" layer="8">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+	</reloadableText>
+	<reloadableText type="totalPlayTime" alpha="0" timeFormat="%H:%M" fontSize="30" x="355" y="5" singlePrefix="Play Time: " pluralPrefix="Play Time: " singlePostfix=" minute" pluralPostfix=" minutes" layer="8">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+	</reloadableText>
+	<reloadableText type="lastPlayedDate" alpha="0" timeFormat="%d/%b/%Y" fontSize="30" x="815" y="5" singlePrefix="Last Played: " pluralPrefix="Last Played: " layer="8">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+	</reloadableText>
+	<reloadableText type="lastPlayDuration" alpha="0" timeFormat="%H:%M" fontSize="30" x="1280" y="5" singlePrefix="Last Played Time: " pluralPrefix="Last Played Time: " singlePostfix=" minute" pluralPostfix=" minutes" layer="8">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+	</reloadableText>
+
+
+<image src="images/overlay/arte1.png" alpha="0" x="0" y="0" width="1920" height="1080" layer="7">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+</image>
+
+
+<menu menuIndex="2" type="custom" imageType="artwork_front" scrollTime=".10" scrollAcceleration=".05" orientation="horizontal" textFallback="true" x="0" fontSize="30">
+	<itemDefaults alpha="1" x="center" y="50" yOrigin="top" width="246" maxHeight="385" fontSize="30"/>
+	<item xOffset="-912" y="550" xOrigin="center" yOrigin="bottom" width="444" maxHeight="490" alpha="0"/>
+	<item alpha="1" xOffset="-690" y="550" selected="true" width="444" maxHeight="490" xOrigin="center" yOrigin="bottom" layer="8">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item alpha="1" xOffset="-210" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+	<item alpha="1" xOffset="-100" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+	<item alpha="1" xOffset="10" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+	<item alpha="1" xOffset="120" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+	<item alpha="1" xOffset="230" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+	<item alpha="1" xOffset="340" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+	<item alpha="1" xOffset="450" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+		<item alpha="1" xOffset="560" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+		<item alpha="1" xOffset="670" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+		<item alpha="1" xOffset="780" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+		<item alpha="1" xOffset="890" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+		<item alpha="1" xOffset="1000" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+	<item alpha="1" xOffset="1110" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+	<item alpha="1" xOffset="1220" xOrigin="right" layer="7">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onGameExit>
+		<onMenuJumpEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onMenuJumpExit>
+		<onPlaylistEnter menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistEnter>
+		<onPlaylistExit menuIndex="2">
+			<set duration=".1">
+				<animate type="yOrigin" to="top"/>
+				<animate type="y" to="50"/>
+			</set>
+		</onPlaylistExit>
+	</item>
+	<item xOffset="1390" xOrigin="right" alpha="0"/>
+</menu>
+<!-- Game Menu 3D (Aura) -->
+</layout>

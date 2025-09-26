@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+<!-- GAME Fanart -->	
+	
+	<reloadableImage menuIndex="2" type="fanart" alpha="0" x="$gameFanartX" y="$gameFanartY" width="$gameFanartWidth" height="$gameFanartHeight" layer="$fanartLayer" xOrigin="center" yOrigin="center" scaleMode="fit" name="Static" group="Fanart" subgroup="Game Fanart" active="true" shared="Static">
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</reloadableImage>
+</layout>

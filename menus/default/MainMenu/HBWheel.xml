@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+<!-- MAIN COMMON -->
+<include src="Common/mainCommon.xml"/>
+
+<!-- Menu Horizontal_Bottom_Wheel  -->
+	<image menuIndex="0" alpha="0" src="images/layouts/horizontalWheelBottom.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="6" scaleMode="fit">
+		<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+		<onEnter menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onEnter>
+		<onExit menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="0"/></set></onExit>
+	</image>
+	
+	<menu menuIndex="0" type="custom" imageType="icon" mode="layout" scrollTime=".2" scrollAcceleration=".02" minScrollTime="0.1" orientation="horizontal" x="0" width="1920" y="910">
+		<itemDefaults alpha="1" x="center" y="930" width="100" xOrigin="center" yOrigin="center" layer="6"/>
+		<item xOffset="-1100" yOffset="100" angle="-20" alpha="0"/>
+		<item xOffset="-880" yOffset="70" angle="-12.5">
+			<onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item xOffset="-660" yOffset="40" angle="-10">
+			<onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item xOffset="-440" yOffset="20" angle="-5">
+			<onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item xOffset="-220" yOffset="10" angle="-2.5">
+			<onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item xOffset="0" yOffset="0" angle="0" width="125" selected="true">
+		   <onMenuIdle>
+				<set duration="1"><animate type="width" to="150"/></set>
+				<set duration="1"><animate type="width" to="125"/></set>
+				<set duration="0.2"><animate type="nop"/></set>
+			</onMenuIdle> 
+			<onMenuExit menuIndex="0">
+				<set duration=".2"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+
+		<item xOffset="220" yOffset="10" angle="2.5">
+			<onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item xOffset="440" yOffset="20" angle="5">
+			<onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item xOffset="660" yOffset="40" angle="10">
+			<onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item xOffset="880" yOffset="70" angle="12.5">
+			<onMenuExit>
+				<set duration=".001"><animate type="alpha" to="0"/></set>
+			</onMenuExit>
+		</item>
+		<item xOffset="1100" yOffset="100" angle="20" alpha="0"/>
+	</menu>
+</layout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+	
+<!-- GAME MENU ALWAYS EXIST -->
+	<include src="menus/default/GameMenu/HBottom.xml" name="Horizontal Bottom" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Bottom"/>
+	<include src="menus/default/GameMenu/VRWheel.xml" name="Vertical Wheel Right" group="Game Menu" subgroup="MENU" active="true" shared="Vertical Wheel Right"/>
+	<include src="menus/default/GameMenu/GBottom.xml" name="Grid Bottom" group="Game Menu" subgroup="MENU" active="false" shared="Grid Bottom"/>
+	<include src="menus/default/GameMenu/GLeft.xml" name="Grid Left" group="Game Menu" subgroup="MENU" active="false" shared="Grid Left"/>
+
+</layout>

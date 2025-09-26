@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout width="1920" height="1080">
+   
+	<video src="video/splash.mp4" height="stretch" width="stretch" alpha="1"/>
+
+</layout>

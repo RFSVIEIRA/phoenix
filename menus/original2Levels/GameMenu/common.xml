@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<!-- Layout ScreenSize -->
+<layout>
+
+<reloadableImage menuIndex="2" type="logo" alpha="0" x="$logoX" y="$logoY" width="$logoWidth" maxHeight="$logomaxHeight" xOrigin="center" yOrigin="center" layer="8" scaleMode="fit">
+	<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+	<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+</reloadableImage>
+
+<reloadableImage type="year" mode="commonlayout" alpha="0" x="$yearX" y="$YearScrNumPyrGenreY" xOrigin="left" yOrigin="top" height="25" menuScrollReload="true" layer="10">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to=".8"/>
+		</set>
+	</onMenuEnter>
+</reloadableImage>
+
+<reloadableImage type="score" mode="commonlayout" alpha="0" x="$scoreX" y="$YearScrNumPyrGenreY" xOrigin="left" yOrigin="top" height="25" menuScrollReload="true" layer="10">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to=".8"/>
+		</set>
+	</onMenuEnter>
+</reloadableImage>
+
+<reloadableImage type="numberPlayers" mode="commonlayout" alpha="0" x="$numbpyrsX" y="$YearScrNumPyrGenreY" xOrigin="left" yOrigin="top" height="25" menuScrollReload="true" layer="10">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to=".8"/>
+		</set>
+	</onMenuEnter>
+</reloadableImage>
+
+<reloadableImage type="genre" mode="commonlayout" alpha="0" x="$genreX" y="$YearScrNumPyrGenreY" xOrigin="left" yOrigin="top" height="25" menuScrollReload="true" layer="10">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to=".8"/>
+		</set>
+	</onMenuEnter>
+</reloadableImage>
+
+
+<reloadableScrollingText type="story" alpha="0" x="$storyX" y="$storyY" xOrigin="left" yOrigin="top" width="$storyWidth" height="$storyHeight" fontSize="33" loadFontSize="33" fontColor="ffffff" direction="vertical" alignment="left" scrollingSpeed="14" startPosition="0" startTime="4" endTime=".0001" layer="10">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuScroll menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableScrollingText>
+
+</layout>

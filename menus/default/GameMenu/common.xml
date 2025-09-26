@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+
+<reloadableImage active="$logoShow" menuIndex="2" type="logo" alpha="0" x="$logoX" y="$logoY" width="$logoWidth" maxHeight="$logomaxHeight" xOrigin="center" yOrigin="center" layer="$logoLayer" menuScrollReload="true" scaleMode="fit">
+	<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+	<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	<onGameEnter menuIndex="2">
+		<set duration=".5">
+			<animate type="x" to="center"/>
+			<animate type="y" to="center"/>
+			<animate type="xOrigin" to="center"/>
+			<animate type="yOrigin" to="center"/>
+			<animate type="width" to="960"/>
+			<animate type="maxHeight" to="540"/>
+		</set>
+		<set duration="1">
+			<animate type="nop"/>
+		</set>
+		<set duration=".2">
+			<animate type="width" to="1920"/>
+			<animate type="maxHeight" to="1080"/>
+			<animate type="alpha" to="0"/>
+		</set>
+	</onGameEnter>
+	<onGameExit menuIndex="2">
+			<set duration=".5">
+			<animate type="nop"/>
+		</set>
+		<set duration="1">
+			<animate type="x" to="$logoX"/>
+			<animate type="y" to="$logoY"/>
+			<animate type="xOrigin" to="center"/>
+			<animate type="yOrigin" to="center"/>
+			<animate type="width" to="$logoWidth"/>
+			<animate type="maxHeight" to="$logomaxHeight"/>
+			<animate type="alpha" to="1"/>
+		</set>
+	</onGameExit>
+</reloadableImage>
+
+<reloadableImage type="playlist" mode="commonlayout" alpha="0" x="$playListX" y="$playListY" xOrigin="$playListxOrigin" yOrigin="$playListyOrigin" height="$playListHeight" layer="$playListLayer">
+	<onPlaylistEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to=".75"/>
+			<animate type="xOrigin" to="center"/>
+			<animate type="yOrigin" to="center"/>
+			<animate type="x" to="center"/>
+			<animate type="y" to="center"/>
+			<animate type="height" to="160"/>
+		</set>
+	</onPlaylistEnter>
+	<onMenuIdle menuIndex="2">
+		<set duration=".7">
+			<animate type="nop"/>
+		</set>
+		<set duration=".1">
+			<animate type="xOrigin" to="$playListAnimxOrigin"/>
+			<animate type="yOrigin" to="$playListAnimyOrigin"/>
+			<animate type="x" to="$playListAnimX"/>
+			<animate type="y" to="$playListAnimY"/>
+			<animate type="height" to="$playListAnimHeight"/>
+		</set>
+	</onMenuIdle>
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to=".8"/>
+		</set>
+	</onMenuEnter>
+	<onPlaylistExit menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onPlaylistExit>
+	<onMenuScroll menuIndex="2">
+		<set duration=".1">
+			<animate type="xOrigin" to="$playListAnimxOrigin"/>
+			<animate type="yOrigin" to="$playListAnimyOrigin"/>
+			<animate type="x" to="$playListAnimX"/>
+			<animate type="y" to="$playListAnimY"/>
+			<animate type="height" to="$playListAnimHeight"/>
+		</set>
+	</onMenuScroll>
+</reloadableImage>
+
+<reloadableImage type="year" mode="commonlayout" alpha="0" x="$yearX" y="$YearScrNumPyrGenreY" xOrigin="left" yOrigin="top" height="25" menuScrollReload="true" layer="10">
+<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+	<set duration="$YearScrNumPyrGenreYTime">
+			<animate type="nop"/>
+		</set>
+		<set duration=".0001">
+			<animate type="alpha" to=".8"/>
+		</set>
+	</onMenuEnter>
+	<onMenuScroll menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="2">
+		<set duration="$YearScrNumPyrGenreYTime">
+				<animate type="nop"/>
+			</set>
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableImage>
+
+<reloadableImage type="score" mode="commonlayout" alpha="0" x="$scoreX" y="$YearScrNumPyrGenreY" xOrigin="left" yOrigin="top" height="25" menuScrollReload="true" layer="10">
+<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+	<set duration="$YearScrNumPyrGenreYTime">
+			<animate type="nop"/>
+		</set>
+		<set duration=".0001">
+			<animate type="alpha" to=".8"/>
+		</set>
+	</onMenuEnter>
+	<onMenuScroll menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="2">
+		<set duration="$YearScrNumPyrGenreYTime">
+				<animate type="nop"/>
+			</set>
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableImage>
+
+<reloadableImage type="numberPlayers" mode="commonlayout" alpha="0" x="$numbpyrsX" y="$YearScrNumPyrGenreY" xOrigin="left" yOrigin="top" height="25" menuScrollReload="true" layer="10">
+<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+	<set duration="$YearScrNumPyrGenreYTime">
+			<animate type="nop"/>
+		</set>
+		<set duration=".0001">
+			<animate type="alpha" to=".8"/>
+		</set>
+	</onMenuEnter>
+	<onMenuScroll menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="2">
+		<set duration="$YearScrNumPyrGenreYTime">
+				<animate type="nop"/>
+			</set>
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableImage>
+
+<reloadableImage type="genre" mode="commonlayout" alpha="0" x="$genreX" y="$YearScrNumPyrGenreY" xOrigin="left" yOrigin="top" height="25" menuScrollReload="true" layer="10">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+	<set duration="$YearScrNumPyrGenreYTime">
+			<animate type="nop"/>
+		</set>
+		<set duration=".0001">
+			<animate type="alpha" to=".8"/>
+		</set>
+	</onMenuEnter>
+	<onMenuScroll menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="2">
+		<set duration="$YearScrNumPyrGenreYTime">
+				<animate type="nop"/>
+			</set>
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableImage>
+
+	<image active="$showStory" menuIndex="2" alpha="0" src="images/overlay/storyBkg.png" x="0" y="0" xOrigin="left" yOrigin="top" width="1920" height="1080" containerX="$storyX" containerY="$storyY" containerWidth="$storyWidth" containerHeight="$storyHeight" layer="9" scaleMode="fit">
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0.1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</image>
+
+<reloadableScrollingText active="$showStory" type="story" alpha="0" x="$storyX" y="$storyY" xOrigin="left" yOrigin="top" width="$storyWidth" height="$storyHeight" fontSize="33" loadFontSize="33" fontColor="ffffff" direction="$storyDirection" alignment="left" scrollingSpeed="14" startPosition="0" startTime="4" endTime=".0001" layer="10">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuScroll menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableScrollingText>
+
+<reloadableImage type="firstLetter" mode="commonlayout" alpha="0" x="right" xOffset="-50" y="30" xOrigin="center" yOrigin="center" height="30" menuScrollReload="true" layer="10">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuEnter>
+	<onMenuJumpEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuJumpEnter>
+	<onPlaylistEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onPlaylistEnter>
+	<onGameEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onGameEnter>
+	<onGameExit menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onGameExit>
+	<onMenuScroll menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="2">
+		<set duration="2">
+			<animate type="nop"/>
+		</set>
+		<set duration=".5">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuIdle>
+</reloadableImage>
+
+</layout>

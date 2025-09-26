@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<!-- Layout ScreenSize -->
+<layout>
+
+<include src="Common/systemCommon.xml"/>
+
+<!-- Menu Horizontal_Bottom  -->
+	<image menuIndex="1" alpha="0" src="images/layouts/menu.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="4" scaleMode="fit">
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+		<onEnter menuIndex="1"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onEnter>
+		<onExit menuIndex="1"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="0"/></set></onExit>
+	</image>
+
+<menu menuIndex="1" type="custom" imageType="logo" scrollTime=".2" scrollAcceleration=".1" minScrollTime=".1" orientation="horizontal" scaleMode="fit" layer="4">
+    <itemDefaults alpha="1" x="center" y="930" maxHeight="125" width="260" xOrigin="center" yOrigin="center" layer="4"/>
+    <item xOffset="-1000" alpha="0"/>
+    <item xOffset="-835" alpha="1">
+        <onMenuExit>
+            <set duration=".001"><animate type="alpha" to="0"/></set>
+        </onMenuExit>
+    </item>
+    <item xOffset="-560" alpha="1">
+        <onMenuExit>
+            <set duration=".001"><animate type="alpha" to="0"/></set>
+        </onMenuExit>
+    </item>
+    <item xOffset="-280" alpha="1">
+        <onMenuExit>
+            <set duration=".001"><animate type="alpha" to="0"/></set>
+        </onMenuExit>
+    </item>
+    <item xOffset="0" width="225" selected="true" alpha="1" layer="7">
+        <onMenuIdle>
+            <set duration="1"><animate type="width" to="250"/></set>
+            <set duration="1"><animate type="width" to="225"/></set>
+			<set duration="0.2"><animate type="nop"/></set>
+        </onMenuIdle> 
+		<onMenuExit menuIndex="1"><set duration=".2"><animate type="alpha" to="0"/></set></onMenuExit>
+    </item>
+    <item xOffset="280" alpha="1">
+        <onMenuExit>
+            <set duration=".001"><animate type="alpha" to="0"/></set>
+        </onMenuExit>
+    </item>
+    <item xOffset="560" alpha="1">
+        <onMenuExit>
+            <set duration=".001"><animate type="alpha" to="0"/></set>
+        </onMenuExit>
+    </item>
+    <item xOffset="835" alpha="1">
+        <onMenuExit>
+            <set duration=".001"><animate type="alpha" to="0"/></set>
+        </onMenuExit>
+    </item>
+    <item xOffset="1000" alpha="0"/>
+</menu>
+</layout>

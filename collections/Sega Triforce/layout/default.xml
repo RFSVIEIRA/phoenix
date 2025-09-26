@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout width="1920" height="1080" font="fonts/verdana.ttf" fontColor="FFFFFF" loadFontSize="60" active="$customiseGameLayout">
+    
+	
+	
+	<reloadableText type="playCount" fontSize="30" x="1500" y="100" singlePrefix="Played " singlePostfix=" time" pluralPrefix="Played " pluralPostfix=" times" layer="19"/>
+	<reloadableText type="totalPlayTime" timeFormat="%H:%M" fontSize="30" x="1500" y="130" singlePrefix="Total Played " pluralPrefix="Total Played " singlePostfix=" minute" pluralPostfix=" minutes" layer="19"/>
+	<reloadableText type="lastPlayedDate" timeFormat="%d/%b/%Y" fontSize="30" x="1500" y="160" singlePrefix="Last Play Date " pluralPrefix="Last Play Date " />
+	<reloadableText type="lastPlayDuration" timeFormat="%H:%M" fontSize="30" x="1500" y="190" singlePrefix="LastPlayed duration " pluralPrefix="LastPlayed duration " singlePostfix=" minute" pluralPostfix=" minutes" layer="19"/>
+
+	<image src="collections/Sega Triforce/system_artwork/icons/play.png" alpha="0" x="1800" y="1000" xOrigin="center" yOrigin="center" width="200" height="100" layer="10" scaleMode="fit">
+		 <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+	</image>
+	<image src="collections/Sega Triforce/system_artwork/icons/back.png" alpha="0" x="110" y="1000" xOrigin="center" yOrigin="center" width="200" height="100" layer="10" scaleMode="fit">
+		 <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+	</image>
+	
+     <reloadableImage type="artwork_3d" x="250" y="375" width="400" height="500" xOrigin="center" yOrigin="center" layer="2" alpha="0" scaleMode="fit">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableImage>
+	
+	  <reloadableImage type="medium_front" x="1600" y="center" width="400" height="400" xOrigin="center" yOrigin="center" layer="2" alpha="0" scaleMode="fit">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableImage>
+	
+   <reloadableImage type="fanart" x="center" y="center" width="stretch" height="stretch" xOrigin="center" yOrigin="center" layer="0" alpha="0">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableImage>
+
+    <!-- Game Title -->
+    <reloadableText type="title" x="center" y="100" maxWidth="1500" xOrigin="center" yOrigin="center" fontSize="80" loadFontSize="80" fontColor="ffffff" layer="10" alpha="0">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableText>
+
+    <!-- Game Screenshot/Video -->
+    <reloadableVideo imageType="screenshot" x="center" y="400" width="800" maxHeight="597" xOrigin="center" yOrigin="center" layer="9" alpha="0">
+        <onEnter><set duration=".00001"><animate type="alpha" to="1"/><animate type="volume" to="1"/></set></onEnter>
+        <onExit><set duration=".00001"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableVideo>
+	
+	<image src="images/overlay/videobkg.png" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="10">
+		 <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+	</image>
+	
+    <!-- Game Info: Manufacturer -->
+    <reloadableText type="manufacturer" x="200" y="700" maxWidth="500" xOrigin="left" yOrigin="center" fontSize="40" loadFontSize="40" fontColor="75c8f7" layer="10" alpha="0">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableText>
+
+    <!-- Game Info: Year -->
+    <reloadableText type="year" x="200" y="750" maxWidth="200" xOrigin="left" yOrigin="center" fontSize="40" loadFontSize="40" fontColor="ffffff" layer="10" alpha="0">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableText>
+
+    <!-- Game Description (Story) -->
+    <reloadableScrollingText type="story" x="200" y="800" width="1500" height="200" xOrigin="left" yOrigin="top" fontSize="35" loadFontSize="35" fontColor="f2f2f2" direction="vertical" scrollingSpeed="15" startTime="1" layer="10" alpha="0">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableScrollingText>
+	
+	<menu type="custom" alpha="0"  >
+        <itemDefaults x="center" y="center" width="400" height="300" />
+        <item xOffset="0" selected="true" />
+    </menu>
+</layout>

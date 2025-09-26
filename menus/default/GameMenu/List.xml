@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+
+	<variables>
+		<bezelLayer>6</bezelLayer>
+		<showBezel>false</showBezel>
+		<videoLayer>5</videoLayer>
+		<showVideo>false</showVideo>
+		<systemVideoVolume2>0</systemVideoVolume2>
+		<logoShow>false</logoShow>
+		<logoLayer>10</logoLayer>
+		<logoX>220</logoX>
+		<logoY>100</logoY>
+		<logoWidth>400</logoWidth>
+		<logomaxHeight>150</logomaxHeight>
+		<yearX>45</yearX>
+		<YearScrNumPyrGenreY>1000</YearScrNumPyrGenreY>
+		<scoreX>134</scoreX>
+		<numbpyrsX>244</numbpyrsX>
+		<genreX>298</genreX>
+		<showStory>false</showStory>
+		<storyX>45</storyX>
+		<storyY>300</storyY>
+		<storyWidth>430</storyWidth>
+		<storyHeight>260</storyHeight>
+		<playListLayer>10</playListLayer>
+		<playListX>30</playListX>
+		<playListY>30</playListY>
+		<playListxOrigin>left</playListxOrigin>
+		<playListyOrigin>top</playListyOrigin>
+		<playListHeight>25</playListHeight>
+		<playListAnimxOrigin>left</playListAnimxOrigin>
+		<playListAnimyOrigin>top</playListAnimyOrigin>
+		<playListAnimX>30</playListAnimX>
+		<playListAnimY>30</playListAnimY>
+		<playListAnimHeight>25</playListAnimHeight>
+		
+	</variables>
+<include src="menus/default/GameMenu/common.xml"/>
+
+	<reloadableImage menuIndex="2" type="logo" x="475" y="165" xOrigin="left" yOrigin="bottom" alpha="0" width="150" maxHeight="35" layer="17">
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</reloadableImage>
+
+
+	<menu menuIndex="2" alpha="0" orientation="vertical" scrollTime=".10" scrollAcceleration=".05" y="100" width="850" height="800">
+		<itemDefaults alpha="0" x="645" xOrigin="left" yOrigin="center" width="850" height="50" fontSize="50" loadFontSize="50" fontColor="ffffff" font="fonts/verdana.ttf" layer="16"/>
+		<item index="0" spacing="-50" alpha="0"/>
+		<item index="1" spacing="-50" alpha="0"/>
+		<item index="2" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onMenuEnter>
+		</item>
+		<item index="3" spacing="2.5" selected="true" fontColor="000000" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="4" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="5" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="6" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="7" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+			<item index="8" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="9" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+			<item index="10" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="11" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="12" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="13" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="14" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="15" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+			<item index="16" spacing="2.5" alpha="1">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001"><animate type="alpha" to="1"/></set>
+			</onMenuEnter>
+		</item>
+		<item index="17" spacing="2.5" alpha="0"/>
+		<item index="18" spacing="2.5" alpha="0"/>
+	</menu>
+
+	<menu menuIndex="2" type="custom" imageType="defaultList" mode="commonlayout" alpha="0" scrollTime=".10" scrollAcceleration=".05" orientation="vertical">
+		<itemDefaults alpha="0" x="center" y="490" xOrigin="center" yOrigin="center" width="1000" height="730" layer="15"/>
+		<item yOffset="-55" alpha="0"/>
+		<item xOffset="0" alpha=".8" selected="true">
+			<onMenuExit menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onMenuEnter menuIndex="2">
+				<set duration=".0001">
+					<animate type="alpha" to=".8"/>
+				</set>
+			</onMenuEnter>
+		</item>
+		<item yOffset="55" alpha="0"/>
+	</menu>
+
+
+
+</layout>

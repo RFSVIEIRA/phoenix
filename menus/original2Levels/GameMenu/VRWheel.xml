@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<!-- Layout ScreenSize -->
+<layout>
+	<variables>
+		<gameFanart>1</gameFanart>
+		<gameFanartX>center</gameFanartX>
+		<gameFanartY>center</gameFanartY>
+		<gameFanartWidth>1920</gameFanartWidth>
+		<gameFanartHeight>1080</gameFanartHeight>
+		<gameVideoX>center</gameVideoX>
+		<gameVideoY>center</gameVideoY>
+		<gameVideowidth>1920</gameVideowidth>
+		<gameVideoMheight>1080</gameVideoMheight>
+		<yearX>1475</yearX>
+		<YearScrNumPyrGenreY>605</YearScrNumPyrGenreY>
+		<scoreX>1580</scoreX>
+		<numbpyrsX>1695</numbpyrsX>
+		<genreX>1760</genreX>
+		<storyX>1470</storyX>
+		<storyY>650</storyY>
+		<storyWidth>420</storyWidth>
+		<storyHeight>370</storyHeight>
+		<gameVideoAlpha>1</gameVideoAlpha>
+		<gameVideoVolume>1</gameVideoVolume>
+		<videoLayer>5</videoLayer>
+		<bezelLayer>6</bezelLayer>
+		<logoX>center</logoX>
+		<logoY>100</logoY>
+		<logoWidth>330</logoWidth>
+		<logomaxHeight>480</logomaxHeight>
+    </variables>
+
+
+<!-- MENU Vertical Wheel Right -->	
+	<image alpha="0" src="images/layouts/verticalWheelRight.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="7" scaleMode="fit">
+			<onMenuEnter menuIndex="!0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+			<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</image>
+	<menu type="custom" imageType="logo" scrollTime=".1" scrollAcceleration=".05" minScrollTime=".1" orientation="vertical" scaleMode="fit">
+		<itemDefaults menuIndex="!0" spacing="2" y="center" x="1100" yOrigin="center" xOrigin="center" fontSize="35" width="120" layer="8"/>
+		<item xOffset="830" angle="39" yOffset="-684" alpha="0">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="780" angle="32" yOffset="-576" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="720" angle="27" yOffset="-466" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="675" angle="20" yOffset="-354" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="640" angle="14" yOffset="-238" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="620" angle="8" yOffset="-120" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="620" yOffset="0" width="220" maxheight="175" selected="true" layer="7">
+		<onMenuIdle>
+            <set duration="1"><animate type="width" to="250"/></set>
+            <set duration="1"><animate type="width" to="225"/></set>
+			<set duration="0.2"><animate type="nop"/></set>
+        </onMenuIdle> 
+		<onMenuExit menuIndex="!0"><set duration=".2"><animate type="alpha" to="0"/></set></onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="620" angle="-8" yOffset="120" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="640" angle="-14" yOffset="238" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="675" angle="-20" yOffset="354" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="720" angle="-27" yOffset="466" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="780" angle="-32" yOffset="576" alpha="1">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+		<item xOffset="840" angle="-39" yOffset="684" alpha="0">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+			<onGameEnter>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onGameEnter>
+			<onGameExit>
+				<set duration=".001">
+					<animate type="alpha" to="1"/>
+				</set>
+			</onGameExit>
+		</item>
+	</menu>
+</layout>

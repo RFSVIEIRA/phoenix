@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+
+	
+<!-- SYSTEM extra artwork -->
+	<reloadableImage type="menuextra1" alpha="0" mode="layout" x="410" y="835" xOrigin="center" yOrigin="center" width="700" maxHeight="700" layer="12" speed="1500" frameLoop="playLoop">
+		<onMenuExit menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onPlaylistEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistEnter>
+		<onPlaylistExit menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistExit>
+		<onMenuJumpEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpExit>
+		<onMenuScroll menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
+		<onMenuIdle menuIndex="1"><set duration="2"><animate type="nop"/></set><set duration=".5"><animate type="alpha" to="1"/></set></onMenuIdle>
+	</reloadableImage>
+
+
+	<reloadableImage type="menuextra2" alpha="0" mode="layout" x="0" y="0" width="1920" height="1080" layer="11">
+		<onMenuExit menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onPlaylistEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistEnter>
+		<onPlaylistExit menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistExit>
+		<onMenuJumpEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/>
+		</set></onMenuJumpExit>
+		<onMenuScroll menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
+		<onMenuIdle menuIndex="1"><set duration="2"><animate type="nop"/></set><set duration=".5"><animate type="alpha" to="1"/></set></onMenuIdle>
+	</reloadableImage>
+	
+	<reloadableImage type="menuextra3" alpha="0" mode="layout" x="0" y="0" width="1920" height="1080" layer="11" frameLoop="playLoop">
+		<onMenuExit menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onPlaylistEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistEnter>
+		<onPlaylistExit menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistExit>
+		<onMenuJumpEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpExit>
+		<onMenuScroll menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
+		<onMenuIdle menuIndex="1"><set duration="2"><animate type="nop"/></set><set duration=".5"><animate type="alpha" to="1"/></set></onMenuIdle>
+	</reloadableImage>
+
+	<reloadableImage type="Character" alpha="0" mode="layout" x="right" y="939" xOrigin="right" yOrigin="bottom" width="640" maxHeight="650" layer="11">
+		<onMenuExit menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onPlaylistEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistEnter>
+		<onPlaylistExit menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistExit>
+		<onMenuJumpEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpExit>
+		<onMenuScroll menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
+		<onMenuIdle menuIndex="1"><set duration="2"><animate type="nop"/></set><set duration=".5"><animate type="alpha" to="1"/></set></onMenuIdle>
+	</reloadableImage>
+
+	<menu menuIndex="1" type="custom" imageType="device" alpha="0" scrollTime=".16" scrollAcceleration=".05" orientation="horizontal">
+		<itemDefaults alpha="0" x="right" y="939" xOrigin="right" yOrigin="bottom" width="800" maxHeight="650" layer="3"/>
+
+		<item xOffset="0" width="640" maxHeight="520"/>
+		<item selected="true" alpha="1">
+			<onMenuEnter menuIndex="0"><set duration=".2"><animate type="alpha" to="0"/></set></onMenuEnter>
+			<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+			<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+			<onMenuIdle><set duration="2"><animate type="nop"/></set><set duration=".5"><animate type="alpha" to="0"/></set></onMenuIdle>
+		</item>
+		<item xOffset="0" width="640" maxHeight="520"/>
+
+	</menu>
+
+
+</layout>

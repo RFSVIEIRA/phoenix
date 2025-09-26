@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	
+	<variables>
+		<bezelLayer>6</bezelLayer>
+		<showBezel>true</showBezel>
+		<videoLayer>5</videoLayer>
+		<showVideo>true</showVideo>
+		<gameVideoX>center</gameVideoX>
+		<gameVideoY>center</gameVideoY>
+		<gameVideowidth>1920</gameVideowidth>
+		<gameVideoMheight>1080</gameVideoMheight>
+		<logoShow>true</logoShow>
+		<logoLayer>10</logoLayer>
+		<logoX>center</logoX>
+		<logoY>100</logoY>
+		<logoWidth>330</logoWidth>
+		<logomaxHeight>480</logomaxHeight>
+		<yearX>1465</yearX>
+		<YearScrNumPyrGenreY>605</YearScrNumPyrGenreY>
+		<scoreX>1570</scoreX>
+		<numbpyrsX>1685</numbpyrsX>
+		<genreX>1750</genreX>
+		<showStory>true</showStory>
+		<storyX>1465</storyX>
+		<storyY>640</storyY>
+		<storyWidth>420</storyWidth>
+		<storyHeight>370</storyHeight>
+		<playListLayer>10</playListLayer>
+		<playListX>1475</playListX>
+		<playListY>570</playListY>
+		<playListxOrigin>left</playListxOrigin>
+		<playListyOrigin>top</playListyOrigin>
+		<playListHeight>25</playListHeight>
+		<playListAnimxOrigin>left</playListAnimxOrigin>
+		<playListAnimyOrigin>top</playListAnimyOrigin>
+		<playListAnimX>1475</playListAnimX>
+		<playListAnimY>570</playListAnimY>
+		<playListAnimHeight>25</playListAnimHeight>
+	</variables>
+	
+	<include src="menus/default/GameMenu/common.xml"/>
+	
+	
+	
+	
+	<image alpha="0" src="images/overlay/bottom.png" width="stretch" height="stretch" layer="7">
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+	</image>
+	
+		
+	
+	
+	<menu frameLoop="playLoop" scrollTime=".16" scrollAcceleration=".05" menuIndex="2" alpha="0" type="custom" imageType="artwork_front" textFallback="true" x="0" fontSize="30" orientation="Grid" rows="3" columns="10" cellWidth="100" cellHeight="100" spacingX="40" spacingY="75" wrap="true">
+    <itemDefaults selectedOnlyAnimation="true" x="100" y="600" yOrigin="center" xOrigin="center" maxHeight="280" width="120" layer="7" fontSize="30"/>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+		<onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	    <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	
+	 <item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	<onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	 <item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	<onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	 <item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	<onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	<item borderColor="#bbbdbf" borderSpace="0" borderThickness="2">
+	 <onMenuExit>
+            <set duration=".001">
+                <animate type="alpha" to="0"/>
+            </set>
+        </onMenuExit>
+	</item>
+	
+
+</menu>
+
+
+
+</layout>

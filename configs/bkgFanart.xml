@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+<!-- Background Image "${randomImageSrc}bkg1.jpg"  -->
+
+	<image src="$imageSRC" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" scaleMode="stretch" layer="1" name="Static" group="Fanart" subgroup="BackGround Fanart" active="true" shared="Static"/>
+	
+	<image src="$imageSRC" random="true" randomsrc="$randomImageSrc" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" scaleMode="stretch" layer="1" name="Random" group="Fanart" subgroup="BackGround Fanart" active="false" shared="Random"/>
+		   
+	<image src="$imageSRC" random="true" randomsrc="$randomImageSrc" slideShow="true" slideNumber="6" slideShowTimer="5000" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" scaleMode="stretch" layer="1" name="SlideShow" group="Fanart" subgroup="BackGround Fanart" active="false" shared="SlideShow"/>
+</layout>

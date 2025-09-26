@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<!-- Layout ScreenSize -->
+<layout>
+<!-- MENU Horizontal_Bottom -->	
+
+	
+	<variables>
+		<gameFanart>1</gameFanart>
+		<gameVideoX>center</gameVideoX>
+		<gameVideoY>center</gameVideoY>
+		<gameVideowidth>1920</gameVideowidth>
+		<gameVideoMheight>1080</gameVideoMheight>
+		<gameVideoStartTime>.0001</gameVideoStartTime>
+		<gameVideoAlpha>1</gameVideoAlpha>
+		<gameVideoVolume>1</gameVideoVolume>
+		<gameFanartX>center</gameFanartX>
+		<gameFanartY>center</gameFanartY>
+		<gameFanartWidth>1920</gameFanartWidth>
+		<gameFanartHeight>1080</gameFanartHeight>
+		<videoLayer>5</videoLayer>
+		<bezelLayer>6</bezelLayer>
+    </variables>
+	
+
+	
+	<image menuIndex="&gt;0" alpha="0" src="images/layouts/menu.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="7" scaleMode="fit">
+		<onMenuEnter menuIndex="&gt;0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</image>
+	
+	<menu menuIndex="&gt;0" type="custom" imageType="logo" textFallback="true" x="0" fontSize="30" scrollTime=".2" scrollAcceleration=".1" minScrollTime=".1" orientation="horizontal" scaleMode="fit" layer="8">
+		<itemDefaults alpha="1" x="center" y="930" width="250" maxHeight="150" xOrigin="center" yOrigin="center" layer="8" fontSize="30"/>
+		<item xOffset="-830" alpha="0"/>
+	
+		<item xOffset="-830">
+		 <onEnter><set duration=".1"><animate type="alpha" from="0" to="1"/></set></onEnter>
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+		</item>
+		<item xOffset="-480">
+		 <onEnter><set duration=".1"><animate type="alpha" from="0" to="1"/></set></onEnter>
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+		</item>
+		<item frameLoop="playLoop" xOffset="0" width="275" selected="true">
+		
+		<onMenuIdle>
+            <set duration="1"><animate type="width" to="300"/></set>
+            <set duration="1"><animate type="width" to="275"/></set>
+			<set duration="0.2"><animate type="nop"/></set>
+        </onMenuIdle> 
+		<onMenuExit menuIndex="&gt;0"><set duration=".2"><animate type="alpha" to="0"/></set></onMenuExit>
+		</item>
+		<item xOffset="480">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+		</item>
+		<item xOffset="830">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+		</item>
+	 <item xOffset="830" alpha="0"/>
+	</menu>
+</layout>

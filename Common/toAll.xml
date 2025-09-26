@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<!-- Layout ScreenSize -->
+<layout>
+
+
+<!-- Shaders -->
+	<image src="images/shaders/crt_border.png" width="stretch" height="stretch" alpha="1" layer="19" group="General" subgroup="SHADERS" active="false" shared="SCREEN, SCANLINES">
+		<onEnter>
+			<set duration=".001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onEnter>
+	</image>
+	<image src="images/shaders/screen.png" width="stretch" height="stretch" alpha="1" layer="19" name="SCREEN" group="General" subgroup="SHADERS" active="false" shared="SCREEN">
+		<onEnter>
+			<set duration=".001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onEnter>
+	</image>
+	<image src="images/shaders/scanlines.png" width="stretch" height="stretch" alpha="1" layer="19" name="SCANLINES" group="General" subgroup="SHADERS" active="false" shared="SCANLINES">
+		<onEnter>
+			<set duration=".001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onEnter>
+	</image>
+
+
+	
+
+</layout>

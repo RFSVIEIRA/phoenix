@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layoutmenu>
+    <!-- 
+        Window Configuration:
+        - width:  (default: 800).
+        - height: (default: 600).
+        - scale: Scaling mode for the window. Options: "fit", "stretch", or "none" (no scaling).
+    -->
+    <window width="1920" height="1080" scale="fit"/>
+
+    <!-- 
+        Background Color:
+        - Specifies the background color of the window (e.g., "000000" for black).
+    -->
+    <backgroundColor>000000</backgroundColor>
+
+    <!-- 
+        Image Configuration:
+        - src: Path to the image file (relative to the layout directory).
+        - animated: "true" if the image is animated (e.g., GIF), "false" otherwise.
+        - x: Horizontal position. Can be "center", "left", "right", or a numeric value (e.g., "center-220", "left+10").
+        - y: Vertical position. Can be "center", "top", "bottom", or a numeric value (e.g., "top+10").
+        - width: Width of the image.
+        - height: Height of the image.
+        - scale: Scaling mode for the image. Options: "fit", "fill" or "stretch".
+    -->
+    <image src="optMenuImages/bg/optMenu.png" animated="false" x="center" y="0" width="1920" height="1080" scale="fit"/>
+	<image src="optMenuImages/bg/RetroFEVLC.jpg" animated="false" x="center+285" y="center" width="1320" height="1320" scale="fit"/>
+    <image src="optMenuImages/gif/character.gif" animated="true" x="left+10" y="top+10" width="100" height="100" scale="fit"/>
+    <image src="optMenuImages/gif/character2.gif" animated="true" x="left+450" y="top+10" width="100" height="100" scale="fit"/>
+	<image src="optMenuImages/logo.png" animated="false" x="left+130" y="top-75" width="300" height="300" scale="fit"/>
+	<!-- <image animated="false" isMenu="true" x="center+250" y="250" width="300" height="300" scale="fit"/> -->
+	<image animated="true" isMenu="true" x="center+285" y="center" width="1320" height="1320" scale="fit"/>
+    <!-- 
+        Font Path:
+        - Path to the font file (relative to the layout directory or absolute path).
+    -->
+    <fontPath>fonts/verdana.ttf</fontPath>
+
+    <!-- 
+        Title Configuration:
+        - textSize: Font size for the title.
+        - color: Text color in hexadecimal format (e.g., "FFFFFF" for white).
+        - x: Horizontal position. Can be "center", "left", "right", or a numeric value.
+        - y: Vertical position. Can be "center", "top", "bottom", or a numeric value.
+    -->
+    <title textSize="32" color="C0C0C0" x="left+30" y="top+150"/>
+
+    <!-- 
+        Text Configuration (for menu options):
+        - textSize: Font size for the menu options.
+        - color: Text color in hexadecimal format.
+        - barColor: Color of the selection bar in hexadecimal format.
+        - spaceBetween: Vertical spacing between menu options.
+        - x: Horizontal position for the menu options.
+        - y: Vertical starting position for the menu options.
+    -->
+    <Text textSize="24" color="FFFFFF" barColor="00000000" spaceBetween="53.5" x="left+15" y="top+251"/>
+
+    <!-- 
+        Menu Language/Translation Settings:
+        - Contains <entry> elements with key-value pairs for menu text.
+        - Keys: "main", "settings", "controls", "actions", "layout", "save_exit".
+    -->
+    <menuLang>
+        <entry key="main" text="RetroFE Configuration"/>
+        <entry key="settings" text="Customize Settings"/>
+        <entry key="controls" text="Control Setup"/>
+        <entry key="actions" text="Navigation Keys"/>
+        <entry key="layout" text="Layout Options"/>
+        <entry key="save_exit" text="Save &amp; Exit"/>
+    </menuLang>
+
+    <!-- 
+        Additional Configuration Options this overrid above options:
+        - <fontColor>: Default font color for all text elements.
+        - <selectionBarColor>: Color of the selection bar for menu options (alternative to barColor in <Text>).
+        - <titleBarColor>: Color of the title bar eg. Settings.conf ##.
+        - <subtitleUnderlineColor>: Color of the underline for subtitles e Settings.conf ###.
+        - <spaceBetweenText>: Spacing between lines of text (alternative to spaceBetween in <Text>).
+        - <menuXAlignment>: Horizontal alignment for menu options ("center", "left", "right").
+        - <menuYAlignment>: Vertical alignment for menu options ("top", "center", "bottom").
+        - <menuXOffset>: Horizontal offset for menu options (numeric value).
+        - <menuYOffset>: Vertical offset for menu options (numeric value).
+		- <selectionBarPadding>: Padding on each side
+		- <selectionBarHeight>: Fixed height
+    <fontColor>FFFFFF</fontColor>
+    <selectionBarColor>5b5959</selectionBarColor>
+    <titleBarColor>674ea7</titleBarColor>
+    <subtitleUnderlineColor>FFD700</subtitleUnderlineColor>
+    <spaceBetweenText>40</spaceBetweenText>
+    <menuXAlignment>center</menuXAlignment>
+    <menuYAlignment>top</menuYAlignment>
+    <menuXOffset>0</menuXOffset>
+    <menuYOffset>150</menuYOffset>
+	-->
+	 <selectionBarColor>5b595990</selectionBarColor>
+	 <selectionBarPadding>20</selectionBarPadding> 
+    <selectionBarHeight>45</selectionBarHeight> 
+	<subtitleUnderlineColor>80091B</subtitleUnderlineColor>
+</layoutmenu>

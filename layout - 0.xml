@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout width="1920" height="1080">
+	<include src="monitors/2 Monitors Full.xml" name="Full Screen ON" group="General" subgroup="2nd Screen Media" active="false" shared="Full Screen ON"/>
+	<include src="monitors/2 Monitors Marquee.xml" name="Marquee ON" group="General" subgroup="2nd Screen Media" active="false" shared="Marquee ON"/>
+</layout>

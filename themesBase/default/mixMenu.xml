@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+
+	<!-- Animations -->
+	<include src="animations/animations.xml"/>
+	
+	<!-- Mix Menu (zero + one -->
+	<include src="menus/default/mixMenus/hector.xml" name="Hector" group="Mix Menu" subgroup="MENU" active="false" shared="Hector"/>
+	<include src="menus/default/mixMenus/helios.xml" name="Helios" group="Mix Menu" subgroup="MENU" active="true" shared="Helios"/>
+
+	<!-- GAME_MENU -->
+	<include src="menus/default/GameMenu/HBottom.xml" name="Horizontal Bottom" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Bottom"/>
+	<include src="menus/default/GameMenu/VRWheel.xml" name="Vertical Wheel Right" group="Game Menu" subgroup="MENU" active="true" shared="Vertical Wheel Right"/>
+	<include src="menus/default/GameMenu/GBottom.xml" name="Grid Bottom" group="Game Menu" subgroup="MENU" active="false" shared="Grid Bottom"/>
+	<include src="menus/default/GameMenu/GLeft.xml" name="Grid Left" group="Game Menu" subgroup="MENU" active="false" shared="Grid Left"/>
+	
+
+	<!-- Layout Bottom BAR buttons System -->
+	<include src="configs/ButtomBar/all.xml" name="Information Bar" group="Information Bar" subgroup="Information Bar" active="true" shared="Information Bar"/>
+	<include src="configs/topBar/all.xml" name="Top Bar" group="Information Bar" subgroup="Information Bar" active="false" shared="Top Bar"/>
+	
+	<!-- FANART´s  -->
+	<include src="configs/bkgFanart.xml"/>
+	<include src="configs/mainFanart.xml" name="Static" group="Fanart" subgroup="Main Fanart" active="false" shared="Static"/>
+	<include src="configs/systemFanart.xml"/>
+	<include src="configs/gameFanart.xml"/>
+		
+	
+	<!-- Commmon TO ALL  -->
+	<!-- <include src="common/toAll.xml"/> -->
+	
+	<!-- VIDEO CONTROL  -->
+	<include src="Common/onlySystemVideo.xml" name="Only System Video" group="General" subgroup="Background Video" active="true" shared="Only System Video"/>
+	<include src="Common/onlyGameVideo.xml" name="Only Game Video" group="General" subgroup="Background Video" active="false" shared="Only Game Video"/>
+	<include src="Common/allVideo.xml" name="ALL Video" group="General" subgroup="Background Video" active="false" shared="ALL Video"/>
+
+</layout>

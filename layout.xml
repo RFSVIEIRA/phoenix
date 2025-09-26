@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<!-- Layout ScreenSize -->
+<layout width="1920" height="1080" font="fonts/verdana.ttf" fontColor="FFFFFF" loadFontSize="60">
+
+  <variables>
+		<customiseLayout>true</customiseLayout>
+		<customiseGameLayout>true</customiseGameLayout>
+		<randomImageSrc>images/bg/</randomImageSrc>
+		<imageSRC>images/bg/bkg1.png</imageSRC>
+		<textColour>f8bd05</textColour>
+		<YearScrNumPyrGenreYTime>.0001</YearScrNumPyrGenreYTime>
+		<logoLayer>8</logoLayer>
+		<storyDirection>vertical</storyDirection>
+		<gameFanartX>center</gameFanartX>
+		<gameFanartY>center</gameFanartY>
+		<gameFanartWidth>1920</gameFanartWidth>
+		<gameFanartHeight>1080</gameFanartHeight>
+		<fanartLayer>2</fanartLayer>
+		<videoLayer>5</videoLayer>
+		<videoLayerBkg>4</videoLayerBkg>
+		<bezelLayer>6</bezelLayer>
+		<gameVideoX>center</gameVideoX>
+		<gameVideoY>center</gameVideoY>
+		<systemVideoVolume>1</systemVideoVolume> 
+		<gameVideoVolume>1</gameVideoVolume>
+		<videoCostumizeShow>false</videoCostumizeShow>
+		<showSystemVideo>true</showSystemVideo>
+  </variables>
+  
+<image alpha="1" src="images/overlay/blackShadow.png" x="-330" y="0" width="2580" height="1080" layer="19">
+		
+</image>
+  <!-- Sounds -->
+
+  <sound type="load" src="sounds/load.wav"/>
+  <sound type="unload" src="sounds/unload.wav"/>
+  <sound type="highlight" src="sounds/highlight.wav"/>
+  <sound type="select" src="sounds/select.wav"/>
+  
+<!-- ############# -->
+<!-- MENU´s -->
+<!-- ############# -->
+	
+	<include src="themesBase/original2Levels.xml" name="Original 2 Levels" group="Menu Levels" subgroup="Levels" active="false" shared="Original 2 Levels"/>
+	<include src="themesBase/default3Levels.xml" name="Default 3 Levels" group="Menu Levels" subgroup="Levels" active="true" shared="Default 3 Levels"/>
+
+</layout>

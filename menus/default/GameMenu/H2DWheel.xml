@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+<!-- Horizontal 2D Wheel -->
+
+	<variables>
+		<gameFanartX>center</gameFanartX>
+		<gameFanartY>center</gameFanartY>
+		<gameFanartWidth>1920</gameFanartWidth>
+		<gameFanartHeight>1080</gameFanartHeight>
+		<fanartLayer>2</fanartLayer>
+		<bezelLayer>6</bezelLayer>
+		<showBezel>true</showBezel>
+		<videoLayer>5</videoLayer>
+		<showVideo>true</showVideo>
+		<gameVideoX>center</gameVideoX>
+		<gameVideoY>center</gameVideoY>
+		<gameVideowidth>1920</gameVideowidth>
+		<gameVideoMheight>1080</gameVideoMheight>
+		<logoShow>true</logoShow>
+		<logoLayer>10</logoLayer>
+		<logoX>center</logoX>
+		<logoY>100</logoY>
+		<logoWidth>340</logoWidth>
+		<logomaxHeight>130</logomaxHeight>
+		<YearScrNumPyrGenreY>1000</YearScrNumPyrGenreY>
+		<yearX>460</yearX>
+		<scoreX>550</scoreX>
+		<numbpyrsX>660</numbpyrsX>
+		<genreX>720</genreX>
+		<showStory>false</showStory>
+		<playListLayer>10</playListLayer>
+		<playListX>285</playListX>
+		<playListY>1000</playListY>
+		<playListxOrigin>left</playListxOrigin>
+		<playListyOrigin>top</playListyOrigin>
+		<playListHeight>25</playListHeight>
+		<playListAnimxOrigin>left</playListAnimxOrigin>
+		<playListAnimyOrigin>top</playListAnimyOrigin>
+		<playListAnimX>285</playListAnimX>
+		<playListAnimY>1000</playListAnimY>
+		<playListAnimHeight>25</playListAnimHeight>
+	</variables>
+	
+	<include src="menus/default/GameMenu/common.xml"/>
+
+
+<menu menuIndex="2" type="custom" imageType="artwork_front" alpha="0" scrollTime=".10" scrollAcceleration=".05" orientation="horizontal">
+	<itemDefaults spacing="2" y="center" x="center" xOrigin="center" yOrigin="center" fontSize="30" width="450" maxHeight="520" layer="15"/>
+	<item xOffset="-1450" yOffset="240" angle="20" alpha="0"/>
+	<item xOffset="-1020" yOffset="165" angle="-17.5" alpha="1">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item xOffset="-550" yOffset="45" angle="-10.5" alpha="1">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item frameLoop="playLoop" layer="15" width="575" maxHeight="610" fontSize="30" alpha="1" selected="true">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item xOffset="550" yOffset="45" angle="10.5" alpha="1">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item xOffset="1020" yOffset="165" angle="17.5" alpha="1">
+		<onMenuEnter menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item xOffset="1450" yOffset="240" angle="20" alpha="0"/>
+</menu>
+<!-- Horizontal 2D Wheel -->
+</layout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<!-- Layout ScreenSize -->
+<layout>
+<!-- Layout Bottom BAR -->
+	<image src="images/layouts/borde.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="15" scaleMode="stretch" group="Information Bar" subgroup="ButtonsSets" active="true" shared="XBox, PS1, Arcade, Clock, Games_Number"/>
+
+<!-- Layout Bottom BAR Clock -->
+	<text value="TIME : " x="1800" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" name="Clock" group="Information Bar" subgroup="Clocks" active="true" shared="Clock"/>
+	<reloadableText type="time" timeFormat="%R" alpha="1" x="1840" y="1065" xOrigin="left" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" fontColor="FFFFFF" layer="16" group="Information Bar" subgroup="Clocks" active="true" shared="Clock"/>
+
+<!-- Layout Information Games_Number -->
+	<text value="Games: " x="1510" y="1065" xOrigin="center" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" alpha="0" fontColor="FFFFFF" layer="16" name="Games Number" group="Information Bar" subgroup="Games Info" active="true" shared="Games Number">
+		  <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+	</text>
+    <reloadableScrollingText type="size" mode="layout" alpha="0" x="1550" y="1050" xOrigin="center" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" fontColor="FFFFFF" menuScrollReload="true" scrollingSpeed="0" layer="16" group="Information Bar" subgroup="Games Info" active="true" shared="Games Number">
+        <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+    </reloadableScrollingText>
+
+	
+	
+	<text value="/" x="1630" y="1065" xOrigin="center" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" alpha="0" fontColor="FFFFFF" layer="16" name="Total Possible Games" group="Information Bar" subgroup="Extra Games Info" active="true" shared="Total Possible Games">
+		  <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+	</text>
+	<reloadableText type="availablecollectionize" alpha="0" x="1635" y="1065" xOrigin="left" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" fontColor="ffffff" layer="16" group="Information Bar" subgroup="Extra Games Info" active="true" shared="Total Possible Games"> 
+	    <onMenuEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuExit menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onMenuExit>
+        <onMenuJumpEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onMenuJumpEnter>
+        <onMenuJumpExit menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onMenuJumpExit>
+        <onPlaylistEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onPlaylistEnter>
+        <onPlaylistExit menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onPlaylistExit>
+        <onHighlightEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onHighlightEnter>
+        <onHighlightExit menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onHighlightExit>
+        <onGameEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onGameEnter>
+        <onGameExit menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onGameExit>
+	</reloadableText>
+
+	
+	<!-- Game Count -->
+	<reloadableText type="collectionIndexSize" alpha="0" x="1635" y="1065" xOrigin="center" yOrigin="center" font="fonts/verdana.ttf" fontColor="FFFFFF" fontSize="30" loadFontSize="30" layer="16" group="Information Bar" subgroup="Games Info" active="true" shared="Games Number">
+		<onMenuEnter menuIndex="2">
+			<set duration=".001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+		<onMenuExit menuIndex="2">
+			<set duration=".001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuExit>
+	</reloadableText>
+
+<include src="configs/ButtomBar/Xbox.xml" name="Xbox" group="Information Bar" subgroup="ButtonsSets" active="true" shared="Xbox"/>
+<include src="configs/ButtomBar/Arcade.xml" name="Arcade" group="Information Bar" subgroup="ButtonsSets" active="false" shared="Arcade"/>
+<include src="configs/ButtomBar/Psx1.xml" name="Psx1" group="Information Bar" subgroup="ButtonsSets" active="false" shared="Psx1"/>
+
+<!-- Layout Bottom BAR ARCADE -->
+	<image src="${buttomSrc}a.png" x="20" y="1065" xOrigin="center" yOrigin="center" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}b.png" x="145" y="1065" xOrigin="center" yOrigin="center" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}y.png" x="245" y="1065" xOrigin="center" yOrigin="center" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}x.png" x="450" y="1065" xOrigin="center" yOrigin="center" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}all.png" x="625" y="1065" xOrigin="center" yOrigin="center" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}all.png" x="855" y="1065" xOrigin="center" yOrigin="center" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}l.png" x="1045" y="1065" xOrigin="center" yOrigin="center" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}r.png" x="1250" y="1065" xOrigin="center" yOrigin="center" width="30" height="30" layer="16" scaleMode="fit"/>
+	<image src="configs/ButtomBar/artwork/games.png" alpha="0" x="1425" y="1065" xOrigin="center" yOrigin="center" width="30" height="30" layer="16" scaleMode="fit" group="Information Bar" subgroup="Extra Games Info" active="true" shared="Total Possible Games">
+		<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+	</image>
+	<image src="configs/ButtomBar/artwork/clock.png" x="1740" y="1065" xOrigin="center" yOrigin="center" width="22" height="22" layer="16" scaleMode="fit" group="Information Bar" subgroup="Clocks" active="true" shared="Clock"/>
+	
+	<!-- Layout Bottom BAR Common TEXT for buttons -->
+	<text value="Accept " x="85" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="Information Bar" subgroup="ButtonsSets" active="true" shared="psx1, Xbox, Arcade"/>
+	<text value="Back " x="200" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="Information Bar" subgroup="ButtonsSets" active="true" shared="psx1, Xbox, Arcade"/>
+	<text value="Playlist Down" x="350" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="Information Bar" subgroup="ButtonsSets" active="true" shared="psx1, Xbox, Arcade"/>
+	<text value="Playlist Up" x="540" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="Information Bar" subgroup="ButtonsSets" active="true" shared="psx1, Xbox, Arcade"/>
+	<text value="L Remove Favs" x="745" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="Information Bar" subgroup="ButtonsSets" active="true" shared="psx1, Xbox, Arcade"/>
+	<text value="R Add Favs" x="950" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="Information Bar" subgroup="ButtonsSets" active="true" shared="psx1, Xbox, Arcade"/>
+	<text value="Letter Down" x="1150" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="Information Bar" subgroup="ButtonsSets" active="true" shared="psx1, Xbox, Arcade"/>
+	<text value="Letter Up" x="1340" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="Information Bar" subgroup="ButtonsSets" active="true" shared="psx1, Xbox, Arcade"/>
+	
+</layout>

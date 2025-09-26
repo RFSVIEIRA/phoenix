@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+<!-- SONIC -->
+<image src="images/animations/tails.gif" alpha="0" x="left" y="923" xOrigin="left" yOrigin="center" height="300" layer="17" angle="-2" speed="2500" frameLoop="playOnce" active="false" name="Sonic" group="Animations" subgroup="Animated Charts" shared="Sonic">
+    <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
+    <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
+</image>
+<image src="images/animations/sonic_shadow.gif" alpha="0" x="left" y="947" xOrigin="left" yOrigin="center" height="300" layer="17" angle="0" speed="2500" frameLoop="playOnce" active="false" name="Sonic" group="Animations" subgroup="Animated Charts" shared="Sonic">
+    <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
+    <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
+</image>
+<image src="images/animations/family.gif" alpha="0" x="right" y="965" xOrigin="right" yOrigin="center" height="300" layer="17" angle="0" speed="2500" frameLoop="playLoop" active="false" group="Animations" subgroup="Animated Charts" shared="Sonic">
+    <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
+    <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
+</image>
+<video src="sounds/Sonic.mp3" numLoops="0" volume="0" active="false" group="Animations" subgroup="Animated Charts" shared="Sonic">
+	<onMenuEnter menuIndex="0">
+		<set duration=".2"><animate type="volume" to=".33"/></set>
+	</onMenuEnter>
+	<onMenuExit menuIndex="0">
+		<set duration=".2"><animate type="volume" to="0"/></set>
+	</onMenuExit>
+</video>
+
+<!-- MARIO -->
+<image src="images/animations/marioDance.gif" alpha="0" x="right" y="903" xOrigin="right" yOrigin="center" height="300" layer="17" speed="2000" frameLoop="playLoop" scaleMode="fit" active="false" name="Mario" group="Animations" subgroup="Animated Charts" shared="Mario">
+    <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
+    <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
+</image>
+<image src="images/animations/princess.gif" alpha="0" x="right" xOffset="-150" y="870" xOrigin="right" yOrigin="center" height="350" layer="14" speed="1500" frameLoop="playLoop" active="false" group="Animations" subgroup="Animated Charts" shared="Mario">
+    <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
+    <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
+</image>
+<image src="images/animations/luigi.gif" alpha="0" x="right" xOffset="-430" y="895" xOrigin="right" yOrigin="center" height="300" scaleMode="fit" layer="17" speed="2000" frameLoop="playLoop" active="false" group="Animations" subgroup="Animated Charts" shared="Mario">
+    <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
+    <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
+</image>
+<image src="images/animations/flower.gif" alpha="0" x="left" y="907" xOrigin="left" yOrigin="center" height="300" layer="14" speed="25000" frameLoop="playLoop" active="false" group="Animations" subgroup="Animated Charts" shared="Mario">
+    <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
+    <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
+</image>
+<video src="sounds/Mario.mp3" numLoops="0" volume="0" active="false" group="Animations" subgroup="Animated Charts" shared="Mario">
+	<onMenuEnter menuIndex="0">
+		<set duration=".2"><animate type="volume" to=".33"/></set>
+	</onMenuEnter>
+	<onMenuExit menuIndex="0">
+		<set duration=".2"><animate type="volume" to="0"/></set>
+	</onMenuExit>
+</video>
+</layout>

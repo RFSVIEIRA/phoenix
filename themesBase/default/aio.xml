@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+  <variables>
+		<customiseLayout>false</customiseLayout>
+		<customiseGameLayout>false</customiseGameLayout>
+  </variables>
+	<include src="menus/default/aio/PandorasBox/PandorasBox.xml" name="Pandora Box" group="AIO Themes" subgroup="Themes" active="false" shared="Pandora Box"/>
+	<include src="menus/default/aio/PandorasBox4/PandorasBox4.xml" name="Pandora Box 4" group="AIO Themes" subgroup="Themes" active="true" shared="Pandora Box 4"/>
+</layout>

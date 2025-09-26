@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+<variables>
+<videoBezelCostumizeShow>true</videoBezelCostumizeShow>
+</variables>
+
+<reloadableVideo active="$showVideo" menuIndex="2" imageType="fanart" alpha="0" volume="0" x="$gameVideoX" y="$gameVideoY" xOrigin="center" yOrigin="center" width="$gameVideowidth" height="$gameVideoMheight" layer="$videoLayer">
+       <onMenuEnter menuIndex="2">
+        <set duration=".0001">
+            <animate type="alpha" to="1"/>
+            <animate type="volume" to="$gameVideoVolume"/>
+        </set>
+    </onMenuEnter>
+    <onMenuExit menuIndex="2">
+        <set duration=".0001">
+            <animate type="alpha" to="0"/>
+            <animate type="volume" to="0"/>
+        </set>
+    </onMenuExit>
+</reloadableVideo>
+
+<reloadableImage active="$showBezel" type="bezel_day" alpha="0" x="$gameVideoX" y="$gameVideoY" xOrigin="center" yOrigin="center" width="$gameVideowidth" height="$gameVideoMheight" layer="$bezelLayer">
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onPlaylistEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onPlaylistEnter>
+		<onPlaylistExit menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistExit>
+		<onMenuJumpEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpExit>
+		<onMenuScroll menuIndex="2"><set duration=".1"><animate type="alpha" to="1"/></set></onMenuScroll>
+		<onMenuIdle menuIndex="2"><set duration=".5"><animate type="nop"/></set><set duration=".5"><animate type="alpha" to="1"/></set></onMenuIdle>
+</reloadableImage>
+
+</layout>

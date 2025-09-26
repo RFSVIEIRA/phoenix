@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+	<variables>
+		<sysPath>menus/default/aio/PandorasBox4/images/system_select_aqua.png</sysPath>
+		<listPath>menus/default/aio/PandorasBox4/images/gamelist_aqua.png</listPath>
+	</variables>
+</layout>

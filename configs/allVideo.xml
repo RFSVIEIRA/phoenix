@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+<variables>
+<videoBezelCostumizeShow>true</videoBezelCostumizeShow>
+</variables>
+<!-- Main MENU VIDEO -->
+<reloadableVideo active="$showSystemVideo" imageType="video" alpha="0" volume="0" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" maxHeight="1080" layer="4">
+	<onMenuEnter menuIndex="0">
+		<set duration=".0001">
+			<animate type="volume" to="0"/>
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="volume" to="$systemVideoVolume"/>
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="volume" to="$gameVideoVolume"/>
+		</set>
+	</onMenuEnter>
+	<onPlaylistEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onPlaylistEnter>
+	<onPlaylistExit menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onPlaylistExit>
+	<onMenuJumpEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuJumpEnter>
+	<onMenuJumpExit menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuJumpExit>
+	<onMenuScroll menuIndex="1">
+		<set duration=".1">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="1">
+		<set duration="2">
+			<animate type="nop"/>
+		</set>
+		<set duration=".5">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableVideo>
+
+
+<!-- 
+ <reloadableVideo imageType="video" alpha="0" volume="0" x="0" y="0" width="1920" height="1080" backgroundColor="000000" backgroundAlpha="0" layer="3">
+	<onMenuEnter menuIndex="0">
+		<set duration=".0001">
+			<animate type="volume" to="0"/>
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="volume" to="$systemVideoVolume"/>
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onPlaylistEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onPlaylistEnter>
+	<onPlaylistExit menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onPlaylistExit>
+	<onMenuJumpEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuJumpEnter>
+	<onMenuJumpExit menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuJumpExit>
+	<onMenuScroll menuIndex="1">
+		<set duration=".1">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="1">
+		<set duration="2">
+			<animate type="nop"/>
+		</set>
+		<set duration=".5">
+			<animate type="alpha" to=".4"/>
+			<animate type="backgroundAlpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableVideo>  -->
+
+
+<reloadableImage active="$showBezel" type="bezel_day" alpha="0" x="$gameVideoX" y="$gameVideoY" xOrigin="center" yOrigin="center" width="$gameVideowidth" height="$gameVideoMheight" layer="$bezelLayer">
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onPlaylistEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onPlaylistEnter>
+		<onPlaylistExit menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onPlaylistExit>
+		<onMenuJumpEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuJumpEnter>
+		<onMenuJumpExit menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpExit>
+		<onMenuScroll menuIndex="2"><set duration=".1"><animate type="alpha" to="1"/></set></onMenuScroll>
+		<onMenuIdle menuIndex="2"><set duration=".5"><animate type="nop"/></set><set duration=".5"><animate type="alpha" to="1"/></set></onMenuIdle>
+</reloadableImage>
+
+
+
+<reloadableVideo active="$showVideo" imageType="video" alpha="0" volume="0" x="$gameVideoX" y="$gameVideoY" xOrigin="center" yOrigin="center" width="$gameVideowidth" height="$gameVideoMheight" layer="$videoLayer">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="volume" to="$systemVideoVolume"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="volume" to="$gameVideoVolume"/>
+		</set>
+	</onMenuEnter>
+	<onPlaylistEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onPlaylistEnter>
+	<onPlaylistExit menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onPlaylistExit>
+	<onMenuJumpEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuJumpEnter>
+	<onMenuJumpExit menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuJumpExit>
+	<onGameExit menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onGameExit>
+	<onMenuScroll menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="2">
+		<set duration=".8">
+			<animate type="nop"/>
+		</set>
+		<set duration=".2">
+			<animate type="alpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableVideo>
+
+<!-- <reloadableVideo imageType="video" alpha="0" volume="0" x="$gameVideoX" y="$gameVideoY" xOrigin="center" yOrigin="center" width="$gameVideowidth" height="756" backgroundColor="000000" backgroundAlpha="1" layer="$videoLayer">
+	<onMenuEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+			<animate type="volume" to=".99"/>
+		</set>
+	</onMenuEnter>
+	<onMenuEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuEnter>
+	<onPlaylistEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onPlaylistEnter>
+	<onPlaylistExit menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onPlaylistExit>
+	<onMenuJumpEnter menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuJumpEnter>
+	<onMenuJumpExit menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuJumpExit>
+	<onGameExit menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onGameExit>
+	<onMenuScroll menuIndex="2">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="backgroundAlpha" to="0"/>
+		</set>
+	</onMenuScroll>
+	<onMenuIdle menuIndex="2">
+		<set duration=".8">
+			<animate type="nop"/>
+		</set>
+		<set duration=".2">
+			<animate type="alpha" to="0.33"/>
+			<animate type="backgroundAlpha" to="1"/>
+		</set>
+	</onMenuIdle>
+</reloadableVideo> -->
+</layout>

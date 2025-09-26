@@ -1,0 +1,239 @@
+	<!-- Back2Basics by Hector -->
+	<!-- Permission to modify explicitly denied -->
+
+	<!-- Layout ScreenSize Perfect DOS VGA 437 Win.ttf -->
+	<layout width="1920" height="1080" font="fonts/Perfect DOS VGA 437 Win.ttf" fontColor="FFFFFF" loadFontSize="60" active="$customiseLayout">
+
+	<image src="images/MS-DOS1.png" alpha="1" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="2"/>
+	
+	<image src="images/shader1.png"  x="center" y="center" width="1920" height="1080" xOrigin="center" yOrigin="center" alpha="1" layer="19">
+		<onEnter>
+			<set duration=".001"><animate type="alpha" to="1"/></set>
+		</onEnter>
+	</image>
+	
+	<image src="images/floppy.gif" alpha="1" x="1600" y="130" xOrigin="center" yOrigin="center" height="200" layer="3" frameLoop="playInverted" speed= "7500" scaleMode="fit">
+	<onMenuEnter>
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuEnter>
+	
+		<onMenuIdle>
+			<set duration=".0001"><animate type="alpha" to="1"/></set>
+		</onMenuIdle>	
+	</image>
+	
+	<image src="images/floppy.gif" alpha="1" x="320" y="130" xOrigin="center" yOrigin="center" height="200" layer="3" frameLoop="playLoop" speed= "7500" scaleMode="fit">
+	<onMenuEnter>
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuEnter>
+		
+		<onMenuIdle>
+			<set duration=".0001"><animate type="alpha" to="1"/></set>
+		</onMenuIdle>
+	</image>
+
+	<reloadableVideo imageType="video" alpha="1" volume="1" x="660" y="865" xOrigin="center" yOrigin="center" width="440" maxHeight="440" layer="4" scaleMode="fit">
+		<onMenuEnter>
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuEnter>
+		<onMenuScroll>
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuScroll>
+		<onMenuIdle>
+			<set duration=".0001"><animate type="alpha" to="1"/></set>
+		</onMenuIdle>
+	</reloadableVideo>
+	
+	<text value="MS-DOS" x="490" y="42" xOrigin="center" yOrigin="center"  fontSize="25" loadFontSize="25" alpha="1" fontColor="ffffff" layer="3">
+	<onMenuEnter>
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuEnter>
+		<onMenuIdle>
+			<set duration=".0001"><animate type="alpha" to="1"/></set>
+		</onMenuIdle>
+	</text>
+
+	<reloadableImage type="year" mode="commonlayout" alpha="1" x="1423" y="42" xOrigin="center" yOrigin="center" height="20" menuScrollReload="true" layer="10">
+		<onMenuEnter>
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuEnter>
+		<onMenuScroll>
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuScroll>
+		<onMenuIdle>
+			<set duration=".0001"><animate type="alpha" to="1"/></set>
+		</onMenuIdle>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="story" alpha="0" x="1240" y="690" xOrigin="center" yOrigin="top" width="520" height="350"  fontSize="25" loadFontSize="25" fontColor="ffffff" direction="vertical" alignment="left" scrollingSpeed="14" startPosition="0" startTime="4" endTime=".0001" layer="3">
+		<onMenuEnter>
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuEnter>
+		<onMenuScroll>
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuScroll>
+		<onMenuIdle>
+			<set duration=".0001"><animate type="alpha" to="1"/></set>
+		</onMenuIdle>
+	</reloadableScrollingText>
+	
+	<reloadableImage type="logo" alpha="1" x="center" y="160" xOrigin="center" yOrigin="center" width="400" maxHeight="100" layer="3" scaleMode="fit">
+		<onGameEnter>
+			<set duration=".25"><animate type="nop"/></set>
+			<set duration=".5"><animate type="width" to="620"/><animate type="maxHeight" to="200"/><animate type="alpha" to="1"/></set>
+			<set duration="1"><animate type="nop"/></set>
+			
+		</onGameEnter>
+		<onGameExit>
+			<set duration=".25"><animate type="nop"/></set>
+			<set duration=".5"><animate type="width" to="400"/><animate type="maxHeight" to="100"/><animate type="alpha" to="1"/></set>
+			<set duration="1"><animate type="nop"/></set>
+		</onGameExit>
+	</reloadableImage>
+		
+	<menu orientation="vertical" scrollTime=".10" scrollAcceleration=".05" y="245" width="850" height="395">
+	<itemDefaults x="500" xOrigin="left" yOrigin="center" width="850" height="50" fontSize="30" loadFontSize="30" fontColor="ffffff"  layer="3"/>
+	<item index="0" spacing="-30" alpha="0"/>
+	<item index="1" spacing="-30" alpha="0"/>
+	<item index="2" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item index="3" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item index="4" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item index="5" spacing="2.0" alpha="1" selected="true" fontColor="000000">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item index="6" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item index="7" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+		<item index="8" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item index="9" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+		<item index="10" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item index="11" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item index="12" spacing="2.0" alpha="1">
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onMenuEnter>
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onMenuEnter>
+	</item>
+	<item index="13" spacing="2.0" alpha="0"/>
+	<item index="14" spacing="2.0" alpha="0"/>
+</menu>
+
+
+
+
+
+</layout>

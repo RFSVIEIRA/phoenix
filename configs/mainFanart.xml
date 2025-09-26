@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+	<menu menuIndex="0" type="custom" mode="layout" imageType="fanart" alpha="0" scrollTime=".0001" scrollAcceleration=".0001" orientation="horizontal" active="$isCommon">
+		<itemDefaults width="1920" height="1080" x="0" y="0" alpha="0" layer="2"/>
+		<item xOffset="-350" alpha="0"/>
+		<item selected="true" alpha="1">
+			<onMenuEnter menuIndex="1">
+				<set duration=".0001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuEnter>
+		</item>
+		<item xOffset="350" alpha="0"/>
+	</menu>
+	
+<!-- GRID FANART-->
+	<reloadableImage menuIndex="0" type="fanart" mode="layout" x="center" y="center" xOrigin="center" yOrigin="center" alpha="0" width="1920" maxHeight="1080" layer="2" active="$isGrid">
+		<onMenuEnter menuIndex="0">
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuEnter>
+		<onMenuScroll menuIndex="0">
+			<set duration=".0001"><animate type="alpha" to="0"/></set>
+		</onMenuScroll>
+		<onMenuIdle menuIndex="0">
+			<set duration="0.1"><animate type="nop"/></set>
+			<set duration=".0001"><animate type="alpha" to="1"/></set>
+		</onMenuIdle>
+	</reloadableImage>
+	
+</layout>

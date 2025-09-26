@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+
+<!-- Animations -->
+	<include src="animations/animations.xml"/>
+
+<!-- Main Menu  -->
+	<include src="menus/default/MainMenu/HBottom.xml" name="Horizontal Bottom" group="Main Menu" subgroup="MENU" active="true" shared="Horizontal Bottom"/>
+	<include src="menus/default/MainMenu/HCenter.xml" name="Horizontal Center" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Center"/>
+	<include src="menus/default/MainMenu/HTop.xml" name="Horizontal Top" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Top"/>	
+	<include src="menus/default/MainMenu/VLeft.xml" name="Vertical Left" group="Main Menu" subgroup="MENU" active="false" shared="Vertical Left"/>	
+	<include src="menus/default/MainMenu/VRight.xml" name="Vertical Right" group="Main Menu" subgroup="MENU" active="false" shared="Vertical Right"/>	
+	<include src="menus/default/MainMenu/HBWheel.xml" name="Horizontal Bottom Wheel" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Bottom Wheel"/>	
+	<include src="menus/default/MainMenu/HTWheel.xml" name="Horizontal Top Wheel" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Top Wheel"/>	
+	<include src="menus/default/MainMenu/VLWheel.xml" name="Vertical Wheel Left" group="Main Menu" subgroup="MENU" active="false" shared="Vertical Wheel Left"/>	
+	<include src="menus/default/MainMenu/VRWheel.xml" name="Vertical Wheel Right" group="Main Menu" subgroup="MENU" active="false" shared="Vertical Wheel Right"/>
+	<include src="menus/default/MainMenu/Roulette.xml" name="Roulette" group="Main Menu" subgroup="MENU" active="false" shared="Roulette"/>
+	<include src="menus/default/MainMenu/Grid.xml" name="Grid" group="Main Menu" subgroup="MENU" active="false" shared="Grid"/>
+	<include src="menus/default/MainMenu/list.xml" name="List" group="Main Menu" subgroup="MENU" active="false" shared="List"/>
+
+<!-- SYSTEM_MENU -->
+	<include src="menus/default/SystemMenu/HBottom.xml" name="Horizontal Bottom" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Bottom"/>
+	<include src="menus/default/SystemMenu/HCenter.xml" name="Horizontal Center" group="System Menu" subgroup="MENU" active="true" shared="Horizontal Center"/>
+	<include src="menus/default/SystemMenu/HTop.xml" name="Horizontal Top" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Top"/>
+	<include src="menus/default/SystemMenu/HBWheel.xml" name="Horizontal Bottom Wheel" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Bottom Wheel"/>
+	<include src="menus/default/SystemMenu/HTWheel.xml" name="Horizontal Top Wheel" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Top Wheel"/>
+	<include src="menus/default/SystemMenu/Roulette.xml" name="Roulette" group="System Menu" subgroup="MENU" active="false" shared="Roulette"/>
+	<include src="menus/default/SystemMenu/VLeft.xml" name="Vertical Left" group="System Menu" subgroup="MENU" active="false" shared="Vertical Left"/>
+	<include src="menus/default/SystemMenu/VLWheel.xml" name="Vertical Left Wheel" group="System Menu" subgroup="MENU" active="false" shared="Vertical Left Wheel"/>
+	<include src="menus/default/SystemMenu/VRight.xml" name="Vertical Right" group="System Menu" subgroup="MENU" active="false" shared="Vertical Right"/>
+	<include src="menus/default/SystemMenu/VRWheel.xml" name="Vertical Right Wheel" group="System Menu" subgroup="MENU" active="false" shared="Vertical Right Wheel"/>
+	<include src="menus/default/SystemMenu/Grid.xml" name="Grid" group="System Menu" subgroup="MENU" active="false" shared="Grid"/>
+	<include src="menus/default/SystemMenu/List.xml" name="List" group="System Menu" subgroup="MENU" active="false" shared="List"/>
+	
+
+	<!-- GAME_MENU -->
+	<include src="menus/default/GameMenu/HBottom.xml" name="Horizontal Bottom" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Bottom"/>
+	<include src="menus/default/GameMenu/HCenter.xml" name="Horizontal Center" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Center"/>
+	<include src="menus/default/GameMenu/HTop.xml" name="Horizontal Top" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Top"/>
+	<include src="menus/default/GameMenu/VLeft.xml" name="Vertical Left" group="Game Menu" subgroup="MENU" active="false" shared="Vertical Left"/>
+	<include src="menus/default/GameMenu/VRight.xml" name="Vertical Right" group="Game Menu" subgroup="MENU" active="false" shared="Vertical Right"/>
+	<include src="menus/default/GameMenu/GBottom.xml" name="Grid Bottom" group="Game Menu" subgroup="MENU" active="false" shared="Grid Bottom"/>
+	<include src="menus/default/GameMenu/GLeft.xml" name="Grid Left" group="Game Menu" subgroup="MENU" active="false" shared="Grid Left"/>
+	<include src="menus/default/GameMenu/HTWheel.xml" name="Horizontal TOP Wheel" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Top Wheel"/>
+	<include src="menus/default/GameMenu/HBWheel.xml" name="Horizontal Bottom Wheel" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Bottom Wheel"/>
+	<include src="menus/default/GameMenu/VRWheel.xml" name="Vertical Wheel Right" group="Game Menu" subgroup="MENU" active="false" shared="Vertical Wheel Right"/>
+	<include src="menus/default/GameMenu/VLWheel.xml" name="Vertical Wheel Left" group="Game Menu" subgroup="MENU" active="false" shared="Vertical Wheel Left"/>
+	<include src="menus/default/GameMenu/H2DWheel.xml" name="Horizontal 2D Wheel" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal 2D Wheel"/>
+	<include src="menus/default/GameMenu/Cover3D.xml" name="Cover 3D (Aura 2)" group="Game Menu" subgroup="MENU" active="false" shared="Cover 3D (Aura 2)"/>
+	<include src="menus/default/GameMenu/Cover3DTop.xml" name="Cover 3D Top (Aura 2)" group="Game Menu" subgroup="MENU" active="false" shared="Cover 3D Top (Aura 2)"/>
+	<include src="menus/default/GameMenu/big_screen.xml" name="Big Screen 2" group="Game Menu" subgroup="MENU" active="false" shared="Big Screen 2"/>
+	<include src="menus/default/GameMenu/dynamic.xml" name="Dynamic 2" group="Game Menu" subgroup="MENU" active="false" shared="Dynamic 2"/>
+	<include src="menus/default/GameMenu/List.xml" name="List" group="Game Menu" subgroup="MENU" active="false" shared="List"/>
+	<include src="menus/default/GameMenu/ListBottom.xml" name="List Bottom" group="Game Menu" subgroup="MENU" active="false" shared="List Bottom"/>
+	<include src="menus/default/GameMenu/gallery_v3.xml" name="Gallery V3" group="Game Menu" subgroup="MENU" active="false" shared="Gallery V3"/>
+	<include src="menus/default/GameMenu/horizon_v2.xml" name="Horizon V2" group="Game Menu" subgroup="MENU" active="false" shared="Horizon V2"/>
+	<include src="menus/default/GameMenu/kiosk_v2.xml" name="Kiosk V2" group="Game Menu" subgroup="MENU" active="false" shared="Kiosk V2"/>
+	<include src="menus/default/GameMenu/landscape_v2.xml" name="Landscape V2" group="Game Menu" subgroup="MENU" active="false" shared="Landscape V2"/>
+	<include src="menus/default/GameMenu/FrontPoster.xml" name="2D Front Poster" group="Game Menu" subgroup="MENU" active="false" shared="2D Front Poster"/>
+	<include src="menus/default/GameMenu/sectional.xml" name="Sectional" group="Game Menu" subgroup="MENU" active="false" shared="Sectional"/>
+	<include src="menus/default/GameMenu/shelf_case.xml" name="Shelf Case" group="Game Menu" subgroup="MENU" active="false" shared="Shelf Case"/>
+	<include src="menus/default/GameMenu/gameStats.xml" name="Game Stats 2D" group="Game Menu" subgroup="MENU" active="true" shared="Game Stats 2D"/>
+	
+	<!-- Layout Bottom BAR buttons System -->
+	<include src="configs/ButtomBar/all.xml" name="Information Bar" group="Information Bar" subgroup="Information Bar" active="true" shared="Information Bar"/>
+	<include src="configs/topBar/all.xml" name="Top Bar" group="Information Bar" subgroup="Information Bar" active="true" shared="Top Bar"/>
+	
+	<!-- FANART´s  -->
+	<include src="configs/bkgFanart.xml"/>
+	<include src="configs/mainFanart.xml" name="Static" group="Fanart" subgroup="Main Fanart" active="true" shared="Static"/>
+	<include src="configs/systemFanart.xml"/>
+	<include src="configs/gameFanart.xml"/>
+		
+	
+	<!-- VIDEO CONTROL  -->
+	<include src="configs/onlySystemVideo.xml" name="Only System Video" group="Videos" subgroup="Background Video" active="false" shared="Only System Video"/>
+	<include src="configs/onlyGameVideo.xml" name="Only Game Video" group="Videos" subgroup="Background Video" active="false" shared="Only Game Video"/>
+	<include src="configs/allVideo.xml" name="ALL Video" group="Videos" subgroup="Background Video" active="true" shared="ALL Video"/>
+	
+	<!-- VIDEO Volume CONTROL  -->
+	<include src="configs/systemVolOff.xml" name="Mute System" group="Videos" subgroup="Sound" active="false" shared="Mute System"/>
+	<include src="configs/gameVolOff.xml" name="Mute Game" group="Videos" subgroup="Sound" active="false" shared="Mute Game"/>
+	<include src="configs/allVolOff.xml" name="Mute All" group="Videos" subgroup="Sound" active="false" shared="Mute All"/>
+	
+	<!-- Commmon TO ALL  -->
+	<include src="common/toAll.xml"/>
+	
+</layout>
