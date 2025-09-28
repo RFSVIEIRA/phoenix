@@ -6,21 +6,21 @@ It’s not just about playing — it’s about rising in power every time you pr
 
 From the ashes, power rises.
 
-Themes/Art
+Base Pack:
+Built upon the solid foundation of Back2Basics/Minimum and its original credits.
+
+Outher Themes/Arts
 - Backgrounds Gemini A.I.
 - Pandora´s Box - RetroFe/LaunchBox 
 - Pandora´s Box 4 - RetroPi Forums
+- 1MiLLiON
 
 All artwork used remains copyright of their respective owners and creators so credit to them.
-
-
 
 Credits & Special Thanks:
 
 This theme would not have been possible without the incredible support, inspiration, and guidance throughout its development.
 
-Base Pack:
-Built upon the solid foundation of Back2Basics and its original credits.
 
 Design Influence:
 Inspired by layout from the TITAN Theme by P1ch3.
