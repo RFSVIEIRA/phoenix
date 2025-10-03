@@ -13,7 +13,7 @@
 			<animate type="yOrigin" to="center"/>
 			<animate type="width" to="960"/>
 			<animate type="maxHeight" to="540"/>
-			<animate type="alpha" to="0"/>
+			<animate type="alpha" to=".3"/>
 		</set>
 		<set duration="1">
 			<animate type="nop"/>

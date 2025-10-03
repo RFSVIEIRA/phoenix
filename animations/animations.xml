@@ -2,19 +2,19 @@
 <!-- RIP4GE by RFSVIEIRA -->
 <layout>
 <!-- SONIC -->
-<image src="images/animations/tails.gif" alpha="0" x="left" y="923" xOrigin="left" yOrigin="center" height="300" layer="17" angle="-2" speed="2500" frameLoop="playOnce" active="false" name="Sonic" group="Animations" subgroup="Animated Charts" shared="Sonic">
+<image src="images/animations/tails.gif" alpha="0" x="left" y="923" xOrigin="left" yOrigin="center" height="300" layer="17" angle="-2" speed="2500" frameLoop="playOnce" active="true" name="Sonic" group="Animations" subgroup="Animated Charts" shared="Sonic">
     <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
     <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
 </image>
-<image src="images/animations/sonic_shadow.gif" alpha="0" x="left" y="947" xOrigin="left" yOrigin="center" height="300" layer="17" angle="0" speed="2500" frameLoop="playOnce" active="false" name="Sonic" group="Animations" subgroup="Animated Charts" shared="Sonic">
+<image src="images/animations/sonic_shadow.gif" alpha="0" x="left" y="947" xOrigin="left" yOrigin="center" height="300" layer="17" angle="0" speed="2500" frameLoop="playOnce" active="true" name="Sonic" group="Animations" subgroup="Animated Charts" shared="Sonic">
     <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
     <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
 </image>
-<image src="images/animations/family.gif" alpha="0" x="right" y="965" xOrigin="right" yOrigin="center" height="300" layer="17" angle="0" speed="2500" frameLoop="playLoop" active="false" group="Animations" subgroup="Animated Charts" shared="Sonic">
+<image src="images/animations/family.gif" alpha="0" x="right" y="965" xOrigin="right" yOrigin="center" height="300" layer="17" angle="0" speed="2500" frameLoop="playLoop" active="true" group="Animations" subgroup="Animated Charts" shared="Sonic">
     <onMenuEnter menuIndex="0"><set duration=".25"><animate type="alpha" to="1"/></set></onMenuEnter>
     <onMenuExit menuIndex="0"><set duration=".25"><animate type="alpha" to="0"/></set></onMenuExit>
 </image>
-<video src="sounds/Sonic.mp3" numLoops="0" volume="0" active="false" group="Animations" subgroup="Animated Charts" shared="Sonic">
+<video src="sounds/Sonic.mp3" numLoops="0" volume="0" active="true" group="Animations" subgroup="Animated Charts" shared="Sonic">
 	<onMenuEnter menuIndex="0">
 		<set duration=".2"><animate type="volume" to=".33"/></set>
 	</onMenuEnter>
