@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RIP4GE by RFSVIEIRA -->
+<layout>
+<!-- SYSTEM_MENU -->
+	<include src="menus/default/SystemMenu/HBottom.xml" name="Horizontal Bottom" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Bottom"/>
+	<include src="menus/default/SystemMenu/HCenter.xml" name="Horizontal Center" group="System Menu" subgroup="MENU" active="true" shared="Horizontal Center"/>
+	<include src="menus/default/SystemMenu/HTop.xml" name="Horizontal Top" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Top"/>
+	<include src="menus/default/SystemMenu/HBWheel.xml" name="Horizontal Bottom Wheel" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Bottom Wheel"/>
+	<include src="menus/default/SystemMenu/HTWheel.xml" name="Horizontal Top Wheel" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Top Wheel"/>
+	<include src="menus/default/SystemMenu/Roulette.xml" name="Roulette" group="System Menu" subgroup="MENU" active="false" shared="Roulette"/>
+	<include src="menus/default/SystemMenu/VLeft.xml" name="Vertical Left" group="System Menu" subgroup="MENU" active="false" shared="Vertical Left"/>
+	<include src="menus/default/SystemMenu/VLWheel.xml" name="Vertical Left Wheel" group="System Menu" subgroup="MENU" active="false" shared="Vertical Left Wheel"/>
+	<include src="menus/default/SystemMenu/VRight.xml" name="Vertical Right" group="System Menu" subgroup="MENU" active="false" shared="Vertical Right"/>
+	<include src="menus/default/SystemMenu/VRWheel.xml" name="Vertical Right Wheel" group="System Menu" subgroup="MENU" active="false" shared="Vertical Right Wheel"/>
+	<include src="menus/default/SystemMenu/Grid.xml" name="Grid" group="System Menu" subgroup="MENU" active="false" shared="Grid"/>
+	<include src="menus/default/SystemMenu/List.xml" name="List" group="System Menu" subgroup="MENU" active="false" shared="List"/>
+</layout>

@@ -2,10 +2,32 @@
 <!-- RIP4GE by RFSVIEIRA -->
 <layout>
 	
-<!-- GAME MENU ALWAYS EXIST -->
+<!-- GAME_MENU -->
 	<include src="menus/default/GameMenu/HBottom.xml" name="Horizontal Bottom" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Bottom"/>
-	<include src="menus/default/GameMenu/VRWheel.xml" name="Vertical Wheel Right" group="Game Menu" subgroup="MENU" active="true" shared="Vertical Wheel Right"/>
+	<include src="menus/default/GameMenu/HCenter.xml" name="Horizontal Center" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Center"/>
+	<include src="menus/default/GameMenu/HTop.xml" name="Horizontal Top" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Top"/>
+	<include src="menus/default/GameMenu/VLeft.xml" name="Vertical Left" group="Game Menu" subgroup="MENU" active="false" shared="Vertical Left"/>
+	<include src="menus/default/GameMenu/VRight.xml" name="Vertical Right" group="Game Menu" subgroup="MENU" active="false" shared="Vertical Right"/>
 	<include src="menus/default/GameMenu/GBottom.xml" name="Grid Bottom" group="Game Menu" subgroup="MENU" active="false" shared="Grid Bottom"/>
 	<include src="menus/default/GameMenu/GLeft.xml" name="Grid Left" group="Game Menu" subgroup="MENU" active="false" shared="Grid Left"/>
+	<include src="menus/default/GameMenu/HTWheel.xml" name="Horizontal TOP Wheel" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Top Wheel"/>
+	<include src="menus/default/GameMenu/HBWheel.xml" name="Horizontal Bottom Wheel" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal Bottom Wheel"/>
+	<include src="menus/default/GameMenu/VRWheel.xml" name="Vertical Wheel Right" group="Game Menu" subgroup="MENU" active="false" shared="Vertical Wheel Right"/>
+	<include src="menus/default/GameMenu/VLWheel.xml" name="Vertical Wheel Left" group="Game Menu" subgroup="MENU" active="false" shared="Vertical Wheel Left"/>
+	<include src="menus/default/GameMenu/H2DWheel.xml" name="Horizontal 2D Wheel" group="Game Menu" subgroup="MENU" active="false" shared="Horizontal 2D Wheel"/>
+	<include src="menus/default/GameMenu/Cover3D.xml" name="Cover 3D (Aura 2)" group="Game Menu" subgroup="MENU" active="false" shared="Cover 3D (Aura 2)"/>
+	<include src="menus/default/GameMenu/Cover3DTop.xml" name="Cover 3D Top (Aura 2)" group="Game Menu" subgroup="MENU" active="false" shared="Cover 3D Top (Aura 2)"/>
+	<include src="menus/default/GameMenu/big_screen.xml" name="Big Screen 2" group="Game Menu" subgroup="MENU" active="false" shared="Big Screen 2"/>
+	<include src="menus/default/GameMenu/dynamic.xml" name="Dynamic 2" group="Game Menu" subgroup="MENU" active="false" shared="Dynamic 2"/>
+	<include src="menus/default/GameMenu/List.xml" name="List" group="Game Menu" subgroup="MENU" active="false" shared="List"/>
+	<include src="menus/default/GameMenu/ListBottom.xml" name="List Bottom" group="Game Menu" subgroup="MENU" active="false" shared="List Bottom"/>
+	<include src="menus/default/GameMenu/gallery_v3.xml" name="Gallery V3" group="Game Menu" subgroup="MENU" active="false" shared="Gallery V3"/>
+	<include src="menus/default/GameMenu/horizon_v2.xml" name="Horizon V2" group="Game Menu" subgroup="MENU" active="false" shared="Horizon V2"/>
+	<include src="menus/default/GameMenu/kiosk_v2.xml" name="Kiosk V2" group="Game Menu" subgroup="MENU" active="false" shared="Kiosk V2"/>
+	<include src="menus/default/GameMenu/landscape_v2.xml" name="Landscape V2" group="Game Menu" subgroup="MENU" active="false" shared="Landscape V2"/>
+	<include src="menus/default/GameMenu/FrontPoster.xml" name="2D Front Poster" group="Game Menu" subgroup="MENU" active="false" shared="2D Front Poster"/>
+	<include src="menus/default/GameMenu/sectional.xml" name="Sectional" group="Game Menu" subgroup="MENU" active="false" shared="Sectional"/>
+	<include src="menus/default/GameMenu/shelf_case.xml" name="Shelf Case" group="Game Menu" subgroup="MENU" active="false" shared="Shelf Case"/>
+	<include src="menus/default/GameMenu/gameStats.xml" name="Game Stats 2D" group="Game Menu" subgroup="MENU" active="true" shared="Game Stats 2D"/>
 
 </layout>

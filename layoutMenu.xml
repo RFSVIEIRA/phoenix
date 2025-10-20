@@ -60,7 +60,7 @@
     <!-- 
         Menu Language/Translation Settings:
         - Contains <entry> elements with key-value pairs for menu text.
-        - Keys: "main", "settings", "controls", "actions", "layout", "save_exit".
+        - Keys: "main", "settings", "controls", "actions", "layout", "save_exit, quit, (signOut,restart, Shut Down ONLY WEN IN KioskMode ) ".
     -->
     <menuLang>
         <entry key="main" text="RetroFE Configuration"/>
@@ -69,6 +69,13 @@
         <entry key="actions" text="Navigation Keys"/>
         <entry key="layout" text="Layout Options"/>
         <entry key="save_exit" text="Save &amp; Exit"/>
+        <entry key="signOut" text="Sign Out"/>
+        <entry key="restart" text="Restart"/>
+        <entry key="shutDown" text="Shut Down"/>
+        <entry key="signOut" text="Sign Out"/>
+        <entry key="restart" text="Restart"/>
+        <entry key="shutDown" text="Shut Down"/>
+        <entry key="quit" text="Quit"/>
     </menuLang>
 
     <!-- 

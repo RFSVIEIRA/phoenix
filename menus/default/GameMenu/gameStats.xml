@@ -46,6 +46,10 @@
 		<playListAnimHeight>25</playListAnimHeight>
 	</variables>
 	
+<reloadableImage type="logo" alpha="0" mode="system" x="1350" y="800" xOrigin="center" yOrigin="top" height="250" maxWidth="500" layer="17">
+<onMenuEnter menuIndex="2"><set duration=".2"><animate type="alpha" to="1"/></set></onMenuEnter>
+<onMenuEnter menuIndex="1"><set duration=".2"><animate type="alpha" to="0"/></set></onMenuEnter>
+</reloadableImage>
 	
 	<include src="menus/default/GameMenu/common.xml"/>
 	
@@ -163,7 +167,7 @@
 </image>
 
 
-<menu menuIndex="2" type="custom" imageType="artwork_front" scrollTime=".10" scrollAcceleration=".05" orientation="horizontal" textFallback="true" x="0" fontSize="30">
+<menu menuIndex="2" type="custom" imageType="artwork_front" scrollTime=".10" scrollAcceleration=".05" orientation="horizontal" textFallback="true" x="0" fontSize="30" scaleMode="fit">
 	<itemDefaults alpha="1" x="center" y="50" yOrigin="top" width="246" maxHeight="385" fontSize="30"/>
 	<item xOffset="-912" y="550" xOrigin="center" yOrigin="bottom" width="444" maxHeight="490" alpha="0"/>
 	<item alpha="1" xOffset="-690" y="550" selected="true" width="444" maxHeight="490" xOrigin="center" yOrigin="bottom" layer="8">

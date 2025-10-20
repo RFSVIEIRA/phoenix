@@ -1,7 +1,5 @@
-	<!-- Back2Basics by Hector -->
-	<!-- Permission to modify explicitly denied -->
 
-	<!-- Layout ScreenSize Perfect DOS VGA 437 Win.ttf -->
+	<!-- Layout ScreenSize -->
 	<layout width="1920" height="1080" font="fonts/Perfect DOS VGA 437 Win.ttf" fontColor="FFFFFF" loadFontSize="60" active="$customiseLayout">
 
 	<image src="images/MS-DOS1.png" alpha="1" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="2"/>
@@ -231,9 +229,5 @@
 	<item index="13" spacing="2.0" alpha="0"/>
 	<item index="14" spacing="2.0" alpha="0"/>
 </menu>
-
-
-
-
 
 </layout>
