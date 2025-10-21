@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- RIP4GE by RFSVIEIRA -->
+<!-- PHOENIX by RFSVIEIRA -->
 <layout>
 	<include src="themesBase/default/splitMenu.xml" name="Split Layout" group="Themes" subgroup="Menus" active="true" shared="Split Layout"/>
 	<include src="themesBase/default/mixMenu.xml" name="Mix Menu Layout" group="Themes" subgroup="Menus" active="false" shared="Mix Menu Layout"/>  

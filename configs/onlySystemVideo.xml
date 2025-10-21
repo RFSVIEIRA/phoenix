@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- RIP4GE by RFSVIEIRA -->
+<!-- PHOENIX by RFSVIEIRA -->
 <layout>
 
 <reloadableVideo active="$showSystemVideo" menuIndex="1" imageType="logo" alpha="0" volume="0" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" maxHeight="1080" layer="3">

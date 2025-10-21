@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- RIP4GE by RFSVIEIRA -->
+<!-- PHOENIX by RFSVIEIRA -->
 <layout>
 <!-- SONIC -->
 <image src="images/animations/tails.gif" alpha="0" x="left" y="923" xOrigin="left" yOrigin="center" height="300" layer="17" angle="-2" speed="2500" frameLoop="playOnce" active="true" name="Sonic" group="Animations" subgroup="Animated Charts" shared="Sonic">

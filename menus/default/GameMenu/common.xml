@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- RIP4GE by RFSVIEIRA -->
+<!-- PHOENIX by RFSVIEIRA -->
 <layout>
 
 <reloadableImage active="$logoShow" menuIndex="2" type="logo" alpha="0" x="$logoX" y="$logoY" width="$logoWidth" maxHeight="$logomaxHeight" xOrigin="center" yOrigin="center" layer="$logoLayer" menuScrollReload="true" scaleMode="fit">

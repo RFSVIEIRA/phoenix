@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- RIP4GE by RFSVIEIRA -->
+<!-- PHOENIX by RFSVIEIRA -->
 <layout>
 
 	<!-- Animations -->
@@ -20,7 +20,7 @@
 	<include src="configs/ButtomBar/all.xml" name="Information Bar" group="Information Bar" subgroup="Information Bar" active="true" shared="Information Bar"/>
 	<include src="configs/topBar/all.xml" name="Top Bar" group="Information Bar" subgroup="Information Bar" active="false" shared="Top Bar"/>
 	
-	<!-- FANART´s  -->
+	<!-- FANART?s  -->
 	<include src="configs/bkgFanart.xml"/>
 	<include src="configs/mainFanart.xml" name="Static" group="Fanart" subgroup="Main Fanart" active="false" shared="Static"/>
 	<include src="configs/systemFanart.xml"/>
