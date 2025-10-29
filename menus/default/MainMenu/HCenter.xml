@@ -6,11 +6,10 @@
 <include src="Common/mainCommon.xml"/>
 
 <!-- Menu Horizontal_Center  -->
-	<image alpha="1" src="images/layouts/HmenuMidle.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="6" scaleMode="fit">
+	<image alpha="0" src="images/layouts/HmenuMidle.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="6" scaleMode="fit">
 		<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
 		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
-		<onEnter menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onEnter>
-		<onExit menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="0"/></set></onExit>
+		
 	</image>
 	
 	<menu menuIndex="0" type="custom" imageType="icon" mode="layout" scrollTime=".2" scrollAcceleration=".1" minScrollTime=".1" orientation="horizontal" scaleMode="fit" layer="4">

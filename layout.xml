@@ -29,8 +29,8 @@
   </variables>
   
 <image alpha="1" src="images/overlay/blackShadow.png" x="-330" y="0" width="2580" height="1080" layer="19">
-		
 </image>
+
   <!-- Sounds -->
 
   <sound type="load" src="sounds/load.wav"/>

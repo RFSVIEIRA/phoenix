@@ -6,9 +6,9 @@
 	<include src="animations/animations.xml"/>
 
 <!-- Main Menu  -->
-	<include src="menus/default/MainMenu/HBottom.xml" name="Horizontal Bottom" group="Main Menu" subgroup="MENU" active="true" shared="Horizontal Bottom"/>
+	<include src="menus/default/MainMenu/HBottom.xml" name="Horizontal Bottom" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Bottom"/>
 	<include src="menus/default/MainMenu/HCenter.xml" name="Horizontal Center" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Center"/>
-	<include src="menus/default/MainMenu/HTop.xml" name="Horizontal Top" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Top"/>	
+	<include src="menus/default/MainMenu/HTop.xml" name="Horizontal Top" group="Main Menu" subgroup="MENU" active="true" shared="Horizontal Top"/>	
 	<include src="menus/default/MainMenu/VLeft.xml" name="Vertical Left" group="Main Menu" subgroup="MENU" active="false" shared="Vertical Left"/>	
 	<include src="menus/default/MainMenu/VRight.xml" name="Vertical Right" group="Main Menu" subgroup="MENU" active="false" shared="Vertical Right"/>	
 	<include src="menus/default/MainMenu/HBWheel.xml" name="Horizontal Bottom Wheel" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Bottom Wheel"/>	

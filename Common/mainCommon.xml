@@ -13,8 +13,7 @@
 		<item alpha=".75" selected="true">
 			<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
 			<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
-			<onEnter menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onEnter>
-			<onExit menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="0"/></set></onExit>
+			
 		</item>
 		<item alpha="0"/>
 	</menu>
@@ -24,8 +23,7 @@
 		<item alpha=".75" selected="true">
 			<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
 			<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
-			<onEnter menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onEnter>
-			<onExit menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="0"/></set></onExit>
+			
 		</item>
 		<item alpha="0"/>
 	</menu>

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- PHOENIX by RFSVIEIRA -->
-<!-- Layout ScreenSize -->
 <layout>
 <!-- Layout Bottom BAR -->
 	<image src="images/layouts/borde.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="15" scaleMode="stretch" group="Information Bar" subgroup="ButtonsSets" active="true" shared="XBox, PS1, Arcade, Clock, Games_Number"/>

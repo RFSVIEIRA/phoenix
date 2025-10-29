@@ -2,46 +2,47 @@
 <!-- PHOENIX by RFSVIEIRA -->
 <layout width="1920" height="1080">
 
-	
+	<menu monitor="1" menuIndex="1" type="custom" imageType="fanart" alpha="0" scrollTime=".16" scrollAcceleration=".05" orientation="horizontal">
+		<itemDefaults x="center" y="center" xOrigin="center" yOrigin="center" height="1080" width="1920" alpha="1" layer="0"/>
 
-	
-<!-- 	<reloadableImage monitor="1" type="logo" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="460" maxWidth="1280" layer="3">
-		<onMenuEnter><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
-		<onMenuScroll><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
-		<onGameEnter><set duration="1.7"><animate type="alpha" to="0"/></set></onGameEnter>
+		<item xOffset="-192" alpha="0"/>
+
+		<item selected="true" alpha="1">
+		<onMenuEnter	menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter	menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		</item>
+
+		<item xOffset="192" alpha="0"/>
+	</menu>
+	<menu monitor="1" menuIndex="1" type="custom" imageType="logo" alpha="0" scrollTime=".16" scrollAcceleration=".05" orientation="horizontal">
+		<itemDefaults x="center" y="center" xOrigin="center" yOrigin="center" height="648" maxWidth="1152" alpha="0" layer="4"/>
+
+		<item xOffset="-192" alpha="0"/>
+
+		<item selected="true" alpha="1">
+		<onMenuEnter	menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter	menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		</item>
+
+		<item xOffset="192" alpha="0"/>
+	</menu>
+	<reloadableImage monitor="1" type="logo" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="648" maxWidth="1152" layer="3">
+		<onMenuEnter		><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuScroll		><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
+		
 		<onMenuIdle>
 			<set duration="1.2">
-				<animate type="maxWidth" to="1344"/>
-				<animate type="height" to="484"/>
+				<animate type="maxWidth" to="1210"/>
+				<animate type="height" to="680"/>
 				<animate type="alpha" to="0"/>
 			</set>
 			<set duration=".3"><animate type="nop"/></set>
 			<set duration="0.001">
-				<animate type="maxWidth" to="1280"/>
-				<animate type="height" to="460"/>
+				<animate type="maxWidth" to="1152"/>
+				<animate type="height" to="648"/>
 				<animate type="alpha" to=".6"/>
 			</set>
 		</onMenuIdle>
-	</reloadableImage> -->
-
-
-	<reloadableImage monitor="1" type="fanart" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="1080" width="1920" containerX="0" containerY="270" containerWidth="1920" containerHeight="540" layer="0" scaleMode="fit">
-		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
-		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
 	</reloadableImage>
-
-
-<menu monitor="1" menuIndex="2" type="custom" imageType="logo" alpha="0" scrollTime=".10" scrollAcceleration=".025" orientation="horizontal" scaleMode="fit">
-		<itemDefaults x="center" y="center" xOrigin="center" yOrigin="center" height="470" maxWidth="1152" alpha="0" layer="4"/>
-
-		<item xOffset="-480" maxWidth="1382" height="778" alpha="0"/>
-
-		<item selected="true" alpha="1">
-		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
-		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
-		</item>
-
-		<item xOffset="480" maxWidth="1382" height="778" alpha="0"/>
-	</menu>
 
 </layout>

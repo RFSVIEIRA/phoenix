@@ -8,8 +8,6 @@
 	<image menuIndex="0" alpha="0" src="images/layouts/verticalWheelRight.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="6" scaleMode="fit">
 			<onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
 			<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
-			<onEnter menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onEnter>
-			<onExit menuIndex="0"><set duration=".0001"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="0"/></set></onExit>
 	</image>
 	
 	<menu menuIndex="0" type="custom" imageType="icon" mode="layout" alpha="0" scrollTime=".1" scrollAcceleration=".05" minScrollTime=".1" orientation="vertical" scaleMode="fit">

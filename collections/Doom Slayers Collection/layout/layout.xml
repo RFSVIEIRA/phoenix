@@ -1,0 +1,235 @@
+	<!-----------------Doom Theme by P1ch3----------------->
+
+
+	<layout width="1920" height="1080" font="fonts/DooM.ttf" fontColor="99ff33">
+
+	<sound type="load" src="sounds/load.wav" />
+	<sound type="select" src="sounds/select.wav" />
+
+	<!-----------------System VIGNETTE----------------->
+
+
+	<image src="images/vignettedoom.png" alpha="1" x="0" y="0" width="stretch" height="stretch" layer="5"/>
+
+
+	<!-----------------SYSTEM LOGO----------------->
+
+
+	<image src="images/systemlogo.png" mode="alpha" x="center" y="center" xOrigin="center" yOrigin="bottom" width="stretch" height="stretch" layer="7">
+		<onIdle><set duration="1"><animate type="yOrigin" to="center"/></set></onIdle>
+	</image>
+
+
+	<!-----------------SYSTEM BACKGROUNG IMAGE----------------->
+
+
+	<image src="images/systembackground.png" alpha="1" x="0" y="0" width="stretch" height="stretch" layer="6"/>
+
+
+	<!-----------------MUGS----------------->
+
+
+	<image src="images/mugs.png" x="0" y="0" width="stretch" height="stretch" layer="13">
+		<onIdle>
+			<set duration="2.2"><animate type="alpha" from="1" to="1"/></set>    
+			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.05"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.02"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.03"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="3.30"><animate type="alpha" from="1" to="1"/></set>    
+			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.05"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.02"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.03"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.02"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.03"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.05"><animate type="alpha" from="0" to="1"/></set>
+		</onIdle>
+	</image>
+
+
+	<!-----------------SCREENS----------------->
+
+
+	<image src="images/screens.png" x="0" y="0" width="stretch" height="stretch" layer="12">
+		<onIdle>
+			<set duration="2.7"><animate type="alpha" from="1" to="1"/></set>    
+			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.05"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.02"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.03"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.02"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.03"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.05"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="3.7"><animate type="alpha" from="1" to="1"/></set>    
+			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.05"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.02"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.03"><animate type="alpha" from="0" to="1"/></set>
+		</onIdle>
+	</image>
+
+
+	<!-----------------HEARTBEAT----------------->
+
+
+	<image src="images/heartbeat.png" x="0" y="0" width="stretch" height="stretch" layer="12">
+		<onIdle>
+			<set duration="0.33"><animate type="alpha" from="0" to="0"/></set>    
+			<set duration="0.33"><animate type="alpha" from="0" to="1"/></set>
+		</onIdle>
+	</image>
+
+
+	<!-----------------ALARM----------------->
+
+
+	<image src="images/alarm.png" x="0" y="0" width="stretch" height="stretch" layer="12">
+		<onIdle>
+			<set duration="3"><animate type="alpha" from="0" to="0"/></set>    
+			<set duration="0.01"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.66"><animate type="alpha" from="1" to="1"/></set>
+ 			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+		</onIdle>
+	</image>
+
+
+	<!-----------------INFOBAR----------------->
+
+
+	<image src="images/infobar.png" alpha="1" x="320" y="990" width="1280" height="92" layer="13">
+		<onIdle>
+			<set duration="2.7"><animate type="alpha" from="1" to="1"/></set>    
+			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.05"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.02"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.03"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.02"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.03"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.05"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="3.7"><animate type="alpha" from="1" to="1"/></set>    
+			<set duration="0.01"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.05"><animate type="alpha" from="0" to="1"/></set>
+			<set duration="0.02"><animate type="alpha" from="1" to="0"/></set>
+			<set duration="0.03"><animate type="alpha" from="0" to="1"/></set>
+		</onIdle>
+	</image>
+
+	
+	<!-----------------System InfoBar text----------------->
+
+
+	<reloadableText type="title" alpha="1" x="center" y="1040" maxWidth="1920" height="50" xOrigin="center" yOrigin="center" font="fonts/DooM.ttf" fontSize="50" loadFontSize="50" fontColor="99ff33" layer="14"/>
+
+
+	<!-----------------VIDEO----------------->
+
+
+	<reloadableVideo imageType="video" alpha="1" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" maxHeight="1080" layer="0"/>
+
+
+	<!-----------------Loading----------------->
+
+
+	<image src="images/Black.png" alpha="0" x="0" y="0" xOrigin="left" yOrigin="bottom" width="1920" height="540" layer="19">
+		<onGameEnter><set duration=".5"><animate type="yOrigin" to="top"/><animate type="alpha" to="1"/></set></onGameEnter>
+		<onGameExit><set duration=".5"><animate type="yOrigin" to="bottom"/><animate type="alpha" to="0"/></set></onGameExit>
+	</image>
+
+
+	<image src="images/Black.png" alpha="0" x="0" y="1080" xOrigin="left" yOrigin="top" width="1920" height="540" layer="19">
+		<onGameEnter><set duration=".5"><animate type="yOrigin" to="bottom"/><animate type="alpha" to="1"/></set></onGameEnter>
+		<onGameExit><set duration=".5"><animate type="yOrigin" to="top"/><animate type="alpha" to="0"/></set></onGameExit>
+	</image>
+
+
+	<reloadableImage type="logo" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" width="1" maxHeight="1" layer="19">
+		<onGameEnter>
+			<set duration=".25"><animate type="nop"/></set>
+			<set duration=".5"><animate type="width" to="960"/><animate type="maxHeight" to="540"/><animate type="alpha" to="1"/></set>
+			<set duration="1"><animate type="nop"/></set>
+			<set duration=".25"><animate type="width" to="1920"/><animate type="maxHeight" to="1080"/><animate type="alpha" to="0"/></set>
+		</onGameEnter>
+		<onGameExit><set duration=".0001"><animate type="width" to="1"/><animate type="maxHeight" to="1"/><animate type="alpha" to="0"/></set></onGameExit>
+	</reloadableImage>
+
+
+	<!-----------------Number of Games----------------->
+
+
+	<reloadableText type="collectionSize" x="40" y="1045" xOrigin="left" yOrigin="top" fontSize="15" loadFontSize="15" alpha="1" layer="7"/>
+	<text value="|" x="33" y="1045" xOrigin="left" yOrigin="top" fontSize="15" loadFontSize="15" alpha="1" layer="7"/>
+	<reloadableText type="collectionIndex" x="30" y="1045" xOrigin="right" yOrigin="top" fontSize="15" loadFontSize="15" alpha="1" menuScrollReload="true" layer="7"/>
+
+
+	<!-----------------Menu Wheel----------------->
+
+
+	<menu type="custom" imageType="logo" width="500" height="100" scrollTime=".20" scrollAcceleration=".05" orientation="vertical">
+  	<itemDefaults x="1100" y="center" xOrigin="center" yOrigin="center" width="200" layer="13"/>
+	<item xOffset="830" angle="39" yOffset="-664" alpha="0" >
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1290"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="830"/></set></onGameExit>
+ 	</item>
+	<item xOffset="770" angle="32" yOffset="-568" alpha="1">
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1230"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="770"/></set></onGameExit>
+	</item>
+	<item xOffset="710" angle="27" yOffset="-464" alpha="1">
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1170"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="710"/></set></onGameExit>
+	</item>
+	<item xOffset="665" angle="20" yOffset="-354" alpha="1">
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1125"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="665"/></set></onGameExit>
+	</item>
+	<item xOffset="630" angle="14" yOffset="-238" alpha="1">
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1090"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="630"/></set></onGameExit>
+	</item>
+	<item xOffset="610" angle="8" yOffset="-120" alpha="1">
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1070"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="610"/></set></onGameExit>
+	</item>
+
+	<item xOffset="600" yOffset="0" layer="14" fontSize="50" width="400" alpha="1" selected="true">
+		<onMenuIdle><set duration="1.5"><animate type="nop"/></set><set duration=".5"><animate type="y" to="1076"/><animate type="yOrigin" to="bottom"/></set><set duration="1.5"><animate type="nop"/></set><set duration=".5"><animate type="alpha" to="0"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="y" to="center"/><animate type="yOrigin" to="center"/><animate type="alpha" to="1"/></set></onGameExit>
+ 	</item>
+
+	<item xOffset="610" angle="-8" yOffset="120" >
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1070"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="610"/></set></onGameExit>
+	</item>
+	<item xOffset="630" angle="-14" yOffset="238" >
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1090"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="630"/></set></onGameExit>
+	</item>
+	<item xOffset="665" angle="-20" yOffset="354" >
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1125"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="665"/></set></onGameExit>
+	</item>
+	<item xOffset="710" angle="-27" yOffset="464" >
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1170"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="710"/></set></onGameExit>
+	</item>
+	<item xOffset="770" angle="-32" yOffset="568" >
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1230"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="770"/></set></onGameExit>
+ 	</item>
+	<item xOffset="830" angle="-39" yOffset="664" alpha="0" >
+		<onMenuIdle><set duration="1"><animate type="nop"/></set><set duration=".5"><animate type="xOffset" to="1290"/></set></onMenuIdle>
+		<onGameExit><set duration=".0001"><animate type="xOffset" to="830"/></set></onGameExit>
+	</item>
+
+
+   </menu>
+
+
+
+
+
+</layout>
