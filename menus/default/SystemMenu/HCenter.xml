@@ -13,7 +13,7 @@
 		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
 	</image>
 	
-	<menu menuIndex="1" type="custom" imageType="logo" scrollTime=".2" scrollAcceleration=".1" minScrollTime=".1" orientation="horizontal" scaleMode="fit" layer="4">
+	<menu menuIndex="1" type="custom" imageType="logo" scrollTime=".16" scrollAcceleration=".05" orientation="horizontal" scaleMode="fit" layer="4">
 		<itemDefaults alpha="1" x="center" y="center" width="200" xOrigin="center" yOrigin="center" layer="6"/>
 		 <item xOffset="-1000" alpha="0"/>
     <item xOffset="-835">

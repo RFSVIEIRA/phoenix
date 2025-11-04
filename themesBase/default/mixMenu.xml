@@ -31,8 +31,8 @@
 	<!-- <include src="common/toAll.xml"/> -->
 	
 	<!-- VIDEO CONTROL  -->
-	<include src="Common/onlySystemVideo.xml" name="Only System Video" group="General" subgroup="Background Video" active="true" shared="Only System Video"/>
-	<include src="Common/onlyGameVideo.xml" name="Only Game Video" group="General" subgroup="Background Video" active="false" shared="Only Game Video"/>
-	<include src="Common/allVideo.xml" name="ALL Video" group="General" subgroup="Background Video" active="false" shared="ALL Video"/>
+	<include src="configs/onlySystemVideo.xml" name="Only System Video" group="Videos" subgroup="Background Video" active="false" shared="Only System Video"/>
+	<include src="configs/onlyGameVideo.xml" name="Only Game Video" group="Videos" subgroup="Background Video" active="false" shared="Only Game Video"/>
+	<include src="configs/allVideo.xml" name="ALL Video" group="Videos" subgroup="Background Video" active="true" shared="ALL Video"/>
 
 </layout>

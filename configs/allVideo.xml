@@ -50,10 +50,10 @@
 		</set>
 	</onMenuScroll>
 	<onMenuIdle menuIndex="1">
-		<set duration="2">
+		<set duration="1">
 			<animate type="nop"/>
 		</set>
-		<set duration=".5">
+		<set duration=".0001">
 			<animate type="alpha" to="1"/>
 		</set>
 	</onMenuIdle>
@@ -132,7 +132,7 @@
 		<onMenuJumpEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuJumpEnter>
 		<onMenuJumpExit menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuJumpExit>
 		<onMenuScroll menuIndex="2"><set duration=".1"><animate type="alpha" to="1"/></set></onMenuScroll>
-		<onMenuIdle menuIndex="2"><set duration=".5"><animate type="nop"/></set><set duration=".5"><animate type="alpha" to="1"/></set></onMenuIdle>
+		<onMenuIdle menuIndex="2"><set duration="1"><animate type="nop"/></set><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuIdle>
 </reloadableImage>
 
 
@@ -181,10 +181,10 @@
 		</set>
 	</onMenuScroll>
 	<onMenuIdle menuIndex="2">
-		<set duration=".8">
+		<set duration="1">
 			<animate type="nop"/>
 		</set>
-		<set duration=".2">
+		<set duration=".0001">
 			<animate type="alpha" to="1"/>
 		</set>
 	</onMenuIdle>

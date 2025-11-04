@@ -2,14 +2,14 @@
 <!-- PHOENIX by RFSVIEIRA -->
 <layout width="1920" height="1080">
 
-	<menu monitor="1" menuIndex="1" type="custom" imageType="fanart" alpha="0" scrollTime=".16" scrollAcceleration=".05" orientation="horizontal">
+<!-- 	<menu monitor="1" menuIndex="1" type="custom" imageType="fanart" alpha="0" scrollTime=".16" scrollAcceleration=".05" orientation="horizontal">
 		<itemDefaults x="center" y="center" xOrigin="center" yOrigin="center" height="1080" width="1920" alpha="1" layer="0"/>
 
 		<item xOffset="-192" alpha="0"/>
 
 		<item selected="true" alpha="1">
-		<onMenuEnter	menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
-		<onMenuEnter	menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
 		</item>
 
 		<item xOffset="192" alpha="0"/>
@@ -20,19 +20,19 @@
 		<item xOffset="-192" alpha="0"/>
 
 		<item selected="true" alpha="1">
-		<onMenuEnter	menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
-		<onMenuEnter	menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
 		</item>
 
 		<item xOffset="192" alpha="0"/>
-	</menu>
+	</menu> -->
 	<reloadableImage monitor="1" type="logo" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="648" maxWidth="1152" layer="3">
-		<onMenuEnter		><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
-		<onMenuScroll		><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
+		<onMenuEnter><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuScroll><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
 		
 		<onMenuIdle>
 			<set duration="1.2">
-				<animate type="maxWidth" to="1210"/>
+				<animate type="maxWidth" to="1250"/>
 				<animate type="height" to="680"/>
 				<animate type="alpha" to="0"/>
 			</set>
@@ -44,5 +44,38 @@
 			</set>
 		</onMenuIdle>
 	</reloadableImage>
+	
+	
+	<reloadableImage monitor="1" type="logo" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="648" maxWidth="1152" layer="4">
+		<onMenuEnter><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuScroll><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
+		
+		<onMenuIdle>
+			<set duration=".0001"><animate type="alpha" to="1"/></set>
+		</onMenuIdle>
+	</reloadableImage>
+<!-- 	
+	<reloadableImage monitor="1" type="fanart" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="1080" maxWidth="1920" layer="1">
+		<onMenuEnter><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+		<onMenuScroll><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
+		
+		<onMenuIdle>
+			<set duration=".0001"><animate type="alpha" to="1"/></set>
+		</onMenuIdle>
+	</reloadableImage>
+	
+<reloadableVideo   monitor="1"   imageType="video"  x="center"  y="center"  width="1920"  maxHeight="1080"   alpha="0"  volume="0"  layer="19">
+   <onMenuEnter><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+	<onMenuScroll><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
+	<onMenuIdle>
+		<set duration=".0001"><animate type="alpha" to="1"/></set>
+	</onMenuIdle>
+  </reloadableVideo> -->
+	
+	
 
+
+<reloadableVideo type="video" volume="0" imageType="fanart" monitor="1" x="0" y="0" width="stretch" height="stretch" layer="2" />
+
+<include src="monitors/openClose.xml"/>
 </layout>

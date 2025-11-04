@@ -5,7 +5,7 @@
 <reloadableVideo active="$showSystemVideo" menuIndex="1" imageType="logo" alpha="0" volume="0" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" maxHeight="1080" layer="3">
         <onMenuEnter menuIndex="1">
         <set duration=".0001">
-            <animate type="alpha" to="1"/>
+            <animate type="alpha" to=".99"/>
             <animate type="volume" to="$systemVideoVolume"/>
         </set>
     </onMenuEnter>

@@ -7,8 +7,8 @@
 
 <!-- Main Menu  -->
 	<include src="menus/default/MainMenu/HBottom.xml" name="Horizontal Bottom" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Bottom"/>
-	<include src="menus/default/MainMenu/HCenter.xml" name="Horizontal Center" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Center"/>
-	<include src="menus/default/MainMenu/HTop.xml" name="Horizontal Top" group="Main Menu" subgroup="MENU" active="true" shared="Horizontal Top"/>	
+	<include src="menus/default/MainMenu/HCenter.xml" name="Horizontal Center" group="Main Menu" subgroup="MENU" active="true" shared="Horizontal Center"/>
+	<include src="menus/default/MainMenu/HTop.xml" name="Horizontal Top" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Top"/>	
 	<include src="menus/default/MainMenu/VLeft.xml" name="Vertical Left" group="Main Menu" subgroup="MENU" active="false" shared="Vertical Left"/>	
 	<include src="menus/default/MainMenu/VRight.xml" name="Vertical Right" group="Main Menu" subgroup="MENU" active="false" shared="Vertical Right"/>	
 	<include src="menus/default/MainMenu/HBWheel.xml" name="Horizontal Bottom Wheel" group="Main Menu" subgroup="MENU" active="false" shared="Horizontal Bottom Wheel"/>	
@@ -20,8 +20,8 @@
 	<include src="menus/default/MainMenu/list.xml" name="List" group="Main Menu" subgroup="MENU" active="false" shared="List"/>
 
 <!-- SYSTEM_MENU -->
-	<include src="menus/default/SystemMenu/HBottom.xml" name="Horizontal Bottom" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Bottom"/>
-	<include src="menus/default/SystemMenu/HCenter.xml" name="Horizontal Center" group="System Menu" subgroup="MENU" active="true" shared="Horizontal Center"/>
+	<include src="menus/default/SystemMenu/HBottom.xml" name="Horizontal Bottom" group="System Menu" subgroup="MENU" active="true" shared="Horizontal Bottom"/>
+	<include src="menus/default/SystemMenu/HCenter.xml" name="Horizontal Center" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Center"/>
 	<include src="menus/default/SystemMenu/HTop.xml" name="Horizontal Top" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Top"/>
 	<include src="menus/default/SystemMenu/HBWheel.xml" name="Horizontal Bottom Wheel" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Bottom Wheel"/>
 	<include src="menus/default/SystemMenu/HTWheel.xml" name="Horizontal Top Wheel" group="System Menu" subgroup="MENU" active="false" shared="Horizontal Top Wheel"/>

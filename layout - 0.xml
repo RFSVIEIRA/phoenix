@@ -3,3 +3,8 @@
 	<include src="monitors/2 Monitors Full.xml" name="Full Screen ON" group="General" subgroup="2nd Screen Media" active="false" shared="Full Screen ON"/>
 	<include src="monitors/2 Monitors Marquee.xml" name="Marquee ON" group="General" subgroup="2nd Screen Media" active="true" shared="Marquee ON"/>
 </layout>
+
+
+<!-- <layout width="1920" height="1080" >
+    <reloadableVideo monitor="1" type="video" volume="0" imageType="fanart" x="0" y="0" width="stretch" height="stretch" layer="10" />
+</layout> -->
