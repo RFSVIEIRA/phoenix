@@ -26,11 +26,11 @@
 
 		<item xOffset="192" alpha="0"/>
 	</menu> -->
-	<reloadableImage monitor="1" type="logo" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="648" maxWidth="1152" layer="3">
+	<reloadableImage  monitor="1" type="logo" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="648" maxWidth="1152" layer="3">
 		<onMenuEnter><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
 		<onMenuScroll><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
 		
-		<onMenuIdle>
+		<onMenuIdle menuIndex="!0">
 			<set duration="1.2">
 				<animate type="maxWidth" to="1250"/>
 				<animate type="height" to="680"/>
@@ -46,11 +46,11 @@
 	</reloadableImage>
 	
 	
-	<reloadableImage monitor="1" type="logo" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="648" maxWidth="1152" layer="4">
+	<reloadableImage   monitor="1" type="logo" alpha="0" x="center" y="center" xOrigin="center" yOrigin="center" height="648" maxWidth="1152" layer="4">
 		<onMenuEnter><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
 		<onMenuScroll><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuScroll>
 		
-		<onMenuIdle>
+		<onMenuIdle menuIndex="!0">
 			<set duration=".0001"><animate type="alpha" to="1"/></set>
 		</onMenuIdle>
 	</reloadableImage>
