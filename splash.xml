@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.00" encoding="UTF-8"?>
 <layout width="1920" height="1080">
    
 	<include src="monitors/splash.xml" name="Splash ON" group="General" subgroup="1st Screen Splash" active="false" shared="Splash ON"/>
