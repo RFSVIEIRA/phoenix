@@ -1,0 +1,605 @@
+<!-- PHOENIX by RFSVIEIRA -->
+<layout width="1920" height="1080" font="fonts/verdana.ttf" fontColor="FFFFFF" loadFontSize="60">
+
+	<image src="force/background.png" width="1920" height ="1080" layer="0"/>
+
+	<menu menuIndex="0" mode="system" type="custom" imageType="fanart" >
+		<itemDefaults alpha="0" x="center" y="center"  xOrigin="center" yOrigin="center" width="1920" height="1080" containerX="0" containerY="0" containerWidth="1920" containerHeight="1080" layer="4"/>
+		<item selected="true" alpha=".4">
+			<onEnter>
+					<set duration=".5"><animate type="width" from="2220" to="1920"/></set>
+					<set duration=".6"><animate type="alpha" to=".05"/> </set>
+			</onEnter>
+		</item>
+	</menu>
+
+	<image src="force/reflection.png" alpha="1" y="716" width="1920" height="366" layer="4"/>
+
+	<image src="force/background.png" x="0" y="0" alpha="0" width="1920" height="1080" containerX="0" containerY="0" containerWidth="0" containerHeight="1080" layer="7">
+		<onEnter >
+			<set duration=".6"><animate type="alpha" to="1"/><animate type="containerWidth" to="1420"/></set>
+		</onEnter>
+	</image>
+
+
+<!-- Artwork front -->
+	<menu menuIndex="0" mode="system" type="custom" imageType="artwork_front" scaleMode="fit">
+		<itemDefaults x="1450" y="-100" xOrigin="right" yOrigin="center" alpha="0" width="132" spacing="10" layer="11"/>
+		<item selected="true" alpha="1" >
+			<onEnter>
+			<!-- Grow with ark-->
+				<set duration=".8">
+					<animate type="alpha" to="1" algorithm="easeOutQuad"/>
+					<animate type="x"  to="285" algorithm="easeInOutSine"/>
+					<animate type="y"  to="center" algorithm="easeOutCubic"/>
+					<animate type="width" from="5" to="520" algorithm="easeOutBack"/>
+					<animate type="xOrigin" to="center" algorithm="easeOutQuad"/>
+				</set>
+				<set duration=".2">
+					<animate type="width" from="520" to="480" algorithm="easeOutBack"/>
+				</set>
+			</onEnter>
+		</item>
+	</menu>
+
+<!-- Background of Artwork front -->
+	<menu menuIndex="0" mode="commonlayout" type="custom" imageType="cristal" scaleMode="stretch">
+		<itemDefaults x="1450" y="-100"  xOrigin="right" yOrigin="center" alpha="0" width="132"  spacing="10" layer="12"/>
+		<item selected="true" alpha="1" >
+			<onEnter>
+				<set duration=".8">
+					<animate type="alpha" to="1" algorithm="easeOutQuad"/>
+					<animate type="x"  to="285" algorithm="easeInOutSine"/>
+					<animate type="y"  to="center" algorithm="easeOutCubic"/>
+					<animate type="width" from="9" to="526" algorithm="easeOutBack"/><animate type="height" from="44" to="716"/>
+					<animate type="xOrigin" to="center"/></set>
+				<set duration=".2"><animate type="width" from="526" to="490"/><animate type="height" from="716" to="660"/></set>
+			</onEnter>
+		</item>
+	</menu>
+	
+<!--Top Line-->
+	<container backgroundColor="000000" x="52" y="95" backgroundAlpha="0" height="2" width="1816" layer="13">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="backgroundAlpha" from="0" to=".1"/></set>
+		</onEnter>
+	</container>	
+	
+	<!-- FANART -->
+<!--  <reloadableImage type="fanart" alpha="0" x="0" y="0" width="1920" height="1080" containerX="0" containerY="0" containerWidth="0" containerHeight="1080" layer="8">
+   <onEnter>
+   <set duration=".4"><animate type="nop"/></set>
+   <set duration=".6"><animate type="alpha" to=".2"/><animate type="containerWidth" to="1420"/></set>
+   </onEnter>
+</reloadableImage> 
+ -->
+
+
+<!-- Left top TITLE -->
+	<text value="GAME" x="52" y="48" xOrigin="left" yOrigin="center" alpha="0" font="fonts/Scout-Light.otf" fontSize="36" loadFontSize="36" fontColor="000000" layer="13">
+		<onEnter>
+			<set duration=".15"><animate type="nop"/></set>
+			<set duration=".15"><animate type="alpha" to=".5"/><animate type="xOffset" from="20" to="0"/></set>
+		</onEnter>
+	</text>
+	<text value="INFORMATION" x="138" y="48" xOrigin="left" yOrigin="center" alpha="0" font="fonts/Scout-Black.otf" fontSize="37" loadFontSize="37" fontColor="000000" layer="13">
+		<onEnter>
+			<set duration=".15"><animate type="nop"/>
+			</set><set duration=".15"><animate type="alpha" to=".65"/><animate type="xOffset" from="20" to="0"/></set>
+		</onEnter>
+	</text>
+<!-- CLOCK -->
+	<reloadableText type="time" timeFormat="%R" x="1822" y="48" xOrigin="right" yOrigin="center" alpha="0" font="fonts/Scout-Black.otf" fontSize="37" loadFontSize="37" fontColor="000000" layer="13">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".3"><animate type="xoffset" from="20" to="0"/><animate type="alpha" from="0" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<text value="TIME:" x="1720" y="48" xOrigin="right" yOrigin="center" alpha="0" font="fonts/Scout-Light.otf" fontSize="36" loadFontSize="36" fontColor="000000" layer="13">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".3"><animate type="xoffset" from="20" to="0"/><animate type="alpha" from="0" to=".5"/></set>
+		</onEnter>
+	</text>
+
+<!-- Game Info Bar from XML -->
+<!-- Game Name - TITLE -->
+	<reloadableText type="title" x="560" y="175" alpha="0" textFormat="uppercase" fontSize="50" loadFontSize="50" fontColor="000000" layer="13">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" from="0" to=".6"/><animate type="xoffset" from="20" to="0"/></set>
+		</onEnter>
+	</reloadableText>
+
+<!-- Game Score -->
+	<reloadableImage type="score" mode="commonlayout" x="561" y="232"  height="20" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".55"/></set>
+				</onEnter>
+	</reloadableImage>
+
+	<!-- Game release year -->
+	<reloadableImage type="year" mode="commonlayout" x="655" y="232" alpha="0" height="20" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".55"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<!-- Game manufacturer -->
+	<reloadableImage mode="commonlayout" type="manufacturer" x="736" y="232" alpha="0" height="20" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".55"/></set>
+		</onEnter>
+	</reloadableImage>
+
+<!-- Info about Game-->
+<!-- Number players -->
+	<reloadableText type="players" x="596" xOrigin="center" y="395" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="20" loadFontSize="20" fontColor="000000" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+	<reloadableImage mode="commonlayout" type="game players" x="598" xOrigin="center" y="322" yOrigin="center" width="74" height="50" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+	<text value="GAMEPAD" x="600" xOrigin="center" y="376" yOrigin="center" font="fonts/Roboto-Regular.ttf" fontSize="20" loadFontSize="20" fontColor="000000" alpha="0" layer="10">
+	<onEnter>
+		<set duration=".4"><animate type="nop"/></set>
+		<set duration=".6"><animate type="alpha" to=".65"/></set>
+	</onEnter>
+	</text>
+
+<!-- Game Genre -->
+	<reloadableText type="game genre" alpha="0" x="780" y="395" xOrigin="center" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="20" loadFontSize="20" fontColor="000000" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="game genre" x="780" xOrigin="center" y="322" yOrigin="center" width="60" height="60" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+	<text value="GENRE" x="780" xOrigin="center" y="376" yOrigin="center" font="fonts/Roboto-Regular.ttf" fontSize="20" loadFontSize="20" fontColor="000000" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</text>
+<!-- Game Plataform -->
+	<reloadableImage mode="commonlayout" type="game platform" x="960" xOrigin="center" y="325" yOrigin="center" width="80" height="80" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+	<reloadableText type="game platform" alpha="0" x="960" y="275" xOrigin="center" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="20" loadFontSize="20" fontColor="000000" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+	<reloadableText type="game platform type" x="960" xOrigin="center" y="376" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Regular.ttf" fontSize="20" loadFontSize="20" fontColor="000000" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+<!-- Type Fisical game support cd-rom, cartridge, etc -->
+	<reloadableImage mode="commonlayout" type="game format" x="1140" xOrigin="center" y="322" width="80" height="80" yOrigin="center" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+	<text value="MEDIA" x="1140" y="376" xOrigin="center" yOrigin="center" alpha="0" font="fonts/Roboto-Regular.ttf" fontSize="20" loadFontSize="20" fontColor="000000" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</text>
+	<reloadableText type="game format name" alpha="0" x="1140" y="395" xOrigin="center" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="20" loadFontSize="20" fontColor="000000" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+	
+<!-- Game Resolution -->
+	<reloadableImage mode="commonlayout" type="game ratio" x="1317" xOrigin="center" y="322" yOrigin="center" width="104" height="104" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+	<text value="RESOLUTION" x="1320" xOrigin="center" y="376" yOrigin="center" font="fonts/Roboto-Regular.ttf" fontSize="20" loadFontSize="20" fontColor="000000" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</text>
+	<reloadableText type="game resolution" x="1320" xOrigin="center" y="394" yOrigin="center" font="fonts/Roboto-Black.ttf" fontSize="20" loadFontSize="20" fontColor="000000" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+<!-- Game Story and Lines top / bottom -->
+<!-- Split Line 1 -->
+	<image src="force/separation.png" x="963" y="421" width="812" xOrigin="center" alpha="0" layer="9">
+		<onEnter >
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".2"/></set>
+		</onEnter>
+	</image> 
+<!-- Split Line 2 -->
+	<image src="force/separation.png" x="963" y="656" xOrigin="center" alpha="0" layer="9">
+		<onEnter >
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".2"/></set>
+		</onEnter>
+	</image>
+  
+<!-- Game Story -->
+	<reloadableScrollingText type="story" alpha="0" x="560" y="434" xOrigin="left" width="810" height="210" fontSize="24" loadFontSize="24" fontColor="000000" direction="vertical" alignment="justified" scrollingSpeed="15" startPosition="0" startTime="4" endTime="1" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableScrollingText>
+
+<!-- CONTROLLER MAPPING -->
+<!-- CONTROLLER MAPPING BUTTONS -->
+	<image src="force/controller.png" alpha="0" x="center" xOrigin="center" y="center" yOffset="222" width="290" height="204" layer="10">
+		<onEnter >
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".9"><animate type="alpha" to="1"/></set>
+		</onEnter>
+	</image>
+
+	<image src="force/controller pad.png" x="921" xOrigin="center" y="center" yOrigin="center" yOffset="325" width="46" height="46" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".4"/></set>
+		</onEnter>
+	</image>
+
+	<reloadableImage mode="commonlayout" type="controller D-pad" x="921" xOrigin="center" y="center" yOrigin="center" yOffset="325" width="40" height="40" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to="1"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller D-pad t" x="center" xOffset="-66" xOrigin="right" y="center" yOrigin="center" yOffset="326" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="000000" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+<!-- L-STICK -->
+	<image src="force/controller stick.png" x="center" xOrigin="center" xOffset="-76" y="center" yOrigin="center" yOffset="275" width="44" height="44" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".4"/></set>
+		</onEnter>
+	</image>
+
+	<reloadableImage mode="commonlayout" type="controller L-stick" x="center" xOrigin="center" xOffset="-76" y="center" yOrigin="center" yOffset="275" width="36" height="36" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to="1"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller L-stick t" x="center" xOrigin="right" xOffset="-101" y="center" yOrigin="center" yOffset="276" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="000000" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+<!-- R-STICK -->
+	<image src="force/controller stick.png" x="center" xOrigin="center" xOffset="40" y="center" yOrigin="center" yOffset="325" width="44" height="44" alpha="0" layer="10">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".4"/></set>
+		</onEnter>
+	</image>
+
+	<reloadableImage mode="commonlayout" type="controller R-stick" x="center" xOrigin="center" xOffset="40" y="center" yOrigin="center" yOffset="325" width="36" height="36" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to="1"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller R-stick t" x="center" xOrigin="left" xOffset="71" y="center" yOrigin="center" yOffset="326" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="000000" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller A" x="1175" y="835" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller A t" x="center" xOffset="310" xOrigin="center" y="center" yOffset="300" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="ffffff" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".9"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller B" x="1206" y="804" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller B t" x="center" xOffset="340" xOrigin="center" y="center" yOffset="269" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="ffffff" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".9"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller X" x="1006" y="804" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller X t" x="center" xOffset="120" xOrigin="center" y="center" yOffset="269" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="ffffff" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".9"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller Y" x="1037" y="773" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller Y t" x="center" xOffset="150" xOrigin="center" y="center" yOffset="238" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="ffffff" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".9"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller LB" x="560" y="710" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller LB t" x="center" xOffset="-310" xOrigin="center" y="center" yOffset="175" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="ffffff" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".9"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller LT" x="560" y="679" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller LT t" x="center" xOffset="-310" xOrigin="center" y="center" yOffset="144" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="ffffff" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".9"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller RB" x="1172" y="710" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller RB t" x="center" xOffset="324" xOrigin="center" y="center" yOffset="175" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="ffffff" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".9"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller RT" x="1172" y="679" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller RT t" x="center" xOffset="324" xOrigin="center" y="center" yOffset="144" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="ffffff" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".9"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller start" x="969" y="710" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to="1"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller start t" x="center" xOffset="99" xOrigin="center" y="center" yOffset="175" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="000000" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller select" x="793" y="710" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to="1"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller select t" x="center" xOffset="-94" xOrigin="center" y="center" yOffset="175" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="000000" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+	<reloadableImage mode="commonlayout" type="controller xbox" x="947" y="679" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to="1"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller xbox t" x="center" xOffset="79" xOrigin="center" y="center" yOffset="144" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="000000" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+	
+		<reloadableImage mode="commonlayout" type="controller close" x="947" y="679" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to="1"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller close t" x="center" xOffset="88" xOrigin="center" y="center" yOffset="144" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="000000" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/></set>
+		</onEnter>
+	</reloadableText>
+
+<!-- Right Side-->
+<!-- Vertical Line Shadow-->
+	<container  backgroundColor="000000" backgroundAlpha="0" width="2" height="stretch" layer="9">
+		<onEnter >
+			<set duration=".6"><animate type="backgroundAlpha" from="0" to=".1"/><animate type="xoffset" from="-2" to="1418"/></set>
+		</onEnter>
+	</container> 
+
+<!-- Vertical Line White-->
+	<container backgroundColor="ffffff" backgroundAlpha="0" width="2" height="stretch" layer="9">
+		<onEnter>
+			<set duration=".6"><animate type="backgroundAlpha" from="0" to=".3"/><animate type="xoffset" from="1420" to="0"/></set>
+		</onEnter>
+	</container> 
+
+<!-- Carttridge-->
+	<reloadableImage type="medium_front" alpha="0" x="right"  y="center"  xOrigin="right" yOrigin="center" width="322" maxHeight="322" layer="6">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".8"/><animate type="xOffset" from="150" to="-90"/></set>
+		</onEnter>
+	</reloadableImage>		
+	
+<!-- Game Stats -->
+	<text value="LAST PLAYED: " x="1470" y="150" xOrigin="left" alpha="0" font="fonts/Scout-Light.otf" fontSize="20" loadFontSize="20" fontColor="000000" layer="13">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".5"/><animate type="xOffset" from="150" to="0"/></set>
+		</onEnter>
+	</text>
+	<reloadableText type="lastPlayedDate" x="1600" y="175" xOrigin="left" alpha="0" timeFormat="%d/%b/%Y" font="fonts/Scout-Black.otf"  fontSize="20" fontColor="000000"  singlePrefix="" pluralPrefix="" layer="19">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/><animate type="xOffset" from="150" to="0"/></set>
+		</onEnter>
+	</reloadableText>
+	
+	
+	<text value="LAST PLAYED TIME: " x="1470" xOffset="" y="210" xOrigin="left" alpha="0" font="fonts/Scout-Light.otf" fontSize="20" loadFontSize="20" fontColor="000000" layer="13">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".5"/><animate type="xOffset" from="150" to="0"/></set>
+		</onEnter>
+	</text>
+	<reloadableText type="lastPlayDuration" x="1600" xOrigin="left" y="235" alpha="0" timeFormat="%H:%M" font="fonts/Scout-Black.otf" fontSize="20" fontColor="000000"  singlePrefix="" pluralPrefix="" singlePostfix=" min" pluralPostfix=" min" layer="19">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to="0.65"/><animate type="xOffset" from="150" to="0"/></set>
+		</onEnter>
+	</reloadableText>
+	
+	<text value="Play Time: " x="1470" y="780" xOrigin="left" alpha="0" font="fonts/Scout-Light.otf" fontSize="20" loadFontSize="20" fontColor="000000" layer="13">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".5"/><animate type="xOffset" from="150" to="0"/></set>
+		</onEnter>
+	</text>
+	<reloadableText type="totalPlayTime" x="1600" y="805" xOrigin="left" alpha="0" timeFormat="%H:%M" font="fonts/Scout-Black.otf" fontSize="20" fontColor="000000" singlePrefix="" pluralPrefix="" singlePostfix=" min" pluralPostfix=" min" layer="19">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/><animate type="xOffset" from="150" to="0"/></set>
+		</onEnter>
+	</reloadableText>
+	
+	<text value="Played: " x="1470" y="840" xOrigin="left" alpha="0" font="fonts/Scout-Light.otf" fontSize="20" loadFontSize="20" fontColor="000000" layer="13">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".5"/><animate type="xOffset" from="150" to="0"/></set>
+		</onEnter>
+	</text>
+	<reloadableText type="playCount" x="1600" y="865" xOrigin="left" alpha="0" font="fonts/Scout-Black.otf" fontSize="20" fontColor="000000"  singlePrefix="" singlePostfix=" time" pluralPrefix="" pluralPostfix=" times" layer="19">
+	<onEnter>
+	<set duration=".4"><animate type="nop"/></set>
+	<set duration=".6"><animate type="alpha" to=".65"/><animate type="xOffset" from="150" to="0"/></set>
+	</onEnter>
+	</reloadableText>
+	
+<!-- Play icon -->
+	<image src="force/play.png" alpha="0" x="right"  y="bottom" yOffset="-20"  xOrigin="right" yOrigin="bottom" width="200" height="100" layer="9" scaleMode="fit">
+		 <onEnter>
+		 <set duration=".4"><animate type="nop"/></set>
+		 <set duration=".6"><animate type="alpha" to=".65"/><animate type="xOffset" from="150" to="-160"/></set>
+		 </onEnter>
+	</image>
+	
+	<reloadableImage mode="commonlayout" type="controller AP" x="right" y="bottom" yOffset="-80" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".65"/><animate type="xOffset" from="190" to="-190"/></set>
+		</onEnter>
+	</reloadableImage>
+
+	<reloadableText type="controller AP t" x="right"  y="bottom" yOffset="-75" textFormat="uppercase" font="fonts/RobotoCondensed-Bold.ttf" fontSize="19" loadFontSize="19" fontColor="ffffff" alpha="0" layer="11">
+		<onEnter>
+			<set duration=".4"><animate type="nop"/></set>
+			<set duration=".6"><animate type="alpha" to=".9"/><animate type="xOffset" from="190" to="-150"/></set>
+		</onEnter>
+	</reloadableText>
+</layout>

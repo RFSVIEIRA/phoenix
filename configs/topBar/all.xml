@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PHOENIX by RFSVIEIRA – Top Bar (100% multilingual) -->
+<layout>
+
+    <!-- Top Border Background -->
+    <image src="images/layouts/topborder.png" alpha="0" x="center" y="center" 
+           xOrigin="center" yOrigin="center" width="1920" height="1080" 
+           layer="15" scaleMode="stretch"
+           group="$group_infobar" subgroup="$subgroup_top_border" 
+           active="true" shared="$label_top_played">
+        <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+        <onMenuExit  menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+        <onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+    </image>
+
+    <!-- Top Played Label + Dynamic Game Name -->
+    <text value="$topbar_label" x="left" xOffset="5" y="top" 
+          fontSize="30" loadFontSize="30" alpha="0" fontColor="FFFFFF" layer="16"
+          name="$label_top_played" group="$group_infobar" subgroup="$subgroup_top_border" 
+          active="true" shared="$label_top_played">
+        <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+        <onMenuExit  menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+        <onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+    </text>
+
+    <reloadableScrollingText type="topGameName" mode="layout" alpha="0" 
+                             x="left" xOffset="235" y="top" 
+                             fontSize="30" loadFontSize="30" 
+                             menuScrollReload="true" scrollingSpeed="0" 
+                             fontColor="FFFFFF" layer="16"
+                             group="$group_infobar" subgroup="$subgroup_top_border" 
+                             active="true" shared="$label_top_played">
+        <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+        <onMenuExit  menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+        <onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+    </reloadableScrollingText>
+
+</layout>

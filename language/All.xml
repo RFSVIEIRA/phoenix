@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PHOENIX by RFSVIEIRA -->
+<layout>
+	<include src="language/EN.xml" name="English" group="$lang" subgroup="$country" active="true" shared="English"/>
+	<include src="language/PT.xml" name="Portuguese" group="$lang" subgroup="$country" active="false" shared="Portuguese"/>
+	<include src="language/FR.xml" name="French" group="$lang" subgroup="$country" active="false" shared="French"/>
+	<include src="language/DE.xml" name="Deutsch" group="$lang" subgroup="$country" active="false" shared="Deutsch"/>
+	<include src="language/ES.xml" name="Spanish" group="$lang" subgroup="$country" active="false" shared="Spanish"/>
+	<include src="language/IT.xml" name="Italian" group="$lang" subgroup="$country" active="false" shared="Italian"/>
+<variables>
+
+</variables>
+</layout>

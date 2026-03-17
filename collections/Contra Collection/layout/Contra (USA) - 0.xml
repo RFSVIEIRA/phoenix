@@ -1,0 +1,30 @@
+
+
+<layout width="1920" height="1080">
+
+		<reloadableImage monitor="1" type="fanart" alpha="1" x="center" y="center" xOrigin="center" yOrigin="center" height="1080" width="1920" layer="0">
+		
+	</reloadableImage>
+<reloadableImage monitor="1" type="logo" alpha="1" x="center" y="center" xOrigin="center" yOrigin="center" height="648" maxWidth="1152" layer="3">
+		
+		<onMenuIdle>
+			<set duration="1.2">
+				<animate type="maxWidth" to="1210"/>
+				<animate type="height" to="680"/>
+				<animate type="alpha" to="0"/>
+			</set>
+			<set duration=".3"><animate type="nop"/></set>
+			<set duration="0.001">
+				<animate type="maxWidth" to="1152"/>
+				<animate type="height" to="648"/>
+				<animate type="alpha" to=".6"/>
+			</set>
+		</onMenuIdle>
+	</reloadableImage>
+
+
+</layout>
+
+
+
+

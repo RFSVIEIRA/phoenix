@@ -1,0 +1,222 @@
+<!-- PHOENIX by RFSVIEIRA -->
+<layout width="1920" height="1080" font="fonts/verdana.ttf" fontColor="FFFFFF" loadFontSize="60">
+
+	<image src="images/bkg/Contra (USA).jpg" random="true" randomsrc="images/bkg/" slideShow="true" slideNumber="2" slideShowTimer="5000" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" scaleMode="fit" layer="0"/>
+		
+	<image src="images/book/Contra (USA) pg1.jpg" random="true" randomsrc="images/book/" slideShow="true" slideNumber="2" slideShowTimer="11000" x="left" y="center" xOrigin="left" yOrigin="center" width="800" height="1080" scaleMode="fit" layer="5"/>
+		
+    <reloadableImage type="logo" x="center" xOffset="200" y="100" width="400" height="200" xOrigin="center" yOrigin="center" layer="5" alpha="0" scaleMode="fit">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableImage>
+	
+	<reloadableImage type="medium_front" alpha="0" x="right" xOffset="-50" y="bottom" yOffset="-20" xOrigin="right" yOrigin="bottom" width="322" maxHeight="322" layer="6">
+	<onEnter menuIndex="1">
+		<set duration=".0001">
+			<animate type="alpha" to="0"/>
+			<animate type="xOrigin" to="left"/>
+			<animate type="x" to="right"/>
+		</set>
+	</onEnter>
+	<onMenuIdle>
+		<set duration=".0001">
+			<animate type="nop"/>
+		</set>
+		<set duration="1">
+			<animate type="nop"/>
+		</set>
+		<set duration=".0001">
+			<animate type="alpha" to="1"/>
+		</set>
+		<set duration=".4">
+			<animate type="xOrigin" to="right"/>
+			<animate type="x" to="right"/>
+			<animate type="xOffset" to="-240"/>
+		</set>
+	</onMenuIdle>
+</reloadableImage>
+	
+<!-- 	<reloadableImage type="artwork_front" x="right" xOffset="-50" y="top" yOffset="50" width="400" height="400" xOrigin="right" yOrigin="top" layer="5" alpha="0" scaleMode="fit">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableImage> -->
+	 <reloadableImage type="artwork_3d" x="right" xOffset="-50" y="bottom" yOffset="0" width="400" height="400" xOrigin="right" yOrigin="bottom" layer="6" alpha="0" scaleMode="fit">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableImage>
+
+	<video src="videos/Contra (USA) 3.mp4" numLoops="0" volume="0" x="10" y="-15" height="420" width="420" layer="6" scaleMode="fit">
+		<onEnter><set duration=".00001"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".00001"><animate type="alpha" to="0"/></set></onExit>
+	</video>
+	<video src="videos/Contra (USA) 2.mp4" numLoops="0" volume="0" x="10" y="center" yOrigin="center" height="420" width="420" layer="6" scaleMode="fit">
+		<onEnter><set duration=".00001"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".00001"><animate type="alpha" to="0"/></set></onExit>
+	</video>
+	<video src="videos/Contra (USA) 1.mp4" numLoops="0" volume="0" x="10" y="bottom" yOffset="9" yOrigin="bottom" height="420" width="420" layer="6" scaleMode="fit">
+		<onEnter><set duration=".00001"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".00001"><animate type="alpha" to="0"/></set></onExit>
+	</video>
+
+
+    <!-- Game Info: Manufacturer -->
+    <reloadableText type="manufacturer" x="center"  y="750" maxWidth="500"  fontSize="40" loadFontSize="40" fontColor="75c8f7" layer="4" alpha="0">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableText>
+
+    <!-- Game Info: Year -->
+    <reloadableText type="year" x="center" xOffset="180" y="750" maxWidth="200"  fontSize="40" loadFontSize="40" fontColor="ffffff" layer="4" alpha="0">
+        <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+    </reloadableText>
+	
+	<image src="images/icons/playcount.png" alpha="1" x="center" y="805" width="25" layer="6" scaleMode="fit"/>
+	<image src="images/icons/time.png" alpha="1" x="center" y="845" width="25" layer="6" scaleMode="fit"/>
+	<image src="images/icons/date.png" alpha="1" x="center" y="885" width="25" layer="6" scaleMode="fit"/>
+	<image src="images/icons/clock.png" alpha="1" x="center" y="925" width="25" layer="6" scaleMode="fit"/>
+	
+		
+	
+	<reloadableText type="playCount" fontSize="30" x="center" xOffset="30" y="800" singlePrefix="Played " singlePostfix=" time" pluralPrefix="Played " pluralPostfix=" times" layer="19"/>
+	<reloadableText type="totalPlayTime" timeFormat="%H:%M" fontSize="30" x="center" xOffset="30" y="840" singlePrefix="Play Time " pluralPrefix="Play Time " singlePostfix=" minute" pluralPostfix=" minutes" layer="19"/>
+	<reloadableText type="lastPlayedDate" timeFormat="%d/%b/%Y" fontSize="30" x="center" xOffset="30" y="880" singlePrefix="Last Played: " pluralPrefix="Last Played: " />
+	<reloadableText type="lastPlayDuration" timeFormat="%H:%M" fontSize="30" x="center" xOffset="30" y="920" singlePrefix="Last Played Time: " pluralPrefix="Last Played Time: " singlePostfix=" minute" pluralPostfix=" minutes" layer="19"/>
+	
+	<image src="images/icons/play.png" alpha="0" x="center" xOffset="100" y="1010" yOrigin="center" width="200" height="100" layer="10" scaleMode="fit">
+		 <onEnter><set duration=".1"><animate type="alpha" to="1"/></set></onEnter>
+        <onExit><set duration=".1"><animate type="alpha" to="0"/></set></onExit>
+	</image>
+	
+	<menu type="custom" alpha="0"  >
+        <itemDefaults x="center" y="center" width="400" height="300" />
+        <item xOffset="0" selected="true" />
+    </menu>
+	<image src="images\openClose\TopLeft.png" x="left" y="top" xOrigin="left" yOrigin="bottom" layer="11">
+	   
+		
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			   <animate type="yOrigin" to="top"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onGameExit>
+	
+	</image>
+	<image src="images\openClose\BottomRight.png" x="right" y="bottom" xOrigin="right" yOrigin="top" layer="11">
+	  
+		
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			   <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		   <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onGameExit>
+		
+	</image>
+	<image src="images\openClose\TopRight.png" x="right" y="top" xOrigin="right" yOrigin="bottom" layer="12">
+	   
+		
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onGameExit>
+	
+	</image>
+	<image src="images\openClose\BottomLeft.png" x="left" y="bottom" xOrigin="left" yOrigin="top" layer="12">
+	   
+		
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			     <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		   <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onGameExit>
+	
+	</image>
+	<image src="images\openClose\RightLeft.png" x="left" xOrigin="right" layer="10">
+	    
+		
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			    <animate type="xOrigin" to="left"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		     <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="xOrigin" to="right"/>
+			</set>
+		</onGameExit>
+
+	</image>
+	<image src="images\openClose\RightLeft.png" x="right" xOrigin="left" layer="10">
+	   		
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			   <animate type="xOrigin" to="right"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		     <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="xOrigin" to="left"/>
+			</set>
+		</onGameExit>
+	
+	</image>
+	
+
+</layout>

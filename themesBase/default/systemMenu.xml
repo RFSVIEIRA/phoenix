@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PHOENIX by RFSVIEIRA  -->
+<layout>
+
+    <!-- SYSTEM_MENU -->
+    <include src="menus/default/SystemMenu/HBottom.xml" name="$horizbtm"      group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$horizbtm"/>
+    <include src="menus/default/SystemMenu/HCenter.xml" name="$horizcenter"   group="$groupSystemMenu" subgroup="$subgroupMenu" active="true"  shared="$horizcenter"/>
+    <include src="menus/default/SystemMenu/HTop.xml"    name="$horiztop"      group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$horiztop"/>
+    <include src="menus/default/SystemMenu/HBWheel.xml" name="$hbwheel"       group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$hbwheel"/>
+    <include src="menus/default/SystemMenu/HTWheel.xml" name="$htwheel"       group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$htwheel"/>
+    <include src="menus/default/SystemMenu/Roulette.xml" name="$roulette"     group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$roulette"/>
+    <include src="menus/default/SystemMenu/VLeft.xml"   name="$vertleft"      group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$vertleft"/>
+    <include src="menus/default/SystemMenu/VLWheel.xml" name="$vlwheel"       group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$vlwheel"/>
+    <include src="menus/default/SystemMenu/VRight.xml"  name="$vertright"     group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$vertright"/>
+    <include src="menus/default/SystemMenu/VRWheel.xml" name="$vrwheel"       group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$vrwheel"/>
+    <include src="menus/default/SystemMenu/Grid.xml"    name="$grid"          group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$grid"/>
+    <include src="menus/default/SystemMenu/List.xml"    name="$list"          group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$list"/>
+
+</layout>

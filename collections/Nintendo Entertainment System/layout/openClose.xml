@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PHOENIX by RFSVIEIRA -->
+<layout>
+<!-- Open/Close -->
+
+	<image src="images\openClose\TopLeft.png" x="left" y="top" xOrigin="left" yOrigin="top" layer="11">
+	    <onEnter>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onEnter>
+		<onMenuEnter menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onMenuEnter>
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			   <animate type="yOrigin" to="top"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onGameExit>
+		<onExit>
+		    <set duration=".3">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onExit>
+	</image>
+	<image src="images\openClose\BottomRight.png" x="right" y="bottom" xOrigin="right" yOrigin="bottom" layer="11">
+	    <onEnter>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onEnter>
+		<onMenuEnter menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onMenuEnter>
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			   <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		   <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onGameExit>
+		<onExit>
+		    <set duration=".3">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onExit>
+	</image>
+	<image src="images\openClose\TopRight.png" x="right" y="top" xOrigin="right" yOrigin="top" layer="12">
+	    <onEnter>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onEnter>
+		<onMenuEnter menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onMenuEnter>
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onGameExit>
+		<onExit>
+		    <set duration=".3">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onExit>
+	</image>
+	<image src="images\openClose\BottomLeft.png" x="left" y="bottom" xOrigin="left" yOrigin="bottom" layer="12">
+	    <onEnter>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onEnter>
+		<onMenuEnter menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onMenuEnter>
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			     <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		   <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="yOrigin" to="top"/>
+			</set>
+		</onGameExit>
+		<onExit>
+		    <set duration=".3">
+			    <animate type="yOrigin" to="bottom"/>
+			</set>
+		</onExit>
+	</image>
+	<image src="images\openClose\RightLeft.png" x="left" xOrigin="left" layer="10">
+	    <onEnter>
+		    <set duration=".5">
+			    <animate type="xOrigin" to="right"/>
+			</set>
+		</onEnter>
+		<onMenuEnter menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="xOrigin" to="right"/>
+			</set>
+		</onMenuEnter>
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			    <animate type="xOrigin" to="left"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		     <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="xOrigin" to="right"/>
+			</set>
+		</onGameExit>
+		<onExit>
+		    <set duration=".3">
+			    <animate type="xOrigin" to="left"/>
+			</set>
+		</onExit>
+	</image>
+	<image src="images\openClose\RightLeft.png" x="right" xOrigin="right" layer="10">
+	    <onEnter>
+		    <set duration=".5">
+			    <animate type="xOrigin" to="left"/>
+			</set>
+		</onEnter>
+		<onMenuEnter menuIndex="0">
+		    <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="xOrigin" to="left"/>
+			</set>
+		</onMenuEnter>
+		<onGameEnter menuIndex="0">
+		<set duration=".2">
+			<animate type="nop"/>
+		</set>
+		    <set duration=".4">
+			   <animate type="xOrigin" to="right"/>
+			</set>
+		</onGameEnter>
+		<onGameExit menuIndex="0">
+		     <set duration=".00001">
+			    <animate type="alpha" to="1"/>
+			</set>
+		    <set duration=".5">
+			    <animate type="xOrigin" to="left"/>
+			</set>
+		</onGameExit>
+		<onExit>
+		    <set duration=".3">
+			    <animate type="xOrigin" to="right"/>
+			</set>
+		</onExit>
+	</image>
+</layout>

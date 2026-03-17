@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PHOENIX by RFSVIEIRA  -->
+<layout>
+
+    <include src="themesBase/default/splitMenu.xml" name="$label_split_layout" group="$group_themes" subgroup="$subgroup_menus" active="true" shared="$label_split_layout"/>
+
+    <include src="themesBase/default/mixMenu.xml" name="$label_mix_menu" group="$group_themes" subgroup="$subgroup_menus" active="false" shared="$label_mix_menu"/>
+
+    <include src="themesBase/default/aio.xml" name="$label_aio" group="$group_themes" subgroup="$subgroup_menus" active="false" shared="$label_aio"/>
+
+</layout>

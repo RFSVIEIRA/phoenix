@@ -1,0 +1,1546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PHOENIX by RFSVIEIRA -->
+<layout>
+<!-- MENU Horizontal_Bottom -->	
+
+	<variables>
+	<showVideo>false</showVideo>
+	<gameVideoVolume>0.02</gameVideoVolume>
+	</variables>
+
+	<reloadableText type="UserCompletion" x="960" xOrigin="center" y="800" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="54" loadFontSize="24" fontColor="FFFFFF" alpha="0" layer="10">
+	<onEnter>
+		<set duration=".4"><animate type="nop"/></set>
+		<set duration=".6"><animate type="alpha" to="1"/></set>
+	</onEnter>
+	</reloadableText>
+
+	
+	<reloadableScrollingText type="1" x="150" xOrigin="left" y="60" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="1D" x="150" xOrigin="left" y="70" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="1P" x="150" xOrigin="left" y="80" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="1F" x="120" xOrigin="center" y="70" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="2" x="150" xOrigin="left" y="102" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="2D" x="150" xOrigin="left" y="112" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="2P" x="150" xOrigin="left" y="122" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="2F" x="120" xOrigin="center" y="112" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="3" x="150" xOrigin="left" y="144" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="3D" x="150" xOrigin="left" y="154" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="3P" x="150" xOrigin="left" y="164" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="3F" x="120" xOrigin="center" y="154" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="4" x="150" xOrigin="left" y="186" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="4D" x="150" xOrigin="left" y="196" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="4P" x="150" xOrigin="left" y="206" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="4F" x="120" xOrigin="center" y="196" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="5" x="150" xOrigin="left" y="228" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="5D" x="150" xOrigin="left" y="238" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="5P" x="150" xOrigin="left" y="248" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="5F" x="120" xOrigin="center" y="238" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="6" x="150" xOrigin="left" y="270" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="6D" x="150" xOrigin="left" y="280" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="6P" x="150" xOrigin="left" y="290" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="6F" x="120" xOrigin="center" y="280" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="7" x="150" xOrigin="left" y="312" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="7D" x="150" xOrigin="left" y="322" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="7P" x="150" xOrigin="left" y="332" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="7F" x="120" xOrigin="center" y="322" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="8" x="150" xOrigin="left" y="354" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="8D" x="150" xOrigin="left" y="364" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="8P" x="150" xOrigin="left" y="374" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="8F" x="120" xOrigin="center" y="364" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="9" x="150" xOrigin="left" y="396" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="9D" x="150" xOrigin="left" y="406" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="9P" x="150" xOrigin="left" y="416" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="9F" x="120" xOrigin="center" y="406" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="10" x="150" xOrigin="left" y="438" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="10D" x="150" xOrigin="left" y="448" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="10P" x="150" xOrigin="left" y="458" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="10F" x="120" xOrigin="center" y="448" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="11" x="150" xOrigin="left" y="480" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="11D" x="150" xOrigin="left" y="490" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="11P" x="150" xOrigin="left" y="500" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="11F" x="120" xOrigin="center" y="490" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="12" x="150" xOrigin="left" y="522" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="12D" x="150" xOrigin="left" y="532" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="12P" x="150" xOrigin="left" y="542" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="12F" x="120" xOrigin="center" y="532" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="13" x="150" xOrigin="left" y="564" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="13D" x="150" xOrigin="left" y="574" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="13P" x="150" xOrigin="left" y="584" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="13F" x="120" xOrigin="center" y="574" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="14" x="150" xOrigin="left" y="606" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="14D" x="150" xOrigin="left" y="616" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="14P" x="150" xOrigin="left" y="626" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="14F" x="120" xOrigin="center" y="616" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="15" x="150" xOrigin="left" y="648" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="15D" x="150" xOrigin="left" y="658" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="15P" x="150" xOrigin="left" y="668" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="15F" x="120" xOrigin="center" y="658" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="16" x="400" xOrigin="left" y="60" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="16D" x="400" xOrigin="left" y="70" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="16P" x="400" xOrigin="left" y="80" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="16F" x="370" xOrigin="center" y="70" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="17" x="400" xOrigin="left" y="102" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="17D" x="400" xOrigin="left" y="112" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="17P" x="400" xOrigin="left" y="122" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="17F" x="370" xOrigin="center" y="112" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="18" x="400" xOrigin="left" y="144" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="18D" x="400" xOrigin="left" y="154" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="18P" x="400" xOrigin="left" y="164" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="18F" x="370" xOrigin="center" y="154" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="19" x="400" xOrigin="left" y="186" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="19D" x="400" xOrigin="left" y="196" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="19P" x="400" xOrigin="left" y="206" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="19F" x="370" xOrigin="center" y="196" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="20" x="400" xOrigin="left" y="228" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="20D" x="400" xOrigin="left" y="238" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="20P" x="400" xOrigin="left" y="248" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="20F" x="370" xOrigin="center" y="238" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="21" x="400" xOrigin="left" y="270" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="21D" x="400" xOrigin="left" y="280" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="21P" x="400" xOrigin="left" y="290" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="21F" x="370" xOrigin="center" y="280" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="22" x="400" xOrigin="left" y="312" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="22D" x="400" xOrigin="left" y="322" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="22P" x="400" xOrigin="left" y="332" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="22F" x="370" xOrigin="center" y="322" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="23" x="400" xOrigin="left" y="354" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="23D" x="400" xOrigin="left" y="364" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="23P" x="400" xOrigin="left" y="374" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="23F" x="370" xOrigin="center" y="364" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="24" x="400" xOrigin="left" y="396" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="24D" x="400" xOrigin="left" y="406" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="24P" x="400" xOrigin="left" y="416" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="24F" x="370" xOrigin="center" y="406" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="25" x="400" xOrigin="left" y="438" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="25D" x="400" xOrigin="left" y="448" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="25P" x="400" xOrigin="left" y="458" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="25F" x="370" xOrigin="center" y="448" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="26" x="400" xOrigin="left" y="480" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="26D" x="400" xOrigin="left" y="490" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="26P" x="400" xOrigin="left" y="500" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="26F" x="370" xOrigin="center" y="490" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="27" x="400" xOrigin="left" y="522" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="27D" x="400" xOrigin="left" y="532" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="27P" x="400" xOrigin="left" y="542" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="27F" x="370" xOrigin="center" y="532" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="28" x="400" xOrigin="left" y="564" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="28D" x="400" xOrigin="left" y="574" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="28P" x="400" xOrigin="left" y="584" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="28F" x="370" xOrigin="center" y="574" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="29" x="400" xOrigin="left" y="606" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="29D" x="400" xOrigin="left" y="616" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="29P" x="400" xOrigin="left" y="626" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="29F" x="370" xOrigin="center" y="616" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="30" x="400" xOrigin="left" y="648" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="30D" x="400" xOrigin="left" y="658" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="30P" x="400" xOrigin="left" y="668" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="30F" x="370" xOrigin="center" y="658" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="31" x="650" xOrigin="left" y="60" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="31D" x="650" xOrigin="left" y="70" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="31P" x="650" xOrigin="left" y="80" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="31F" x="620" xOrigin="center" y="70" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="32" x="650" xOrigin="left" y="102" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="32D" x="650" xOrigin="left" y="112" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="32P" x="650" xOrigin="left" y="122" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="32F" x="620" xOrigin="center" y="112" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="33" x="650" xOrigin="left" y="144" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="33D" x="650" xOrigin="left" y="154" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="33P" x="650" xOrigin="left" y="164" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="33F" x="620" xOrigin="center" y="154" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="34" x="650" xOrigin="left" y="186" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="34D" x="650" xOrigin="left" y="196" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="34P" x="650" xOrigin="left" y="206" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="34F" x="620" xOrigin="center" y="196" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="35" x="650" xOrigin="left" y="228" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="35D" x="650" xOrigin="left" y="238" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="35P" x="650" xOrigin="left" y="248" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="35F" x="620" xOrigin="center" y="238" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="36" x="650" xOrigin="left" y="270" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="36D" x="650" xOrigin="left" y="280" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="36P" x="650" xOrigin="left" y="290" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="36F" x="620" xOrigin="center" y="280" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="37" x="650" xOrigin="left" y="312" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="37D" x="650" xOrigin="left" y="322" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="37P" x="650" xOrigin="left" y="332" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="37F" x="620" xOrigin="center" y="322" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="38" x="650" xOrigin="left" y="354" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="38D" x="650" xOrigin="left" y="364" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="38P" x="650" xOrigin="left" y="374" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="38F" x="620" xOrigin="center" y="364" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="39" x="650" xOrigin="left" y="396" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="39D" x="650" xOrigin="left" y="406" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="39P" x="650" xOrigin="left" y="416" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="39F" x="620" xOrigin="center" y="406" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="40" x="650" xOrigin="left" y="438" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="40D" x="650" xOrigin="left" y="448" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="40P" x="650" xOrigin="left" y="458" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="40F" x="620" xOrigin="center" y="448" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="41" x="650" xOrigin="left" y="480" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="41D" x="650" xOrigin="left" y="490" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="41P" x="650" xOrigin="left" y="500" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="41F" x="620" xOrigin="center" y="490" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="42" x="650" xOrigin="left" y="522" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="42D" x="650" xOrigin="left" y="532" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="42P" x="650" xOrigin="left" y="542" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="42F" x="620" xOrigin="center" y="532" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="43" x="650" xOrigin="left" y="564" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="43D" x="650" xOrigin="left" y="574" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="43P" x="650" xOrigin="left" y="584" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="43F" x="620" xOrigin="center" y="574" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="44" x="650" xOrigin="left" y="606" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="44D" x="650" xOrigin="left" y="616" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="44P" x="650" xOrigin="left" y="626" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="44F" x="620" xOrigin="center" y="616" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="45" x="650" xOrigin="left" y="648" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="45D" x="650" xOrigin="left" y="658" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="45P" x="650" xOrigin="left" y="668" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="45F" x="620" xOrigin="center" y="658" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="46" x="900" xOrigin="left" y="60" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="46D" x="900" xOrigin="left" y="70" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="46P" x="900" xOrigin="left" y="80" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="46F" x="870" xOrigin="center" y="70" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="47" x="900" xOrigin="left" y="102" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="47D" x="900" xOrigin="left" y="112" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="47P" x="900" xOrigin="left" y="122" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="47F" x="870" xOrigin="center" y="112" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="48" x="900" xOrigin="left" y="144" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="48D" x="900" xOrigin="left" y="154" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="48P" x="900" xOrigin="left" y="164" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="48F" x="870" xOrigin="center" y="154" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="49" x="900" xOrigin="left" y="186" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="49D" x="900" xOrigin="left" y="196" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="49P" x="900" xOrigin="left" y="206" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="49F" x="870" xOrigin="center" y="196" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="50" x="900" xOrigin="left" y="228" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="50D" x="900" xOrigin="left" y="238" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="50P" x="900" xOrigin="left" y="248" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="50F" x="870" xOrigin="center" y="238" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="51" x="900" xOrigin="left" y="270" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="51D" x="900" xOrigin="left" y="280" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="51P" x="900" xOrigin="left" y="290" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="51F" x="870" xOrigin="center" y="280" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="52" x="900" xOrigin="left" y="312" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="52D" x="900" xOrigin="left" y="322" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="52P" x="900" xOrigin="left" y="332" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="52F" x="870" xOrigin="center" y="322" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="53" x="900" xOrigin="left" y="354" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="53D" x="900" xOrigin="left" y="364" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="53P" x="900" xOrigin="left" y="374" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="53F" x="870" xOrigin="center" y="364" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="54" x="900" xOrigin="left" y="396" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="54D" x="900" xOrigin="left" y="406" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="54P" x="900" xOrigin="left" y="416" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="54F" x="870" xOrigin="center" y="406" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="55" x="900" xOrigin="left" y="438" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="55D" x="900" xOrigin="left" y="448" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="55P" x="900" xOrigin="left" y="458" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="55F" x="870" xOrigin="center" y="448" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="56" x="900" xOrigin="left" y="480" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="56D" x="900" xOrigin="left" y="490" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="56P" x="900" xOrigin="left" y="500" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="56F" x="870" xOrigin="center" y="490" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="57" x="900" xOrigin="left" y="522" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="57D" x="900" xOrigin="left" y="532" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="57P" x="900" xOrigin="left" y="542" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="57F" x="870" xOrigin="center" y="532" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="58" x="900" xOrigin="left" y="564" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="58D" x="900" xOrigin="left" y="574" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="58P" x="900" xOrigin="left" y="584" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="58F" x="870" xOrigin="center" y="574" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="59" x="900" xOrigin="left" y="606" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="59D" x="900" xOrigin="left" y="616" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="59P" x="900" xOrigin="left" y="626" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="59F" x="870" xOrigin="center" y="616" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="60" x="900" xOrigin="left" y="648" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="60D" x="900" xOrigin="left" y="658" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="60P" x="900" xOrigin="left" y="668" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="60F" x="870" xOrigin="center" y="658" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="61" x="1150" xOrigin="left" y="60" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="61D" x="1150" xOrigin="left" y="70" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="61P" x="1150" xOrigin="left" y="80" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="61F" x="1120" xOrigin="center" y="70" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="62" x="1150" xOrigin="left" y="102" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="62D" x="1150" xOrigin="left" y="112" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="62P" x="1150" xOrigin="left" y="122" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="62F" x="1120" xOrigin="center" y="112" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="63" x="1150" xOrigin="left" y="144" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="63D" x="1150" xOrigin="left" y="154" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="63P" x="1150" xOrigin="left" y="164" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="63F" x="1120" xOrigin="center" y="154" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="64" x="1150" xOrigin="left" y="186" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="64D" x="1150" xOrigin="left" y="196" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="64P" x="1150" xOrigin="left" y="206" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="64F" x="1120" xOrigin="center" y="196" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="65" x="1150" xOrigin="left" y="228" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="65D" x="1150" xOrigin="left" y="238" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="65P" x="1150" xOrigin="left" y="248" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="65F" x="1120" xOrigin="center" y="238" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="66" x="1150" xOrigin="left" y="270" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="66D" x="1150" xOrigin="left" y="280" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="66P" x="1150" xOrigin="left" y="290" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="66F" x="1120" xOrigin="center" y="280" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="67" x="1150" xOrigin="left" y="312" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="67D" x="1150" xOrigin="left" y="322" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="67P" x="1150" xOrigin="left" y="332" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="67F" x="1120" xOrigin="center" y="322" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="68" x="1150" xOrigin="left" y="354" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="68D" x="1150" xOrigin="left" y="364" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="68P" x="1150" xOrigin="left" y="374" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="68F" x="1120" xOrigin="center" y="364" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="69" x="1150" xOrigin="left" y="396" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="69D" x="1150" xOrigin="left" y="406" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="69P" x="1150" xOrigin="left" y="416" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="69F" x="1120" xOrigin="center" y="406" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="70" x="1150" xOrigin="left" y="438" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="70D" x="1150" xOrigin="left" y="448" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="70P" x="1150" xOrigin="left" y="458" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="70F" x="1120" xOrigin="center" y="448" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="71" x="1150" xOrigin="left" y="480" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="71D" x="1150" xOrigin="left" y="490" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="71P" x="1150" xOrigin="left" y="500" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="71F" x="1120" xOrigin="center" y="490" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="72" x="1150" xOrigin="left" y="522" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="72D" x="1150" xOrigin="left" y="532" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="72P" x="1150" xOrigin="left" y="542" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="72F" x="1120" xOrigin="center" y="532" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="73" x="1150" xOrigin="left" y="564" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="73D" x="1150" xOrigin="left" y="574" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="73P" x="1150" xOrigin="left" y="584" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="73F" x="1120" xOrigin="center" y="574" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="74" x="1150" xOrigin="left" y="606" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="74D" x="1150" xOrigin="left" y="616" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="74P" x="1150" xOrigin="left" y="626" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="74F" x="1120" xOrigin="center" y="616" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="75" x="1150" xOrigin="left" y="648" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="75D" x="1150" xOrigin="left" y="658" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="75P" x="1150" xOrigin="left" y="668" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="75F" x="1120" xOrigin="center" y="658" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="76" x="1400" xOrigin="left" y="60" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="76D" x="1400" xOrigin="left" y="70" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="76P" x="1400" xOrigin="left" y="80" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="76F" x="1370" xOrigin="center" y="70" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="77" x="1400" xOrigin="left" y="102" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="77D" x="1400" xOrigin="left" y="112" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="77P" x="1400" xOrigin="left" y="122" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="77F" x="1370" xOrigin="center" y="112" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="78" x="1400" xOrigin="left" y="144" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="78D" x="1400" xOrigin="left" y="154" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="78P" x="1400" xOrigin="left" y="164" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="78F" x="1370" xOrigin="center" y="154" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="79" x="1400" xOrigin="left" y="186" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="79D" x="1400" xOrigin="left" y="196" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="79P" x="1400" xOrigin="left" y="206" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="79F" x="1370" xOrigin="center" y="196" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="80" x="1400" xOrigin="left" y="228" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="80D" x="1400" xOrigin="left" y="238" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="80P" x="1400" xOrigin="left" y="248" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="80F" x="1370" xOrigin="center" y="238" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="81" x="1400" xOrigin="left" y="270" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="81D" x="1400" xOrigin="left" y="280" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="81P" x="1400" xOrigin="left" y="290" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="81F" x="1370" xOrigin="center" y="280" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="82" x="1400" xOrigin="left" y="312" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="82D" x="1400" xOrigin="left" y="322" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="82P" x="1400" xOrigin="left" y="332" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="82F" x="1370" xOrigin="center" y="322" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="83" x="1400" xOrigin="left" y="354" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="83D" x="1400" xOrigin="left" y="364" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="83P" x="1400" xOrigin="left" y="374" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="83F" x="1370" xOrigin="center" y="364" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="84" x="1400" xOrigin="left" y="396" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="84D" x="1400" xOrigin="left" y="406" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="84P" x="1400" xOrigin="left" y="416" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="84F" x="1370" xOrigin="center" y="406" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="85" x="1400" xOrigin="left" y="438" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="85D" x="1400" xOrigin="left" y="448" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="85P" x="1400" xOrigin="left" y="458" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="85F" x="1370" xOrigin="center" y="448" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="86" x="1400" xOrigin="left" y="480" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="86D" x="1400" xOrigin="left" y="490" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="86P" x="1400" xOrigin="left" y="500" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="86F" x="1370" xOrigin="center" y="490" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="87" x="1400" xOrigin="left" y="522" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="87D" x="1400" xOrigin="left" y="532" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="87P" x="1400" xOrigin="left" y="542" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="87F" x="1370" xOrigin="center" y="532" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="88" x="1400" xOrigin="left" y="564" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="88D" x="1400" xOrigin="left" y="574" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="88P" x="1400" xOrigin="left" y="584" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="88F" x="1370" xOrigin="center" y="574" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="89" x="1400" xOrigin="left" y="606" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="89D" x="1400" xOrigin="left" y="616" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="89P" x="1400" xOrigin="left" y="626" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="89F" x="1370" xOrigin="center" y="616" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="90" x="1400" xOrigin="left" y="648" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="90D" x="1400" xOrigin="left" y="658" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="90P" x="1400" xOrigin="left" y="668" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="90F" x="1370" xOrigin="center" y="658" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="91" x="1650" xOrigin="left" y="60" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="91D" x="1650" xOrigin="left" y="70" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="91P" x="1650" xOrigin="left" y="80" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="91F" x="1620" xOrigin="center" y="70" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="92" x="1650" xOrigin="left" y="102" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="92D" x="1650" xOrigin="left" y="112" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="92P" x="1650" xOrigin="left" y="122" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="92F" x="1620" xOrigin="center" y="112" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="93" x="1650" xOrigin="left" y="144" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="93D" x="1650" xOrigin="left" y="154" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="93P" x="1650" xOrigin="left" y="164" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="93F" x="1620" xOrigin="center" y="154" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="94" x="1650" xOrigin="left" y="186" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="94D" x="1650" xOrigin="left" y="196" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="94P" x="1650" xOrigin="left" y="206" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="94F" x="1620" xOrigin="center" y="196" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="95" x="1650" xOrigin="left" y="228" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="95D" x="1650" xOrigin="left" y="238" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="95P" x="1650" xOrigin="left" y="248" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="95F" x="1620" xOrigin="center" y="238" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="96" x="1650" xOrigin="left" y="270" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="96D" x="1650" xOrigin="left" y="280" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="96P" x="1650" xOrigin="left" y="290" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="96F" x="1620" xOrigin="center" y="280" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="97" x="1650" xOrigin="left" y="312" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="97D" x="1650" xOrigin="left" y="322" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="97P" x="1650" xOrigin="left" y="332" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="97F" x="1620" xOrigin="center" y="322" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="98" x="1650" xOrigin="left" y="354" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="98D" x="1650" xOrigin="left" y="364" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="98P" x="1650" xOrigin="left" y="374" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="98F" x="1620" xOrigin="center" y="364" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="99" x="1650" xOrigin="left" y="396" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="99D" x="1650" xOrigin="left" y="406" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="99P" x="1650" xOrigin="left" y="416" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="99F" x="1620" xOrigin="center" y="406" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="100" x="1650" xOrigin="left" y="438" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="100D" x="1650" xOrigin="left" y="448" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="100P" x="1650" xOrigin="left" y="458" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="100F" x="1620" xOrigin="center" y="448" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="101" x="1650" xOrigin="left" y="480" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="101D" x="1650" xOrigin="left" y="490" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="101P" x="1650" xOrigin="left" y="500" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="101F" x="1620" xOrigin="center" y="490" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="102" x="1650" xOrigin="left" y="522" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="102D" x="1650" xOrigin="left" y="532" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="102P" x="1650" xOrigin="left" y="542" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="102F" x="1620" xOrigin="center" y="532" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="103" x="1650" xOrigin="left" y="564" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="103D" x="1650" xOrigin="left" y="574" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="103P" x="1650" xOrigin="left" y="584" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="103F" x="1620" xOrigin="center" y="574" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="104" x="1650" xOrigin="left" y="606" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="104D" x="1650" xOrigin="left" y="616" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="104P" x="1650" xOrigin="left" y="626" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="104F" x="1620" xOrigin="center" y="616" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+	
+	<reloadableScrollingText type="105" x="1650" xOrigin="left" y="648" yOrigin="center" textFormat="uppercase" width="130" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableScrollingText type="105D" x="1650" xOrigin="left" y="658" yOrigin="center" textFormat="uppercase" width="150" height="12" direction="horizontal" scrollingSpeed="15" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableScrollingText>
+	<reloadableText type="105P" x="1650" xOrigin="left" y="668" yOrigin="center" textFormat="uppercase" font="fonts/Roboto-Black.ttf" fontSize="12" loadFontSize="16" fontColor="FFFFFF" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableText>
+	<reloadableImage mode="common" type="105F" x="1620" xOrigin="center" y="658" yOrigin="center" width="74" maxHeight="30" alpha="0" layer="10">
+		<onEnter><set duration=".4"><animate type="nop"/></set><set duration=".6"><animate type="alpha" to="1"/></set></onEnter>
+	</reloadableImage>
+
+
+
+
+<image menuIndex="2" alpha="0" src="images/layouts/RABG.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="2" scaleMode="fit">
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</image>
+	
+	<image menuIndex="2" alpha="0" src="images/layouts/menu.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="3" scaleMode="fit">
+		<onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</image>
+	
+	<menu menuIndex="2" type="custom" imageType="logo" textFallback="true" x="0" fontSize="30" scrollTime=".2" scrollAcceleration=".1" minScrollTime=".1" orientation="horizontal" scaleMode="fit" layer="8">
+		<itemDefaults alpha="1" x="center" y="930" width="250" maxHeight="150" xOrigin="center" yOrigin="center" layer="8" fontSize="30"/>
+		<item xOffset="-830" alpha="0"/>
+	
+		<item xOffset="-830">
+		 <onEnter><set duration=".1"><animate type="alpha" from="0" to="1"/></set></onEnter>
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+		</item>
+		<item xOffset="-480">
+		 <onEnter><set duration=".1"><animate type="alpha" from="0" to="1"/></set></onEnter>
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+		</item>
+		<item frameLoop="playLoop" xOffset="0" width="275" selected="true">
+		
+		<onMenuIdle>
+            <set duration="1"><animate type="width" to="300"/></set>
+            <set duration="1"><animate type="width" to="275"/></set>
+			<set duration="0.2"><animate type="nop"/></set>
+        </onMenuIdle> 
+		<onMenuExit menuIndex="2"><set duration=".2"><animate type="alpha" to="0"/></set></onMenuExit>
+		</item>
+		<item xOffset="480">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+		</item>
+		<item xOffset="830">
+			<onMenuExit>
+				<set duration=".001">
+					<animate type="alpha" to="0"/>
+				</set>
+			</onMenuExit>
+		</item>
+	 <item xOffset="830" alpha="0"/>
+	</menu>
+</layout>

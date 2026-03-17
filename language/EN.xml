@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PHOENIX by RFSVIEIRA -->
+<!-- EN -->
+<layout>
+	<variables>
+		<!-- START Options Menu -->
+		<menu_main>RetroFE Configuration</menu_main>
+		<menu_settings>Customize Settings</menu_settings>
+		<menu_controls>Control Setup</menu_controls>
+		<menu_actions>Navigation Keys</menu_actions>
+		<menu_layout>Layout Options</menu_layout>
+		<menu_save_exit>Save &amp; Exit</menu_save_exit>
+		<menu_signout>Sign Out</menu_signout>
+		<menu_restart>Restart</menu_restart>
+		<menu_shutdown>Shut Down</menu_shutdown>
+		<menu_quit>Quit</menu_quit>
+		<!-- END Options Menu -->
+		
+		<!-- START Themes – name  -->
+		<label_split_layout>Split Layout</label_split_layout>
+		<label_mix_menu>Mix Menu Layout</label_mix_menu>
+		<label_aio>All In One Layout</label_aio>
+		<!-- END Themes – name  -->
+		<!-- Themes – Group & Subgroup (appear in theme config menu) -->
+		<group_themes>Themes</group_themes>
+		<subgroup_menus>Menus</subgroup_menus>
+		<!-- START SPLITE MENU FILE -->
+        <lang>Language</lang>
+        <country>Country</country>
+
+        <!-- Groups -->
+        <groupMainMenu>Main Menu</groupMainMenu>
+        <groupSystemMenu>System Menu</groupSystemMenu>
+        <groupGameMenu>Game Menu</groupGameMenu>
+        <subgroupMenu>MENU</subgroupMenu>
+
+        <!-- Main Menu Layouts -->
+        <horizbtm>Horizontal Bottom</horizbtm>
+        <horizcenter>Horizontal Center</horizcenter>
+        <horiztop>Horizontal Top</horiztop>
+        <vertleft>Vertical Left</vertleft>
+        <vertright>Vertical Right</vertright>
+        <hbwheel>Horizontal Bottom Wheel</hbwheel>
+        <htwheel>Horizontal Top Wheel</htwheel>
+        <vlwheel>Vertical Left Wheel</vlwheel>
+        <vrwheel>Vertical Right Wheel</vrwheel>
+        <roulette>Roulette</roulette>
+        <grid>Grid</grid>
+        <list>List</list>
+
+        <!-- System Menu Layouts -->
+        <sys_horizbtm>Horizontal Bottom</sys_horizbtm>
+        <sys_horizcenter>Horizontal Center</sys_horizcenter>
+        <sys_horiztop>Horizontal Top</sys_horiztop>
+        <sys_hbwheel>Horizontal Bottom Wheel</sys_hbwheel>
+        <sys_htwheel>Horizontal Top Wheel</sys_htwheel>
+        <sys_roulette>Roulette</sys_roulette>
+        <sys_vertleft>Vertical Left</sys_vertleft>
+        <sys_vlwheel>Vertical Left Wheel</sys_vlwheel>
+        <sys_vertright>Vertical Right</sys_vertright>
+        <sys_vrwheel>Vertical Right Wheel</sys_vrwheel>
+        <sys_grid>Grid</sys_grid>
+        <sys_list>List</sys_list>
+
+        <!-- Game Menu Layouts -->
+        <game_horizbtm>Horizontal Bottom</game_horizbtm>
+        <game_horizcenter>Horizontal Center</game_horizcenter>
+        <game_horiztop>Horizontal Top</game_horiztop>
+        <game_vertleft>Vertical Left</game_vertleft>
+        <game_vertright>Vertical Right</game_vertright>
+        <game_gridbtm>Grid Bottom</game_gridbtm>
+        <game_gridleft>Grid Left</game_gridleft>
+        <game_htwheel>Horizontal Top Wheel</game_htwheel>
+        <game_hbwheel>Horizontal Bottom Wheel</game_hbwheel>
+        <game_vrwheel>Vertical Right Wheel</game_vrwheel>
+        <game_vlwheel>Vertical Left Wheel</game_vlwheel>
+        <game_h2dwheel>Horizontal 2D Wheel</game_h2dwheel>
+        <cover3d>Cover 3D (Aura 2)</cover3d>
+        <cover3dtop>Cover 3D Top (Aura 2)</cover3dtop>
+        <bigscreen>Big Screen 2</bigscreen>
+        <dynamic>Dynamic 2</dynamic>
+        <game_list>List</game_list>
+        <listbottom>List Bottom</listbottom>
+        <galleryv3>Gallery V3</galleryv3>
+        <horizonv2>Horizon V2</horizonv2>
+        <kioskv2>Kiosk V2</kioskv2>
+        <landscapev2>Landscape V2</landscapev2>
+        <frontposter>2D Front Poster</frontposter>
+        <sectional>Sectional</sectional>
+        <shelfcase>Shelf Case</shelfcase>
+        <gamestats>Game Stats 2D</gamestats>
+
+        <!-- Info Bars -->
+		<!-- Information Bar - Groups & Subgroups (for theme config menu) -->
+
+        <topbar>Top Bar</topbar>
+		<group_infobar>Information Bar</group_infobar>
+		<subgroup_infobar>Information Bar</subgroup_infobar>
+		<infobar>Information Bar</infobar>
+
+        <!-- Fanart -->
+		<group_fanart>Fanart</group_fanart>
+		<subgroup_mainfanart>Main Fanart</subgroup_mainfanart>
+        <fanart_static>Static</fanart_static>
+
+        <!-- Background Videos -->
+		<group_videos>Videos</group_videos>
+		<subgroup_backgroundvideo>Background Video</subgroup_backgroundvideo>
+        <video_system>Only System Video</video_system>
+        <video_game>Only Game Video</video_game>
+        <video_all>ALL Video</video_all>
+
+        <!-- Video Sound -->
+		<subgroup_sound>Sound</subgroup_sound>
+        <mute_system>Mute System</mute_system>
+        <mute_game>Mute Game</mute_game>
+        <mute_all>Mute All</mute_all>
+		
+		 <!-- END SPLITE MENU FILE -->
+		 
+		 <!-- START Information Bar - Bottom Bar Texts -->
+		<!-- Bottom Bar – Text -->
+		<infobar_time>TIME :</infobar_time>
+		<infobar_games>Games:</infobar_games>
+		<infobar_accept>Accept</infobar_accept>
+		<infobar_back>Back</infobar_back>
+		<infobar_playlist_down>Playlist Down</infobar_playlist_down>
+		<infobar_playlist_up>Playlist Up</infobar_playlist_up>
+		<infobar_remove_favs>L Remove Favs</infobar_remove_favs>
+		<infobar_add_favs>R Add Favs</infobar_add_favs>
+		<infobar_letter_down>Letter Down</infobar_letter_down>
+		<infobar_letter_up>Letter Up</infobar_letter_up>
+
+		<!-- Bottom Bar – name / shared labels (appear in theme config menu) -->
+		<label_clock>Clock</label_clock>
+		<label_games_number>Games Number</label_games_number>
+		<label_total_games>Total Possible Games</label_total_games>
+		<label_controller_xbox>Xbox</label_controller_xbox>
+		<label_controller_arcade>Arcade</label_controller_arcade>
+		<label_controller_psx1>Psx1</label_controller_psx1>
+
+		<!-- Bottom Bar – Groups & Subgroups (appear in theme config menu) -->
+		<group_infobar>Information Bar</group_infobar>
+		<subgroup_buttons_sets>Buttons Sets</subgroup_buttons_sets>
+		<subgroup_clocks>Clocks</subgroup_clocks>
+		<subgroup_games_info>Games Info</subgroup_games_info>
+		<subgroup_extra_games_info>Extra Games Info</subgroup_extra_games_info>
+		<!-- END START Information Bar - Bottom Bar Texts -->
+		
+		<!-- START Top Bar – Text -->
+		<topbar_label>Top Played Game:</topbar_label>
+
+		<!-- Top Bar – name / shared (appears in theme config menu) -->
+		<label_top_played>Top Played</label_top_played>
+
+		<!-- Top Bar – Group & Subgroup (appears in theme config menu) -->
+		<subgroup_top_border>Top Border</subgroup_top_border>
+		<!-- END Top Bar – Text -->
+		
+		<!-- START Animations -->
+		<label_anim_sonic>Sonic</label_anim_sonic>
+		<label_anim_mario>Mario</label_anim_mario>
+
+		<group_animations>Animations</group_animations>
+		<subgroup_animated_charts>Animated Charts</subgroup_animated_charts>
+		<!-- END Animations -->
+		
+		<!-- START Story -->
+		<story>story</story>
+		<!-- END Story -->
+		
+    </variables>
+</layout>

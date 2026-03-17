@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PHOENIX by RFSVIEIRA – Game Menu Layouts (100% multilingual) -->
+<layout>
+
+    <!-- GAME_MENU -->
+    <include src="menus/default/GameMenu/HBottom.xml"      name="$game_horizbtm"      group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_horizbtm"/>
+    <include src="menus/default/GameMenu/HCenter.xml"      name="$game_horizcenter"   group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_horizcenter"/>
+    <include src="menus/default/GameMenu/HTop.xml"         name="$game_horiztop"      group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_horiztop"/>
+    <include src="menus/default/GameMenu/VLeft.xml"        name="$game_vertleft"      group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_vertleft"/>
+    <include src="menus/default/GameMenu/VRight.xml"       name="$game_vertright"     group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_vertright"/>
+    <include src="menus/default/GameMenu/GBottom.xml"      name="$game_gridbtm"       group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_gridbtm"/>
+    <include src="menus/default/GameMenu/GLeft.xml"        name="$game_gridleft"      group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_gridleft"/>
+    <include src="menus/default/GameMenu/HTWheel.xml"      name="$game_htwheel"       group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_htwheel"/>
+    <include src="menus/default/GameMenu/HBWheel.xml"      name="$game_hbwheel"       group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_hbwheel"/>
+    <include src="menus/default/GameMenu/VRWheel.xml"      name="$game_vrwheel"       group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_vrwheel"/>
+    <include src="menus/default/GameMenu/VLWheel.xml"      name="$game_vlwheel"       group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_vlwheel"/>
+    <include src="menus/default/GameMenu/H2DWheel.xml"     name="$game_h2dwheel"      group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_h2dwheel"/>
+    <include src="menus/default/GameMenu/Cover3D.xml"      name="$cover3d"            group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$cover3d"/>
+    <include src="menus/default/GameMenu/Cover3DTop.xml"   name="$cover3dtop"         group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$cover3dtop"/>
+    <include src="menus/default/GameMenu/big_screen.xml"   name="$bigscreen"          group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$bigscreen"/>
+    <include src="menus/default/GameMenu/dynamic.xml"      name="$dynamic"            group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$dynamic"/>
+    <include src="menus/default/GameMenu/List.xml"         name="$game_list"          group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_list"/>
+    <include src="menus/default/GameMenu/ListBottom.xml"   name="$listbottom"         group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$listbottom"/>
+    <include src="menus/default/GameMenu/gallery_v3.xml"   name="$galleryv3"          group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$galleryv3"/>
+    <include src="menus/default/GameMenu/horizon_v2.xml"   name="$horizonv2"          group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$horizonv2"/>
+    <include src="menus/default/GameMenu/kiosk_v2.xml"     name="$kioskv2"            group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$kioskv2"/>
+    <include src="menus/default/GameMenu/landscape_v2.xml" name="$landscapev2"        group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$landscapev2"/>
+    <include src="menus/default/GameMenu/FrontPoster.xml"  name="$frontposter"        group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$frontposter"/>
+    <include src="menus/default/GameMenu/sectional.xml"    name="$sectional"          group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$sectional"/>
+    <include src="menus/default/GameMenu/shelf_case.xml"   name="$shelfcase"          group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$shelfcase"/>
+    <include src="menus/default/GameMenu/gameStats.xml"    name="$gamestats"          group="$groupGameMenu" subgroup="$subgroupMenu" active="true"  shared="$gamestats"/>
+
+</layout>

@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+	<variables>
+		<gameFanart>0.2</gameFanart>
+			<gameVideoAlpha>0</gameVideoAlpha>
+		<gameVideoVolume>0</gameVideoVolume>
+	<!-- 	<randomImageSrc></randomImageSrc>
+		<imageSRC></imageSRC> -->
+    </variables>
+	<image src="images/Black.png" alpha="1" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="1"/>
+	
+	<reloadableImage menuIndex="1" type="logo" alpha="0" x="center" y="945" width="300" maxHeight="200" xOrigin="center" yOrigin="center" layer="6" scaleMode="fit">
+		<onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+		<onMenuExit><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuExit>
+	</reloadableImage>
+	
+
+<menu menuIndex="1" alpha="0" type="custom" imageType="fanart" textFallback="true" x="0" fontSize="30" orientation="Grid" rows="4" columns="6" cellWidth="100" cellHeight="100" spacingX="210" spacingY="100" wrap="true" scaleMode="fit">
+    <itemDefaults x="185" y="120" yOrigin="center" xOrigin="center" maxHeight="270" width="270" layer="7" fontSize="30" selectedBorderColor="#FFFFFF" borderColor="#D4AF37" borderSpace="0" borderThickness="3"/>
+  <item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item><item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item><item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item><item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+	<item alpha="1">
+			<onMenuEnter menuIndex="2">
+			<set duration=".0001">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuEnter>
+		<onGameExit menuIndex="1">
+			<set duration=".0001">
+				<animate type="alpha" to="1"/>
+			</set>
+		</onGameExit>
+		<onMenuIdle>
+			<set duration="2">
+				<animate type="nop"/>
+			</set>
+			<set duration=".5">
+				<animate type="alpha" to="0"/>
+			</set>
+		</onMenuIdle>
+	</item>
+
+</menu>
+</layout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- PHOENIX by RFSVIEIRA – Bottom Bar (100% multilingual) -->
+<layout>
+
+    <!-- Background -->
+    <image src="images/layouts/borde.png" x="center" y="center" xOrigin="center" yOrigin="center" width="1920" height="1080" layer="15" scaleMode="stretch" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_xbox, $label_controller_psx1, $label_controller_arcade, $label_clock, $label_games_number"/>
+
+    <!-- Clock -->
+    <text value="$infobar_time" x="1800" y="1065" xOrigin="center" yOrigin="center" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" name="$label_clock" group="$group_infobar" subgroup="$subgroup_clocks" active="true" shared="$label_clock"/>
+    <reloadableText type="time" timeFormat="%R" alpha="1" x="1840" y="1065" xOrigin="left" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" fontColor="FFFFFF" layer="16" group="$group_infobar" subgroup="$subgroup_clocks" active="true" shared="$label_clock"/>
+
+    <!-- Games Counter (visible in systems & favorites) -->
+    <text value="$infobar_games" x="1510" y="1065" xOrigin="center" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" alpha="0" fontColor="FFFFFF" layer="16" name="$label_games_number" group="$group_infobar" subgroup="$subgroup_games_info" active="true" shared="$label_games_number">
+        <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+    </text>
+
+    <reloadableScrollingText type="size" mode="layout" alpha="0" x="1550" y="1050" xOrigin="center" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" fontColor="FFFFFF" menuScrollReload="true" scrollingSpeed="0" layer="16" group="$group_infobar" subgroup="$subgroup_games_info" active="true" shared="$label_games_number">
+        <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+    </reloadableScrollingText>
+
+    <!-- Total games separator & number -->
+    <text value="/" x="1630" y="1065" xOrigin="center" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" alpha="0" fontColor="FFFFFF" layer="16" name="$label_total_games" group="$group_infobar" subgroup="$subgroup_extra_games_info" active="true" shared="$label_total_games">
+        <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+    </text>
+
+    <reloadableText type="availablecollectionize" alpha="0" x="1635" y="1065" xOrigin="left" yOrigin="center" font="fonts/verdana.ttf" fontSize="30" loadFontSize="30" fontColor="ffffff" layer="16" group="$group_infobar" subgroup="$subgroup_extra_games_info" active="true" shared="$label_total_games">
+        <onMenuEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuExit menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onMenuExit>
+        <onMenuJumpEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onMenuJumpEnter>
+        <onMenuJumpExit menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onMenuJumpExit>
+        <onPlaylistEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onPlaylistEnter>
+        <onPlaylistExit menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onPlaylistExit>
+        <onHighlightEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onHighlightEnter>
+        <onHighlightExit menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onHighlightExit>
+        <onGameEnter menuIndex="1"><set duration=".1"><animate type="alpha" to="0"/></set></onGameEnter>
+        <onGameExit menuIndex="1"><set duration=".1"><animate type="alpha" to="1"/></set></onGameExit>
+    </reloadableText>
+
+    <!-- Favorites menu game count -->
+    <reloadableText type="collectionIndexSize" alpha="0" x="1635" y="1065" xOrigin="center" yOrigin="center" font="fonts/verdana.ttf" fontColor="FFFFFF" fontSize="30" loadFontSize="30" layer="16" group="$group_infobar" subgroup="$subgroup_games_info" active="true" shared="$label_games_number">
+        <onMenuEnter menuIndex="2"><set duration=".001"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuExit menuIndex="2"><set duration=".001"><animate type="alpha" to="0"/></set></onMenuExit>
+    </reloadableText>
+
+    <!-- Controller layouts -->
+    <include src="configs/ButtomBar/Xbox.xml" name="$label_controller_xbox" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_xbox"/>
+    <include src="configs/ButtomBar/Arcade.xml" name="$label_controller_arcade" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="false" shared="$label_controller_arcade"/>
+    <include src="configs/ButtomBar/Psx1.xml" name="$label_controller_psx1" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="false" shared="$label_controller_psx1"/>
+
+    <!-- Button icons (no text, no variables needed) -->
+    <image src="${buttomSrc}a.png" x="10" y="1050" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}b.png" x="135" y="1050" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}y.png" x="235" y="1050" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}x.png" x="440" y="1050" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}all.png" x="615" y="1050" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}all.png" x="845" y="1050" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}l.png" x="1035" y="1050" width="30" height="30" layer="16" scaleMode="fit"/>
+    <image src="${buttomSrc}r.png" x="1240" y="1050" width="30" height="30" layer="16" scaleMode="fit"/>
+
+    <image src="configs/ButtomBar/artwork/games.png" alpha="0" x="1425" y="1050" width="30" height="30" layer="16" scaleMode="fit" group="$group_infobar" subgroup="$subgroup_extra_games_info" active="true" shared="$label_total_games">
+        <onMenuEnter menuIndex="0"><set duration=".0001"><animate type="alpha" to="0"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="1"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+        <onMenuEnter menuIndex="2"><set duration=".0001"><animate type="alpha" to="1"/></set></onMenuEnter>
+    </image>
+
+    <image src="configs/ButtomBar/artwork/clock.png" x="1730" y="1055" width="22" height="22" layer="16" scaleMode="fit" group="$group_infobar" subgroup="$subgroup_clocks" active="true" shared="$label_clock"/>
+
+    <!-- Button labels – fully translatable -->
+    <text value="$infobar_accept" x="85" y="1065" xOrigin="center" yOrigin="center" maxWidth="80" fitToWidth="true" minFontSize="16" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_psx1, $label_controller_xbox, $label_controller_arcade"/>
+    <text value="$infobar_back" x="200" y="1065" xOrigin="center" yOrigin="center" maxWidth="80" fitToWidth="true" minFontSize="16" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_psx1, $label_controller_xbox, $label_controller_arcade"/>
+    <text value="$infobar_playlist_down" x="350" y="1065" xOrigin="center" yOrigin="center" maxWidth="150" fitToWidth="true" minFontSize="16" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_psx1, $label_controller_xbox, $label_controller_arcade"/>
+    <text value="$infobar_playlist_up" x="540" y="1065" xOrigin="center" yOrigin="center" maxWidth="150" fitToWidth="true" minFontSize="16" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_psx1, $label_controller_xbox, $label_controller_arcade"/>
+    <text value="$infobar_remove_favs" x="745" y="1065" xOrigin="center" yOrigin="center" maxWidth="150" fitToWidth="true" minFontSize="16" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_psx1, $label_controller_xbox, $label_controller_arcade"/>
+    <text value="$infobar_add_favs" x="950" y="1065" xOrigin="center" yOrigin="center" maxWidth="150" fitToWidth="true" minFontSize="16" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_psx1, $label_controller_xbox, $label_controller_arcade"/>
+    <text value="$infobar_letter_down" x="1150" y="1065" xOrigin="center" yOrigin="center" maxWidth="150" fitToWidth="true" minFontSize="16" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_psx1, $label_controller_xbox, $label_controller_arcade"/>
+    <text value="$infobar_letter_up" x="1340" y="1065" xOrigin="center" yOrigin="center" maxWidth="150" fitToWidth="true" minFontSize="16" fontSize="30" loadFontSize="30" alpha="1" font="fonts/verdana.ttf" fontColor="FFFFFF" layer="16" group="$group_infobar" subgroup="$subgroup_buttons_sets" active="true" shared="$label_controller_psx1, $label_controller_xbox, $label_controller_arcade"/>
+
+</layout>

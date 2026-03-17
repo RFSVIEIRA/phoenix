@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout>
+
+    <include src="animations/animations.xml"/>
+
+    <include src="menus/default/MainMenu/HBottom.xml" name="$horizbtm" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$horizbtm"/>
+    <include src="menus/default/MainMenu/HCenter.xml" name="$horizcenter" group="$groupMainMenu" subgroup="$subgroupMenu" active="true" shared="$horizcenter"/>
+    <include src="menus/default/MainMenu/HTop.xml" name="$horiztop" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$horiztop"/>
+    <include src="menus/default/MainMenu/VLeft.xml" name="$vertleft" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$vertleft"/>
+    <include src="menus/default/MainMenu/VRight.xml" name="$vertright" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$vertright"/>
+    <include src="menus/default/MainMenu/HBWheel.xml" name="$hbwheel" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$hbwheel"/>
+    <include src="menus/default/MainMenu/HTWheel.xml" name="$htwheel" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$htwheel"/>
+    <include src="menus/default/MainMenu/VLWheel.xml" name="$vlwheel" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$vlwheel"/>
+    <include src="menus/default/MainMenu/VRWheel.xml" name="$vrwheel" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$vrwheel"/>
+    <include src="menus/default/MainMenu/Roulette.xml" name="$roulette" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$roulette"/>
+    <include src="menus/default/MainMenu/Grid.xml" name="$grid" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$grid"/>
+    <include src="menus/default/MainMenu/list.xml" name="$list" group="$groupMainMenu" subgroup="$subgroupMenu" active="false" shared="$list"/>
+
+    <include src="menus/default/SystemMenu/HBottom.xml" name="$sys_horizbtm" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_horizbtm"/>
+    <include src="menus/default/SystemMenu/HCenter.xml" name="$sys_horizcenter" group="$groupSystemMenu" subgroup="$subgroupMenu" active="true" shared="$sys_horizcenter"/>
+    <include src="menus/default/SystemMenu/HTop.xml" name="$sys_horiztop" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_horiztop"/>
+    <include src="menus/default/SystemMenu/HBWheel.xml" name="$sys_hbwheel" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_hbwheel"/>
+    <include src="menus/default/SystemMenu/HTWheel.xml" name="$sys_htwheel" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_htwheel"/>
+    <include src="menus/default/SystemMenu/Roulette.xml" name="$sys_roulette" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_roulette"/>
+    <include src="menus/default/SystemMenu/VLeft.xml" name="$sys_vertleft" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_vertleft"/>
+    <include src="menus/default/SystemMenu/VLWheel.xml" name="$sys_vlwheel" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_vlwheel"/>
+    <include src="menus/default/SystemMenu/VRight.xml" name="$sys_vertright" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_vertright"/>
+    <include src="menus/default/SystemMenu/VRWheel.xml" name="$sys_vrwheel" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_vrwheel"/>
+    <include src="menus/default/SystemMenu/Grid.xml" name="$sys_grid" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_grid"/>
+    <include src="menus/default/SystemMenu/List.xml" name="$sys_list" group="$groupSystemMenu" subgroup="$subgroupMenu" active="false" shared="$sys_list"/>
+
+    <include src="menus/default/GameMenu/HBottom.xml" name="$game_horizbtm" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_horizbtm"/>
+    <include src="menus/default/GameMenu/HCenter.xml" name="$game_horizcenter" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_horizcenter"/>
+    <include src="menus/default/GameMenu/HTop.xml" name="$game_horiztop" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_horiztop"/>
+    <include src="menus/default/GameMenu/VLeft.xml" name="$game_vertleft" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_vertleft"/>
+    <include src="menus/default/GameMenu/VRight.xml" name="$game_vertright" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_vertright"/>
+    <include src="menus/default/GameMenu/GBottom.xml" name="$game_gridbtm" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_gridbtm"/>
+    <include src="menus/default/GameMenu/GLeft.xml" name="$game_gridleft" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_gridleft"/>
+    <include src="menus/default/GameMenu/HTWheel.xml" name="$game_htwheel" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_htwheel"/>
+    <include src="menus/default/GameMenu/HBWheel.xml" name="$game_hbwheel" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_hbwheel"/>
+    <include src="menus/default/GameMenu/VRWheel.xml" name="$game_vrwheel" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_vrwheel"/>
+    <include src="menus/default/GameMenu/VLWheel.xml" name="$game_vlwheel" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_vlwheel"/>
+    <include src="menus/default/GameMenu/H2DWheel.xml" name="$game_h2dwheel" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_h2dwheel"/>
+    <include src="menus/default/GameMenu/Cover3D.xml" name="$cover3d" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$cover3d"/>
+    <include src="menus/default/GameMenu/Cover3DTop.xml" name="$cover3dtop" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$cover3dtop"/>
+    <include src="menus/default/GameMenu/big_screen.xml" name="$bigscreen" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$bigscreen"/>
+    <include src="menus/default/GameMenu/dynamic.xml" name="$dynamic" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$dynamic"/>
+    <include src="menus/default/GameMenu/List.xml" name="$game_list" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$game_list"/>
+    <include src="menus/default/GameMenu/ListBottom.xml" name="$listbottom" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$listbottom"/>
+    <include src="menus/default/GameMenu/gallery_v3.xml" name="$galleryv3" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$galleryv3"/>
+    <include src="menus/default/GameMenu/horizon_v2.xml" name="$horizonv2" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$horizonv2"/>
+    <include src="menus/default/GameMenu/kiosk_v2.xml" name="$kioskv2" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$kioskv2"/>
+    <include src="menus/default/GameMenu/landscape_v2.xml" name="$landscapev2" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$landscapev2"/>
+    <include src="menus/default/GameMenu/FrontPoster.xml" name="$frontposter" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$frontposter"/>
+    <include src="menus/default/GameMenu/sectional.xml" name="$sectional" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$sectional"/>
+    <include src="menus/default/GameMenu/shelf_case.xml" name="$shelfcase" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="$shelfcase"/>
+    <include src="menus/default/GameMenu/gameStats.xml" name="$gamestats" group="$groupGameMenu" subgroup="$subgroupMenu" active="true" shared="$gamestats"/>
+	<!-- <include src="menus/default/GameMenu/RA.xml" name="RA" group="$groupGameMenu" subgroup="$subgroupMenu" active="false" shared="RA"/> -->
+    <include src="configs/ButtomBar/all.xml" name="$infobar" group="$group_infobar" subgroup="$subgroup_infobar" active="true" shared="$infobar"/>
+    <include src="configs/topBar/all.xml" name="$topbar" group="$group_infobar" subgroup="$subgroup_infobar" active="false" shared="$topbar"/>
+
+    <include src="configs/bkgFanart.xml"/>
+    <include src="configs/mainFanart.xml" name="$fanart_static" group="$group_fanart" subgroup="$subgroup_mainfanart" active="true" shared="$fanart_static"/>
+    <include src="configs/systemFanart.xml"/>
+    <include src="configs/gameFanart.xml"/>
+
+    <include src="configs/onlySystemVideo.xml" name="$video_system" group="$group_videos" subgroup="$subgroup_backgroundvideo" active="false" shared="$video_system"/>
+    <include src="configs/onlyGameVideo.xml" name="$video_game" group="$group_videos" subgroup="$subgroup_backgroundvideo" active="false" shared="$video_game"/>
+    <include src="configs/allVideo.xml" name="$video_all" group="$group_videos" subgroup="$subgroup_backgroundvideo" active="true" shared="$video_all"/>
+
+    <include src="configs/systemVolOff.xml" name="$mute_system" group="$group_videos" subgroup="$subgroup_sound" active="false" shared="$mute_system"/>
+    <include src="configs/gameVolOff.xml" name="$mute_game" group="$group_videos" subgroup="$subgroup_sound" active="false" shared="$mute_game"/>
+    <include src="configs/allVolOff.xml" name="$mute_all" group="$group_videos" subgroup="$subgroup_sound" active="false" shared="$mute_all"/>
+
+    <include src="common/toAll.xml"/>
+    
+</layout>
